@@ -1,0 +1,16 @@
+.event-option {
+  display: inline-block;
+}
+
+.event-option-view {
+  display: inline-block;
+
+  height: 40px;
+
+  border: 1px solid #3a76d2;
+  border-radius: 100px;
+}
+
+.event-option-view .icon {
+  vertical-align: middle;
+}

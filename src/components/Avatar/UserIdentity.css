@@ -1,0 +1,13 @@
+.user-identity__name {
+  text-decoration: none;
+
+  color: #3a76d2;
+}
+
+.user-identity__name.active {
+  cursor: default;
+}
+
+.user-identity--sm .user-identity__name {
+  font-size: 0.875rem;
+}

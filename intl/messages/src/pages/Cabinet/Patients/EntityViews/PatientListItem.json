@@ -1,0 +1,10 @@
+[
+  {
+    "id": "patients.records.count",
+    "defaultMessage": "{count, plural, one {запись} few {записи} other {записей}}"
+  },
+  {
+    "id": "patients.drafts.count",
+    "defaultMessage": "{count} {count, plural, one {черновик} few {черновика} other {черновиков}}"
+  }
+]

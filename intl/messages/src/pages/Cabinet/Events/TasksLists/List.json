@@ -1,0 +1,18 @@
+[
+  {
+    "id": "tasks_lists.title",
+    "defaultMessage": "Списки дел"
+  },
+  {
+    "id": "tasks_lists.add_btn",
+    "defaultMessage": "добавить"
+  },
+  {
+    "id": "tasks_list.add.title",
+    "defaultMessage": "Добавить список дел"
+  },
+  {
+    "id": "label.task_list.title",
+    "defaultMessage": "Название списка дел"
+  }
+]

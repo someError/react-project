@@ -1,0 +1,7 @@
+.DayPickerInput-OverlayWrapper {
+  z-index: 20;
+}
+
+.DayPickerInput {
+  width: 100%;
+}

@@ -1,0 +1,7 @@
+.date-time-input {
+  display: inline-flex;
+}
+
+.date-time-input > div + div {
+  border-left: solid 1px #d6d6d6;
+}

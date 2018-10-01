@@ -1,0 +1,74 @@
+.drawer-container {
+  position: fixed;
+  z-index: 1000;
+}
+
+.drawer {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  overflow: auto;
+
+  width: 240px;
+
+  height: 100%;
+
+  background: #fff;
+}
+
+.drawer .card {
+  margin: 0;
+
+  border: none;
+
+  box-shadow: none;
+}
+
+.drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  opacity: 0.5;
+  background: #2c2b29;
+}
+
+body.has-drawer {
+  /* transition: padding 0.5s ease; */
+}
+
+body.drawer-opened {
+  overflow: hidden;
+
+  max-width: 100%;
+}
+
+.slide {
+  transition: transform 0.2s ease;
+  transform: translateX(-100%);
+}
+
+.slide-exited,
+.slide-unmounted {
+  transform: translateX(-100%);
+}
+
+.slide--right.slide-exited,
+.slide--right.slide-unmounted {
+  transform: translateX(150vw);
+}
+
+.slide-entering,
+.slide-entered {
+  transform: translateX(0);
+}
+
+.slide--right.slide-entering,
+.slide--right.slide-entered {
+  transform: translateX(calc(100vw - 100%));
+}

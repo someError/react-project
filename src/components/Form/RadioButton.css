@@ -1,0 +1,46 @@
+.radio-button {
+  display: inline-flex;
+}
+
+.switch.radio span.switch-check {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+
+  width: 14px;
+  height: 14px;
+
+  transition: opacity 0.15s ease, transform 0.15s ease;
+
+  transform: scale(0);
+
+  opacity: 0;
+
+  border-radius: 50%;
+  background: #3a76d2;
+}
+
+.switch.radio {
+  margin-right: 0.625rem;
+}
+
+.switch.radio + span {
+  padding-top: 3px;
+
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.switch.radio .switch-view {
+  border-radius: 50%;
+}
+
+.switch.radio input:checked + .switch-view {
+  border-color: #3a76d2;
+}
+
+.switch.radio input:checked + .switch-view span.switch-check {
+  transform: scale(1);
+
+  opacity: 1;
+}

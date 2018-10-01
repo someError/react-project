@@ -1,0 +1,28 @@
+.service-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.service-list li {
+  position: relative;
+
+  margin-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.service-list li:last-of-type {
+  margin-bottom: 0;
+}
+
+.service-list li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  content: '—';
+}

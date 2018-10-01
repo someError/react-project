@@ -1,0 +1,67 @@
+.badge {
+  position: relative;
+
+  /* white-space: nowrap; */
+}
+
+.badge--inline.badge[data-badge]::after,
+.badge--inline.badge:not([data-badge])::after {
+  position: static;
+
+  display: inline-block;
+
+  margin-left: 5px;
+
+  vertical-align: top;
+}
+
+.badge[data-badge]::after,
+.badge:not([data-badge])::after {
+  position: absolute;
+
+  top: -4px;
+  right: -7px;
+
+  content: attr(data-badge);
+
+  color: #fff;
+  border-radius: 0.5rem;
+  background: #fd5577;
+}
+
+.badge[data-badge]::after {
+  min-width: 15px;
+  height: 15px;
+  padding: 2px 2px 0;
+
+  text-align: center;
+  white-space: nowrap;
+
+  font-size: 0.7rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.badge[data-badge=""]::after {
+  width: 6px;
+  min-width: 6px;
+  height: 6px;
+  padding: 0;
+}
+
+.badge.btn::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  transform: translate(50%, -50%);
+}
+
+.badge.avatar::after {
+  position: absolute;
+  z-index: 100;
+  top: 14.64%;
+  right: 14.64%;
+
+  transform: translate(50%, -50%);
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "monitoring.table.no_data",
+    "defaultMessage": "Нет данных"
+  },
+  {
+    "id": "monitoring.table.head.date",
+    "defaultMessage": "Дата"
+  },
+  {
+    "id": "monitoring.table.param",
+    "defaultMessage": "Параметр"
+  },
+  {
+    "id": "monitoring.table.head.param",
+    "defaultMessage": "Значение"
+  },
+  {
+    "id": "monitoring.table.head.norm",
+    "defaultMessage": "Норма, от — до"
+  },
+  {
+    "id": "monitoring.table.head.note",
+    "defaultMessage": "Примечание"
+  }
+]

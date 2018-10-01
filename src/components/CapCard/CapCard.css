@@ -1,0 +1,59 @@
+.c-cap-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  box-sizing: border-box;
+  width: 243px;
+  height: 380px;
+  padding: 1.25rem;
+
+  text-align: center;
+
+  color: #fff;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.c-cap-card div {
+  width: 100%;
+}
+
+.c-cap-card__header {
+  display: flex;
+
+  margin-bottom: 2.875rem;
+
+  text-align: left;
+
+  font-size: 1.375rem;
+  font-weight: 900;
+}
+
+.c-cap-card__header .icon {
+  margin-right: 0.6125rem;
+}
+
+.c-cap-card__name {
+  margin-bottom: 1.25rem;
+
+  text-transform: uppercase;
+
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+
+  font-size: 0.875rem;
+}
+
+.c-cap-card__url {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+
+  font-size: 1.25rem;
+}
+
+.c-cap-card__code {
+  margin: 0.6125rem 0 1.25rem;
+}
+
+.c-cap-card__logo img {
+  height: 33px;
+}

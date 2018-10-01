@@ -1,0 +1,14 @@
+[
+  {
+    "id": "task_list.expired",
+    "defaultMessage": "просрочено"
+  },
+  {
+    "id": "task_list.add_event_to_task_list",
+    "defaultMessage": "Добавить дело в список дел"
+  },
+  {
+    "id": "task_list.finish_before",
+    "defaultMessage": "Завершить до"
+  }
+]

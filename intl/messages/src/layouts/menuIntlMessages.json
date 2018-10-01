@@ -1,0 +1,106 @@
+[
+  {
+    "id": "cabinet.menu.profile",
+    "defaultMessage": "Профиль"
+  },
+  {
+    "id": "cabinet.menu.cap",
+    "defaultMessage": "Карта экстренной помощи"
+  },
+  {
+    "id": "cabinet.menu.assistants",
+    "defaultMessage": "Ассистенты"
+  },
+  {
+    "id": "cabinet.menu.price_list",
+    "defaultMessage": "Прейскурант"
+  },
+  {
+    "id": "cabinet.menu.coworkers",
+    "defaultMessage": "Сотрудники"
+  },
+  {
+    "id": "cabinet.menu.log_out",
+    "defaultMessage": "Выход"
+  },
+  {
+    "id": "cabinet.menu.patients",
+    "defaultMessage": "Пациенты"
+  },
+  {
+    "id": "cabinet.menu.add_card_btn",
+    "defaultMessage": "добавить карту"
+  },
+  {
+    "id": "cabinet.menu.receptions",
+    "defaultMessage": "Записи на прием"
+  },
+  {
+    "id": "cabinet.menu.schedule",
+    "defaultMessage": "Расписание"
+  },
+  {
+    "id": "cabinet.menu.medical_card",
+    "defaultMessage": "Медицинская карта"
+  },
+  {
+    "id": "cabinet.menu.card_stream",
+    "defaultMessage": "Лента записей"
+  },
+  {
+    "id": "cabinet.menu.add_record",
+    "defaultMessage": "Добавить запись"
+  },
+  {
+    "id": "cabinet.menu.monitoring",
+    "defaultMessage": "Мониторинг"
+  },
+  {
+    "id": "cabinet.menu.card_access",
+    "defaultMessage": "Доступ к карте"
+  },
+  {
+    "id": "cabinet.menu.events_and_calendar",
+    "defaultMessage": "Дела и календарь"
+  },
+  {
+    "id": "cabinet.menu.calendar",
+    "defaultMessage": "Календарь"
+  },
+  {
+    "id": "cabinet.menu.events",
+    "defaultMessage": "Дела"
+  },
+  {
+    "id": "cabinet.menu.tasks_lists",
+    "defaultMessage": "Списки дел"
+  },
+  {
+    "id": "cabinet.menu.tasks_lines",
+    "defaultMessage": "Линейки дел"
+  },
+  {
+    "id": "cabinet.menu.doctors_and_orgs",
+    "defaultMessage": "Врачи и медучреждения"
+  },
+  {
+    "id": "cabinet.menu.doctors",
+    "defaultMessage": "Врачи"
+  },
+  {
+    "id": "cabinet.menu.orgs",
+    "defaultMessage": "Медучреждения"
+  },
+  {
+    "id": "cabinet.menu.about",
+    "defaultMessage": "О проекте"
+  },
+  {
+    "id": "cabinet.menu.contacts",
+    "defaultMessage": "Контакты"
+  },
+  {
+    "id": "cabinet.menu.policy",
+    "defaultMessage": "Политика безопасности"
+  }
+]

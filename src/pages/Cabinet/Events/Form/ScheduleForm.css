@@ -1,0 +1,32 @@
+.schedule-date-block {
+  display: flex;
+  align-items: center;
+}
+
+.schedule-date-block > div:first-child {
+  margin-right: 1rem;
+}
+
+.schedule-form_repeat-block .schedule-form_repeat-block__grid {
+  display: flex;
+  align-items: baseline;
+
+  margin-top: 1rem;
+}
+
+.schedule-form_repeat-block > div:first-child {
+  margin-right: 1rem;
+}
+
+.additional-dates {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 1rem;
+}
+
+.additional-dates > div {
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+}

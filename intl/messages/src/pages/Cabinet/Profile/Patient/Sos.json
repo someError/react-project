@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cap.title",
+    "defaultMessage": "Настройте карту экстренной помощи"
+  },
+  {
+    "id": "cap.show_all_data",
+    "defaultMessage": "Отображать все данные"
+  },
+  {
+    "id": "cap.invalidate",
+    "defaultMessage": "Аннулировать кэп"
+  },
+  {
+    "id": "cap.turn_off",
+    "defaultMessage": "Отключить кэп"
+  },
+  {
+    "id": "cap.turn_on",
+    "defaultMessage": "Включить кэп"
+  },
+  {
+    "id": "cap.notify",
+    "defaultMessage": "Уведомлять об использовании КЭП"
+  },
+  {
+    "id": "cap.add_contact",
+    "defaultMessage": "Добавить контакт"
+  },
+  {
+    "id": "cap.edit_contact",
+    "defaultMessage": "Изменить контакт"
+  },
+  {
+    "id": "cap.docs_list",
+    "defaultMessage": "Доступен список врачей, у которых я был на приеме"
+  },
+  {
+    "id": "cap.orgs_list",
+    "defaultMessage": "Доступен список врачей, у которых я был на приеме"
+  },
+  {
+    "id": "cap.choose_data",
+    "defaultMessage": "Выберите данные, которые будут показаны при использовании КЭП."
+  },
+  {
+    "id": "cap.choose_sections",
+    "defaultMessage": "Выберите разделы медицинской карты, которые можно будет просматривать при использовании КЭП."
+  },
+  {
+    "id": "cap.add_contacts",
+    "defaultMessage": "Добавьте контакты людей, которые будут отображаться при использовании КЭП."
+  },
+  {
+    "id": "cap.docs_contacts",
+    "defaultMessage": "Контакты врачей"
+  }
+]

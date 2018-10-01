@@ -1,0 +1,120 @@
+.schedule-day-picker {
+  display: flex;
+
+  margin-bottom: 1.25rem;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.schedule-day-picker__item {
+  /* display: flex; */
+
+  /* flex-wrap: wrap; */
+  position: relative;
+
+  flex-grow: 1;
+
+  width: 15%;
+  height: 125px;
+  padding: 0.625rem 0.625rem 1.25rem;
+
+  cursor: pointer;
+
+  border: solid 1px #eaeaea;
+  background: #fff;
+
+  font-size: 0.875rem;
+}
+
+.schedule-day-picker__item.disabled,
+.schedule-day-picker__item.active {
+  cursor: default;
+}
+
+.schedule-day-picker__item.active {
+  border-color: #3a76d2;
+}
+
+.schedule-day-picker__item-header {
+  width: 100%;
+
+  text-transform: uppercase;
+
+  color: #abaaa9;
+
+  font-size: 0.8125rem;
+}
+
+.schedule-day-picker__item-cont {
+  align-self: flex-end;
+}
+
+.schedule-day-picker__item-cont div:not(:first-of-type) {
+  margin-top: 0.3125rem;
+
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.schedule-day-picker__item-notify {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 1rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+  padding: 0 0.25rem;
+
+  color: #fff;
+  border-radius: 0.625rem;
+  background: #1bbeb5;
+
+  font-size: 0.625rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.schedule-day-picker__item-notify--confirm {
+  background: #fdae55;
+}
+
+.schedule-day-picker__item-notify--not-confirm {
+  background: #bc36ff;
+}
+
+.schedule-day-picker__item-notify--canceled {
+  background: #fd5577;
+}
+
+.schedule-day-picker__item-progress {
+  margin-top: 0.625rem;
+
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  .schedule-day-picker__item {
+    display: inline-flex;
+    flex-direction: column;
+
+    width: auto;
+    min-width: 100px;
+    max-width: 180px;
+    height: 85px;
+
+    white-space: normal;
+  }
+
+  .schedule-day-picker {
+    display: block;
+
+    white-space: nowrap;
+  }
+
+  .schedule-day-picker__item-header {
+    margin-bottom: 0.3125rem;
+  }
+}

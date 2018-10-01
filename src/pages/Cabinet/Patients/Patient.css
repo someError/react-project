@@ -1,0 +1,12 @@
+.patient-info h2 {
+  margin: 0 0 0.875rem;
+}
+
+.patient-links a {
+  margin-right: 1.25rem;
+
+  white-space: nowrap;
+  text-decoration: none;
+
+  color: #3a76d2;
+}

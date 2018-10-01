@@ -1,0 +1,22 @@
+[
+  {
+    "id": "label.service.title",
+    "defaultMessage": "Название услуги"
+  },
+  {
+    "id": "label.price",
+    "defaultMessage": "Цена"
+  },
+  {
+    "id": "label.currency",
+    "defaultMessage": "Валюта"
+  },
+  {
+    "id": "btn.add_service",
+    "defaultMessage": "Добавить услугу"
+  },
+  {
+    "id": "btn.remove_services_group",
+    "defaultMessage": "Удалить группу услуг"
+  }
+]

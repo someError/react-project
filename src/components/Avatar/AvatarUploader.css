@@ -1,0 +1,42 @@
+.avatar-uploader-wrap {
+  text-align: center;
+}
+
+.avatar-uploader {
+  position: relative;
+
+  display: inline-flex;
+}
+
+.avatar-uploader__link {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+
+  width: 135px;
+  margin: -2rem 0 0 1.25rem;
+
+  cursor: pointer;
+  text-align: left;
+
+  color: #9f9f9f;
+
+  font-size: 0.875rem;
+}
+
+.avatar-uploader__link--clear {
+  top: 50%;
+
+  width: 80px;
+  margin: 0 0 0 1.25rem;
+}
+
+.avatar-uploader__link--clear .icon {
+  margin-right: 0.3125rem;
+}
+
+@media (max-width: 767px) {
+  .avatar-uploader-wrap {
+    text-align: left;
+  }
+}

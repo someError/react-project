@@ -1,0 +1,50 @@
+[
+  {
+    "id": "event.form.label.title",
+    "defaultMessage": "Введите название события"
+  },
+  {
+    "id": "event.form.label.type.custom",
+    "defaultMessage": "Произвольное"
+  },
+  {
+    "id": "event.form.label.type.params",
+    "defaultMessage": "Измерения"
+  },
+  {
+    "id": "event.form.label.type.medications",
+    "defaultMessage": "Приём лекарств"
+  },
+  {
+    "id": "events.form.block.title.note",
+    "defaultMessage": "Примечание"
+  },
+  {
+    "id": "events.form.block.title.doc_org",
+    "defaultMessage": "Врач и медучреждение"
+  },
+  {
+    "id": "events.form.block.title.due",
+    "defaultMessage": "Срок"
+  },
+  {
+    "id": "events.form.block.title.tasks_list",
+    "defaultMessage": "Список дел"
+  },
+  {
+    "id": "events.form.block.title.access_settings",
+    "defaultMessage": "Настройки доступа"
+  },
+  {
+    "id": "events.form.block.title.notifications_settings",
+    "defaultMessage": "Настройки уведомлений"
+  },
+  {
+    "id": "events.form.access.private",
+    "defaultMessage": "Доступно только мне"
+  },
+  {
+    "id": "events.form.access.doctors",
+    "defaultMessage": "Доступно моим врачам"
+  }
+]

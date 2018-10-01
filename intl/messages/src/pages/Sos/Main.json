@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sos.summary_title",
+    "defaultMessage": "Общая информация"
+  },
+  {
+    "id": "sos.open_card",
+    "defaultMessage": "Открыть карту"
+  },
+  {
+    "id": "sos.contacts_card",
+    "defaultMessage": "Контакты для связи"
+  },
+  {
+    "id": "sos.visited_doctors",
+    "defaultMessage": "Список врачей, у которых пациент был на приеме"
+  }
+]

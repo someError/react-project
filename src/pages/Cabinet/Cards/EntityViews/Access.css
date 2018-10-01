@@ -1,0 +1,105 @@
+.access-card:hover .access-card__controls {
+  opacity: 1;
+}
+
+.access-card__controls {
+  position: absolute;
+  top: 0.625rem;
+  right: 1.25rem;
+
+  transition: opacity 0.15s ease;
+
+  opacity: 0;
+}
+
+.access-controls__item {
+  margin-left: 1.25rem;
+
+  cursor: pointer;
+
+  color: #908c84;
+
+  font-size: 0.875rem;
+}
+
+.access-controls__item .icon {
+  vertical-align: middle;
+}
+
+.access-card .card-body {
+  position: relative;
+}
+
+.access-card .record-section-path {
+  display: block;
+
+  margin-bottom: 0.3175rem;
+}
+
+.access-card__name {
+  margin-bottom: 0.625rem;
+
+  color: #344758;
+
+  font-size: 1.25rem;
+  font-weight: bold !important;
+}
+
+.access-card__name a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.access-card__name a:hover {
+  color: #3a76d2;
+}
+
+.access-card__text {
+  margin-bottom: 0.625rem;
+}
+
+.access-card__status {
+  padding: 3px 4px 3px 5px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #fff;
+  background: #1bbeb5;
+
+  font-size: 0.8125rem;
+  font-weight: 900;
+}
+
+.access-card__meta {
+  margin-left: 1rem;
+
+  font-size: 0.875rem;
+}
+
+@media (max-width: 767px) {
+  .access-card .tile {
+    display: block;
+  }
+
+  .access-card .tile-action {
+    display: flex;
+
+    margin-top: 1rem;
+  }
+
+  .access-card .tile-action .btn {
+    flex: 1;
+  }
+
+  .access-card .tile-action .btn + .btn {
+    margin-left: 0.6125rem;
+  }
+
+  .access-card__meta {
+    display: block;
+
+    margin: 0.6125rem 0 0;
+  }
+}

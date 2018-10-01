@@ -1,0 +1,54 @@
+[
+  {
+    "id": "schedule.details.settings_title",
+    "defaultMessage": "Настройки расписания"
+  },
+  {
+    "id": "schedule.details.start_end",
+    "defaultMessage": "Дата начала и окончания расписания"
+  },
+  {
+    "id": "schedule.details.daily_start",
+    "defaultMessage": "Ежедневное время начала очереди"
+  },
+  {
+    "id": "schedule.details.daily_end",
+    "defaultMessage": "Ежедневное время окончания очереди"
+  },
+  {
+    "id": "schedule.minutes_duration",
+    "defaultMessage": "{duration} {duration, plural, one {минута} few {минуты} other {минут}}"
+  },
+  {
+    "id": "schedule.hours_duration",
+    "defaultMessage": "{duration} {duration, plural, one {час} few {часа} other {часов}}"
+  },
+  {
+    "id": "schedule.days_duration",
+    "defaultMessage": "{duration} {duration, plural, one {день} few {дня} other {дней}}"
+  },
+  {
+    "id": "schedule.details.self_enroll",
+    "defaultMessage": "Самозапись"
+  },
+  {
+    "id": "schedule.details.self_enroll_allowed",
+    "defaultMessage": "Разрешена"
+  },
+  {
+    "id": "schedule.details.self_enroll_before",
+    "defaultMessage": "Самозапись производится не позднее"
+  },
+  {
+    "id": "schedule.details.self_enroll_before_days",
+    "defaultMessage": "чем за {duration, plural, one {день} few {дня} other {дней}}"
+  },
+  {
+    "id": "schedule.details.self_enroll_before_hours",
+    "defaultMessage": "чем за {duration, plural, one {час} few {часа} other {часов}}"
+  },
+  {
+    "id": "schedule.details.advice",
+    "defaultMessage": "Совет пациенту для визита"
+  }
+]

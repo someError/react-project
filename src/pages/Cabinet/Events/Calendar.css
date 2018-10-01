@@ -1,0 +1,297 @@
+.events-calendar,
+.events-calendar .DayPicker-Month {
+  width: 100%;
+
+  outline: none;
+}
+
+.events-calendar .DayPicker-Body,
+.events-calendar .DayPicker-wrapper {
+  outline: none;
+}
+
+.events-calendar .DayPicker-Day {
+  position: relative;
+
+  transition: background 0.15s ease, border-color 0.15s ease;
+
+  vertical-align: top;
+
+  outline: none;
+}
+
+.events-calendar .DayPicker-Day:hover {
+  background: #fbfcfe;
+}
+
+.events-calendar .DayPicker-Month {
+  margin: 0;
+}
+
+.events-calendar .DayPicker-wrapper {
+  padding: 0;
+}
+
+.events-calendar .DayPicker-Week > div:first-of-type {
+  border-left: 0;
+}
+
+.events-calendar .DayPicker-Day--outside {
+  border-right: 0;
+  border-left: 0;
+}
+
+.events-calendar__cell {
+  min-height: 142px;
+
+  text-align: left;
+}
+
+.events-calendar__day {
+  font-size: 0.875rem;
+}
+
+.events-calendar .DayPicker-Day--today {
+  color: inherit;
+}
+
+.events-calendar .DayPicker-Weekday {
+  text-transform: uppercase;
+
+  color: #abaaa9;
+
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.DayPicker-Weekday abbr[title] {
+  text-decoration: none;
+}
+
+.events-calendar .DayPicker-Weekday abbr {
+  text-decoration: none;
+}
+
+.events-calendar .DayPicker-Day--past {
+  opacity: 0.4;
+}
+
+.events-calendar .DayPicker-Month {
+  table-layout: fixed;
+}
+
+.events-calendar__events {
+  min-height: 1px;
+
+  margin-top: 1.25rem;
+
+  line-height: 1;
+}
+
+.calendar-cell-event {
+  display: inline-block;
+
+  margin-bottom: 0;
+
+  color: #5e6972;
+
+  font-size: 0.6875rem;
+  line-height: 1;
+}
+
+.event-color-mark {
+  display: inline-block;
+
+  width: 25px;
+  height: 6px;
+  margin-right: 6px;
+
+  vertical-align: 1px;
+
+  border-radius: 50px;
+}
+
+.event-color-legend {
+  width: 12px;
+  height: 12px;
+
+  vertical-align: -2px;
+}
+
+.event-color-code {
+  color: #fdae55;
+}
+
+.event-color-code--medications {
+  color: #bc36ff;
+}
+
+.event-color-code--schedule {
+  color: #1bbeb5;
+}
+
+.event-color-code--measurements {
+  color: #3a76d2;
+}
+
+.event-color-code--bg {
+  background: currentColor;
+}
+
+.events-calendar-header {
+  margin-bottom: 1rem;
+}
+
+.events-calendar-legend {
+  color: #5e6972;
+
+  font-size: 0.75rem;
+}
+
+.events-calendar-legend > span {
+  display: inline-block;
+
+  white-space: nowrap;
+}
+
+.events-calendar-legend--bottom .events-calendar-legend {
+  margin: 1.25rem 0 0;
+
+  text-align: right;
+}
+
+.events-calendar-legend > span {
+  margin-left: 1rem;
+}
+
+.events-calendar-nav {
+  white-space: nowrap;
+
+  font-size: 0.875rem;
+}
+
+.events-calendar-nav a {
+  white-space: nowrap;
+  text-decoration: none;
+
+  color: #abaaa9;
+}
+
+.events-calendar-nav__current {
+  margin: 0 1.5625rem;
+}
+
+.mobile-events-list {
+  padding: 1.25rem;
+
+  border-top: solid 1px #e7e7e7;
+
+  font-size: 0.875rem;
+}
+
+.mobile-events-list table {
+  border: none;
+  border-collapse: collapse;
+}
+
+.mobile-events-list table tr:first-child td {
+  padding-top: 0;
+}
+
+.mobile-events-list table td:first-child {
+  padding-right: 0.875rem;
+}
+
+.mobile-events-list table tr + tr td {
+  padding-top: 10px;
+}
+
+.calendar-add-buttons {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1220px) {
+  .events-calendar__cell {
+    min-height: 110px;
+  }
+
+  .events-calendar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 655px) {
+  .events-calendar .DayPicker-Day {
+    text-align: center;
+
+    border: 0;
+    background: none !important;
+  }
+
+  .events-calendar__cell {
+    height: auto;
+    min-height: 0;
+
+    text-align: inherit;
+  }
+
+  .events-calendar__events {
+    margin-top: 3px;
+
+    line-height: 0;
+  }
+
+  .calendar-cell-event {
+    margin-right: 2px;
+
+    font-size: 0;
+  }
+
+  .calendar-cell-event .event-color-mark {
+    width: 5px;
+    height: 5px;
+    margin-right: 0;
+  }
+
+  .events-calendar__events br {
+    display: none;
+  }
+
+  .events-calendar .events-calendar__day {
+    width: 24px;
+    margin: 0 auto;
+    padding: 5px 0 3px;
+
+    text-align: center;
+
+    border-radius: 50%;
+  }
+
+  .events-calendar .DayPicker-Day--selected .events-calendar__day {
+    background: #3a76d2;
+  }
+
+  .events-calendar-legend--bottom {
+    padding: 0 1.25rem;
+  }
+
+  .events-calendar-legend--bottom .events-calendar-legend {
+    text-align: left;
+  }
+
+  .events-calendar-legend > span {
+    margin: 0 1.25rem 0.975rem 0;
+  }
+
+  .events-calendar-nav {
+    padding: 0 1.25rem;
+  }
+
+  .calendar-add-buttons {
+    display: block;
+
+    white-space: normal;
+  }
+}

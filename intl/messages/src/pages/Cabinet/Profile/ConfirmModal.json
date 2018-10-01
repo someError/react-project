@@ -1,0 +1,10 @@
+[
+  {
+    "id": "label.code.phone",
+    "defaultMessage": "код для телефона"
+  },
+  {
+    "id": "label.code.email",
+    "defaultMessage": "код для почты"
+  }
+]

@@ -1,0 +1,114 @@
+.btn.doctor-action-button {
+  letter-spacing: 0;
+  text-transform: none;
+
+  font-size: 0.875rem;
+  font-weight: normal;
+
+  /* border-color: #A7CAFF; */
+
+  /* color: #344758; */
+}
+
+.btn.doctor-action-button .icon {
+  color: #3a76d2;
+}
+
+.tile .doctor-content {
+  padding-right: 1.25rem !important;
+  padding-left: 1.875rem !important;
+
+  border-right: solid 1px #d1d5d7;
+}
+
+.doctor-name {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0.3125rem;
+
+  color: #344758;
+
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+.doctor-name a {
+  margin-right: 0.3125rem;
+
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.doctor-specialties {
+  color: #9f9f9f;
+
+  font-size: 0.875rem;
+}
+
+.doctor-text {
+  min-height: 5px;
+  margin: 0.9375rem 0;
+
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.doctor-rating-descr {
+  text-align: center;
+
+  color: #9f9f9f;
+
+  font-size: 0.75rem;
+}
+
+.doctor-content-nav {
+  margin-bottom: 20px;
+}
+
+.doctor-content-nav .icon {
+  margin-right: 0.3125rem;
+}
+
+.doctor-contacts,
+.doctor-content-nav a {
+  color: #9f9f9f;
+
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.doctor-content-nav a {
+  display: inline-flex;
+  align-items: center;
+
+  margin-right: 0.875rem;
+
+  text-decoration: none;
+
+  color: #757475;
+}
+
+@media (max-width: 767px) {
+  .doctor-name {
+    position: relative;
+
+    padding-top: 1rem;
+  }
+
+  .doctor-name .icon {
+    position: absolute;
+    top: 0;
+    right: -0.625rem;
+  }
+
+  .doctor-text {
+    display: none;
+  }
+
+  .doctor-specialties {
+    margin-bottom: 0.625rem;
+  }
+}
+

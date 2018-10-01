@@ -1,0 +1,22 @@
+[
+  {
+    "id": "calendar.legend.medications",
+    "defaultMessage": "Приём лекарств"
+  },
+  {
+    "id": "calendar.legend.reception",
+    "defaultMessage": "Запись на приём"
+  },
+  {
+    "id": "calendar.legend.params",
+    "defaultMessage": "Измерение показателей"
+  },
+  {
+    "id": "calendar.legend.custom",
+    "defaultMessage": "Свои дела"
+  },
+  {
+    "id": "calendar.page_title",
+    "defaultMessage": "Календарь событий"
+  }
+]

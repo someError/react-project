@@ -1,0 +1,23 @@
+.section-add-btn {
+  margin-right: 1.25rem;
+  padding: 0;
+
+  cursor: pointer;
+
+  color: #3a76d2;
+  border: none;
+  background: none;
+
+  font-size: 0.875rem;
+}
+
+.section-add-btn__title {
+
+  transition: border-color 0.15s ease;
+
+  border-bottom: dashed 1px currentColor;
+}
+
+.section-add-btn:hover .section-add-btn__title {
+  border-bottom-color: transparent;
+}

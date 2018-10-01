@@ -1,0 +1,120 @@
+.event-form-toggling-block {
+  margin-bottom: 2.5rem;
+}
+
+.event-form-toggling-block__header {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.375rem;
+}
+
+.event-form-toggling-block__header-title {
+  flex: 0;
+
+  white-space: nowrap;
+
+  font-size: 0.875rem;
+}
+
+.event-form-toggling-block__header-title .icon {
+  vertical-align: bottom;
+}
+
+.event-form-toggling-block__header-line {
+  flex: 1;
+
+  margin: 0 0.625rem;
+
+  border-top: solid 1px #d1d1d1;
+}
+
+.event-form-toggling-block__header-rm {
+  flex: 0;
+}
+
+.event-form-toggling-block__header-rm-btn {
+  cursor: pointer;
+
+  color: #9f9f9f;
+}
+
+.event-type-group {
+  margin-bottom: 1.875rem;
+}
+
+.event-blocks {
+  margin-top: 1.875rem;
+}
+
+.event-form-notifications {
+  border-top: solid 1px #d1d1d1;
+  border-bottom: solid 1px #d1d1d1;
+}
+
+.event-form-notifications__trigger {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #9f9f9f;
+
+  font-size: 0.8125rem;
+}
+
+.event-form-notifications__trigger .icon {
+  vertical-align: -6px;
+}
+
+.event-form-notifications__block {
+  margin-top: 1.25rem;
+}
+
+.event-form-notifications__block__title {
+  margin-bottom: 0.625rem;
+
+  color: #2c2b29;
+
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.event-form-notifications__block .columns {
+  margin-top: 0.625rem;
+}
+
+@media (max-width: 767px) {
+  .event-blocks {
+    display: flex;
+
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .event-blocks .section-add-btn + .section-add-btn {
+    margin-top: 1.25rem;
+  }
+
+  .event-form-toggling-block .schedule-date-block {
+    display: block;
+  }
+
+  .event-form-toggling-block .schedule-date-block .date-time-input {
+    margin-bottom: 0.6125rem;
+  }
+
+  .event-form-toggling-block .column,
+  .event-form-notifications__block .column {
+    width: 100%;
+  }
+
+  .event-form-toggling-block .column + .column,
+  .event-form-toggling-block .columns + .columns,
+  .event-form-notifications__block .column + .column,
+  .event-form-notifications__block .columns + .columns {
+    margin-top: 0.6125rem;
+  }
+
+  .event-form-toggling-block .form-grid .column {
+    margin-bottom: 0;
+  }
+}

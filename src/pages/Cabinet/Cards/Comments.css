@@ -1,0 +1,43 @@
+.record-comments {
+  margin: 0 2px;
+  padding: 0.625rem 1.25rem;
+
+  border: 1px solid #ebebeb;
+  border-radius: 0 0 2px 2px;
+  background: #f7f7f8;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.comment {
+  margin-bottom: 1.25rem;
+}
+
+.comment-author {
+  margin-top: 2px;
+
+  color: #3a76d2;
+
+  font-size: 0.875rem;
+}
+
+.comment-text {
+  margin-top: 0.3125rem;
+
+  white-space: pre;
+
+  color: #000;
+
+  font-size: 0.75rem;
+}
+
+.comment-load-more {
+  margin-bottom: 1.25rem;
+
+  font-size: 0.875rem;
+}
+
+@media (max-width: 767px) {
+  .record-comments {
+    margin: 0 -1.25rem;
+  }
+}

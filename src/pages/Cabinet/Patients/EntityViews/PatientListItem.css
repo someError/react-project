@@ -1,0 +1,75 @@
+.l-user-card__content--patient + .l-user-card__action {
+  border-left: solid 1px #d1d5d7;
+}
+
+.patients-action .btn {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.patients-action .btn:last-child {
+  margin-bottom: 0;
+}
+
+.btn.patient-action-button {
+  letter-spacing: 0;
+  text-transform: none;
+
+  color: #344758;
+  border-color: #a7caff;
+
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.btn.patient-action-button .icon {
+  color: #3a76d2;
+}
+
+.patient-name {
+  margin: 0 0 0.875rem;
+
+  color: #344758;
+
+  font-size: 1rem;
+}
+
+.patient-name a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.patient-counts .icon {
+  vertical-align: top;
+}
+
+@media (max-width: 767px) {
+  .patients-action {
+    width: auto;
+
+    border: none;
+  }
+
+  .l-user-card__content--patient + .l-user-card__action {
+    border-left: none;
+  }
+
+  .patient-name span {
+    display: block;
+  }
+
+  .patient-counts > * {
+    display: block;
+
+    margin-bottom: 0.6125rem;
+  }
+
+  .patient-counts > *:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .patient-counts .icon {
+    vertical-align: middle;
+  }
+}

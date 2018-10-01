@@ -1,0 +1,96 @@
+.doc-footer {
+  margin-top: 1.875rem;
+  padding-top: 1.25rem;
+
+  border-top: solid 1px #d1d1d1;
+
+  font-size: 0.875rem;
+}
+
+.doc-footer a {
+  text-decoration: none;
+
+  color: #3a76d2;
+}
+
+.doc-footer a:hover {
+  text-decoration: underline;
+}
+
+.doc-footer > span {
+  margin-right: 20px;
+}
+
+.event-card-block {
+  margin-top: 1.875rem;
+}
+
+.event-card-block__title {
+  margin: 0 0 1.25rem;
+
+  color: #344758;
+
+  font-size: 1.125rem;
+  font-weight: 900;
+}
+
+.event-medications-table {
+  width: auto;
+  max-width: 100%;
+
+  border: none;
+
+  font-size: 1rem;
+}
+
+.table.event-medications-table thead,
+.table.event-medications-table tr,
+.table.event-medications-table td,
+.table.event-medications-table th {
+  border: 0;
+  background: none;
+}
+
+.table.event-medications-table td,
+.table.event-medications-table th {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.table.event-medications-table td:first-child,
+.table.event-medications-table th:first-child {
+  padding-left: 0;
+}
+
+.table.event-medications-table th {
+  color: #9f9f9f;
+
+  font-weight: 500;
+}
+
+.event-card-plan-btn {
+  cursor: pointer;
+  text-transform: uppercase;
+
+  font-weight: bold;
+}
+
+.event-card-plan-btn .icon {
+  vertical-align: -3px;
+}
+
+.record-controls .checkbox-component {
+  vertical-align: middle;
+}
+
+@media (max-width: 655px) {
+  .event-medications-table {
+    width: 100%;
+  }
+
+  .doc-footer > span {
+    display: block;
+
+    margin-bottom: 0.6125rem;
+  }
+}

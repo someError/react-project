@@ -1,0 +1,11 @@
+.add-btn {
+  cursor: pointer;
+
+  white-space: nowrap;
+
+  color: #3a76d2;
+}
+
+.add-btn .icon {
+  vertical-align: -5px;
+}

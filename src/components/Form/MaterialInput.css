@@ -1,0 +1,151 @@
+.material-input {
+  position: relative;
+
+  display: inline-block;
+
+  transition: opacity 0.15s ease;
+
+  vertical-align: baseline;
+
+  font-size: 1.125rem;
+}
+
+.material-input input {
+  height: 40px;
+}
+
+.material-input.has-label input {
+  height: 55px;
+}
+
+.material-input.has-label input,
+.material-input.has-label textarea {
+  padding-top: 1.5rem;
+}
+
+.material-input.disabled {
+  opacity: 0.5;
+}
+
+.material-input input,
+.material-input textarea {
+  display: block;
+
+  width: 100%;
+  padding: 0.6rem 0.625rem 0.5rem;
+
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  color: #2c2b29;
+
+  border: 0;
+  border-bottom: 1px solid #d9d9d9;
+  outline: none;
+
+  background: #fff;
+
+  font: inherit;
+  line-height: 1;
+}
+
+.material-input input:hover,
+.material-input input:focus,
+.material-input textarea:hover,
+.material-input textarea:focus {
+  border-bottom-color: #3a76d2;
+}
+
+.material-input.error input,
+.material-input.error textarea {
+  border-bottom-color: #fd5577;
+}
+
+.material-input input:disabled,
+.material-input textarea:disabled {
+  cursor: not-allowed;
+
+  color: #9f9f9f;
+  border-bottom-color: #d9d9d9;
+}
+
+.material-input.disabled .icon {
+  color: #9f9f9f !important;
+}
+
+.material-input label {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+
+  max-width: 100%;
+  padding: 1.5rem 0.625rem 0.5625rem;
+
+  transition: padding-top 0.15s ease, font-size 0.15s ease;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  pointer-events: none;
+
+  color: #9f9f9f;
+
+  font: inherit;
+
+  /* line-height: 1; */
+}
+
+.material-input.active label {
+  padding-top: 0.5rem;
+
+  /* top: 0; */
+
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.material-input.disabled label {
+  color: #9f9f9f;
+}
+
+.material-input__icon {
+  position: absolute;
+  right: 0.625rem;
+  bottom: 0.7rem;
+
+  pointer-events: none;
+}
+
+.material-input__error {
+  position: absolute;
+  top: 102%;
+  left: 0;
+
+  overflow: hidden;
+
+  width: 100%;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  color: #fd5577;
+
+  font-size: 0.75rem;
+}
+
+.material-input.material-input--lg {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.material-input.material-input--lg input {
+  height: 66px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+}

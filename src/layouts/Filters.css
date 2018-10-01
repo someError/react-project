@@ -1,0 +1,168 @@
+.filter-header {
+  padding: 1.25rem;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #9f9f9f;
+  border-bottom: solid 1px #ebebeb;
+
+  font-size: 0.8125rem;
+}
+
+.filters-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.filters-list li {
+  margin-bottom: 0.9rem;
+
+  font-weight: 300;
+}
+
+.filters-list li:last-child {
+  margin-bottom: 0;
+}
+
+.filters-list a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.filter-date-container .DayPickerInput-Overlay {
+  right: 0;
+  left: auto;
+}
+
+.filter-collapsible {
+
+  padding: 0.625rem 1.25rem;
+
+  transition: border-left-color 0.15s ease, background 0.2s ease, margin-bottom 0.2s ease;
+
+  border-left: solid 2px transparent;
+}
+
+.collapsible.filter-collapsible.collapsible--active {
+  margin-bottom: 0.3125rem;
+
+  border-left-color: #3a76d2;
+  background: #fbfcfe;
+}
+
+.filter-collapsible .collapsible-body {
+  overflow: auto;
+}
+
+.filter-collapsible-trigger {
+  transition: margin-bottom 0.5s ease;
+
+  color: #2c2b29;
+
+  font-size: 0.875rem;
+}
+
+.filter-collapsible.collapsible--active .filter-collapsible-trigger {
+  margin-bottom: 1rem;
+}
+
+.inline-filters .filter-collapsible {
+  display: flex;
+}
+
+.inline-filters .filter-collapsible ul {
+  display: inline;
+}
+
+.inline-filters .filter-collapsible ul li {
+  display: inline-block;
+
+  margin-bottom: 3px;
+  margin-left: 15px;
+}
+
+.inline-filters .filter-collapsible .filter-collapsible-trigger {
+  margin: 0;
+  padding-top: 3px;
+}
+
+.inline-filters .filter-collapsible {
+  margin: 0;
+
+  border: none;
+  background: none !important;
+}
+
+.inline-filters .columns {
+  margin-left: 15px;
+}
+
+.inline-filters .material-input,
+.inline-filters .material-input input {
+  padding-top: 0;
+}
+
+.filter-row {
+  padding: 0.625rem 1rem 0.625rem 1.25rem;
+
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.filter-row__item span .icon {
+  margin-right: 0.625rem;
+
+  transition: 0.15s ease-in-out;
+
+  color: #d1d1d1;
+}
+
+.filter-row__item span:hover .icon,
+.filter-row__item.active span .icon {
+  color: #fd5577;
+}
+
+.filter-row__item span {
+  cursor: pointer;
+}
+
+.filter-btn {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 70px;
+  height: 70px;
+
+  cursor: pointer;
+
+  color: #fff;
+  border-radius: 100%;
+  background: #3a76d2;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 1220px) {
+  .collapsible.filter-collapsible.collapsible--active {
+    border-left-color: transparent;
+    background: transparent;
+  }
+}
+
+@media (max-width: 767px) {
+  .filter-btn {
+    right: 0.6125rem;
+    bottom: 0.6125rem;
+
+    width: 50px;
+    height: 50px;
+  }
+}

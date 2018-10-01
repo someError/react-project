@@ -1,0 +1,22 @@
+[
+  {
+    "id": "label.choose_tasks_line",
+    "defaultMessage": "Выберите линейку дел"
+  },
+  {
+    "id": "label.choose_pregnant_week",
+    "defaultMessage": "Укажите неделю беременности"
+  },
+  {
+    "id": "label.start_date",
+    "defaultMessage": "Дата начала"
+  },
+  {
+    "id": "label.week_ordinal",
+    "defaultMessage": "{num}{num, selectordinal, other {-я}} неделя"
+  },
+  {
+    "id": "tasks_line.turn_on.btn",
+    "defaultMessage": "включить линейку"
+  }
+]

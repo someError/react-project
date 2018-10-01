@@ -1,0 +1,108 @@
+.records-section-title {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.25rem;
+}
+
+.records-section-title span {
+  margin-top: 3px;
+
+  cursor: pointer;
+  transition: 0.15s ease;
+
+  color: #9f9f9f;
+  border-bottom: dashed 1px;
+
+  font-size: 0.875rem;
+}
+
+.records-section-title span:hover {
+  border-color: transparent;
+}
+
+.records-section-title h2 {
+  margin: 0 0.625rem 0 0;
+
+  color: #9f9f9f;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.record-container--schedule {
+  font-size: 0.875rem;
+}
+
+.record-container--schedule .record-title {
+  color: #344758;
+
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.record-container__schedule-select {
+  max-width: 110px;
+
+  color: #3a76d2;
+  border-bottom: dashed 1px;
+}
+
+.record-container__schedule-select select {
+  padding: 0;
+}
+
+.record-container__schedule-select .icon {
+  display: none;
+}
+
+.record-controls .record-title {
+  margin-bottom: 0.3125rem;
+}
+
+.record-info span:not(:last-of-type) {
+  margin-right: 1.25rem;
+}
+
+.record-grid .column {
+  margin-bottom: 1.25rem;
+}
+
+.record-grid .column div:first-of-type {
+  margin-bottom: 0.3125rem;
+
+  color: #9f9f9f;
+}
+
+.record-card--patient_missing {
+  border-top-color: #fd5577;
+}
+
+.record-card--patient_missing .record-controls {
+  background: #fff4f7;
+}
+
+.record-bottom-nav {
+  display: flex;
+  justify-content: center;
+
+  border-top: solid 1px #d1d1d1;
+}
+
+.record-bottom-nav .btn + .btn {
+  margin-left: 0.6125rem;
+}
+
+.record-bottom-nav:empty {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .records-section-title h2 {
+    font-size: 1.125rem;
+  }
+
+  .record-grid .column {
+    width: 100%;
+  }
+}

@@ -1,0 +1,134 @@
+.btn {
+  display: inline-block;
+
+  box-sizing: border-box;
+  height: 3.125rem;
+  padding: 0 1.875rem;
+
+  cursor: pointer;
+
+  transition: background 0.15s ease;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.07727em;
+  text-transform: uppercase;
+
+  color: #fff;
+  border: solid 1px transparent;
+  border-radius: 100px;
+
+  outline: none;
+  background: #3a76d2;
+
+  font-family: 'Museo Sans Cyrl', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 900;
+  line-height: 3.125rem;
+}
+
+.btn:hover {
+  background: #4d88e1;
+}
+
+.btn:active {
+  background: #346abc;
+}
+
+.btn:disabled,
+.btn.disabled {
+  cursor: not-allowed;
+
+  background: #c6c6c6;
+}
+
+.btn.btn--fill {
+  width: 100%;
+}
+
+.btn.btn--lg {
+  height: 3.75rem;
+  padding: 0 2.5rem;
+
+  letter-spacing: 0.07714286em;
+
+  font-size: 0.875rem;
+  line-height: 3.75rem;
+}
+
+.btn.btn--round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.1875rem;
+  height: 2.1875rem;
+  padding: 0;
+}
+
+.btn.btn--sm {
+  height: 2.5rem;
+  padding: 0 1.25rem;
+
+  line-height: 2.5rem;
+}
+
+.btn.btn--xs {
+  height: 1.875rem;
+  padding: 0 1rem;
+
+  line-height: 1.875rem;
+}
+
+.btn.loading::after {
+  border-top-color: #fff;
+}
+
+.btn.btn--ghost {
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  color: #3a76d2;
+  border: solid 1px #3a76d2;
+  background: transparent;
+}
+
+.btn.btn--ghost:hover {
+  color: #4d88e1;
+  border-color: #4d88e1;
+}
+
+.btn.btn--ghost:active {
+  color: #346abc;
+  border-color: #346abc;
+}
+
+.btn--link {
+  color: #757475;
+  border: none !important;
+  background: none !important;
+}
+
+.btn--link.btn--xs {
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+}
+
+.btn.btn--white {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.btn.btn--white:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn.btn--pink {
+  color: #fff;
+  background: #fd5577;
+}
+
+.btn.btn--pink:hover {
+  background: rgba(253, 85, 119, 0.8);
+}

@@ -1,0 +1,52 @@
+.form-autocomplete {
+  position: relative;
+
+  display: inline-block;
+
+  width: 100%;
+}
+
+.form-autocomplete__suggestions-container {
+  position: absolute;
+  z-index: 10;
+
+  display: none;
+
+  width: 100%;
+
+  margin-top: 0;
+}
+
+.form-autocomplete__suggestions-container--open {
+  display: block;
+}
+
+.suggestions-list {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.suggestions-list__item {
+  position: relative;
+
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+
+  transition: background 0.15s ease;
+}
+
+.suggestions-list__item:hover,
+.suggestions-list__item.suggestions-list__item--highlighted {
+  background: #f5f8fc;
+}
+
+.form-autocomplete__suggestions-container .card {
+  overflow: auto;
+
+  max-height: 200px;
+}

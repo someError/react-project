@@ -1,0 +1,41 @@
+.drop-element {
+  position: absolute;
+  z-index: 400;
+
+  display: none;
+}
+
+.drop-element.drop-open {
+  display: block;
+}
+
+.drop-element.drop-theme-phr {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.drop-element.drop-theme-phr .drop-content {
+  position: relative;
+
+  border: solid 1px #ebebeb;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.drop-element.drop-target-attached-bottom.drop-theme-phr .drop-content::before {
+  background: #000;
+}
+
+.drop-element.drop-theme-phr {
+  transition: opacity 150ms;
+
+  opacity: 0;
+}
+
+.drop-element.drop-theme-phr.drop-open-transitionend {
+  display: block;
+}
+
+.drop-element.drop-theme-phr.drop-after-open {
+  opacity: 1;
+}

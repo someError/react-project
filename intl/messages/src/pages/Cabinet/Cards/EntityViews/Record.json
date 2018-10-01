@@ -1,0 +1,17 @@
+[
+  {
+    "id": "record.get_link",
+    "description": "Текст для тултипа \"Получить ссылку на запись\"",
+    "defaultMessage": "Получить ссылку на запись"
+  },
+  {
+    "id": "record.download",
+    "description": "Текст для тултипа \"Скачать запись\"",
+    "defaultMessage": "Скачать запись"
+  },
+  {
+    "id": "record.copied",
+    "description": "Текст для тултипа \"Скопировано\"",
+    "defaultMessage": "Скопировано"
+  }
+]

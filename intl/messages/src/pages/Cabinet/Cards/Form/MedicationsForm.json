@@ -1,0 +1,26 @@
+[
+  {
+    "id": "form.medication.label.medication",
+    "defaultMessage": "Препарат"
+  },
+  {
+    "id": "form.medication.label.quantity",
+    "defaultMessage": "Количество"
+  },
+  {
+    "id": "form.medication.label.pills",
+    "defaultMessage": "таблетки"
+  },
+  {
+    "id": "form.medication.label.ml",
+    "defaultMessage": "мл"
+  },
+  {
+    "id": "form.medication.label.mg",
+    "defaultMessage": "мг"
+  },
+  {
+    "id": "form.medication.add_btn",
+    "defaultMessage": "Добавить препарат"
+  }
+]

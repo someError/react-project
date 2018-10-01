@@ -1,0 +1,14 @@
+[
+  {
+    "id": "medications.pills",
+    "defaultMessage": "{count, plural, one {таблетка} few {таблетки} other {таблеток}}"
+  },
+  {
+    "id": "medications.milliliters",
+    "defaultMessage": "{count, plural, one {миллилитр} few {миллилитра} other {миллитров}}"
+  },
+  {
+    "id": "medications.milligrams",
+    "defaultMessage": "{count, plural, one {миллиграмм} few {миллиграмма} other {миллиграммов}}"
+  }
+]

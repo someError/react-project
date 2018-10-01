@@ -1,0 +1,26 @@
+[
+  {
+    "id": "patient.link.card",
+    "defaultMessage": "Медкарта"
+  },
+  {
+    "id": "patient.link.monitoring",
+    "defaultMessage": "Мониторинг"
+  },
+  {
+    "id": "patient.link.events",
+    "defaultMessage": "События"
+  },
+  {
+    "id": "patient.link.calendar",
+    "defaultMessage": "Календарь"
+  },
+  {
+    "id": "patient.link.task_lists",
+    "defaultMessage": "Списки дел"
+  },
+  {
+    "id": "patient.link.task_lines",
+    "defaultMessage": "Линейки дел"
+  }
+]

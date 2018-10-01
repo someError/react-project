@@ -1,0 +1,13 @@
+.card-body {
+  padding: 1.25rem;
+}
+
+.card--content .card-body {
+  padding: 1.25rem 1.875rem;
+}
+
+@media (max-width: 767px) {
+  .card--content .card-body {
+    padding: 1.25rem;
+  }
+}

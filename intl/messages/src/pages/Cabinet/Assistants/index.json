@@ -1,0 +1,17 @@
+[
+  {
+    "id": "assistants.title",
+    "description": "Заголовок страницы \"Ассистенты\"",
+    "defaultMessage": "Ассистенты"
+  },
+  {
+    "id": "assistants.attach",
+    "description": "Текст кнопки \"прикрепить\"",
+    "defaultMessage": "Прикрепить"
+  },
+  {
+    "id": "assistants.add",
+    "description": "Текст кнопки \"Добавить своего\" на странице ассистентов",
+    "defaultMessage": "Добавить своего"
+  }
+]

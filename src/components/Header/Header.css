@@ -1,0 +1,75 @@
+.avatar {
+  position: relative;
+
+  display: inline-block;
+
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: 0;
+
+  vertical-align: middle;
+
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  background: #473174;
+
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.avatar.avatar-xs {
+  width: 0.8rem;
+  height: 0.8rem;
+
+  font-size: 0.4rem;
+}
+
+.avatar.avatar-sm {
+  width: 1.875rem;
+  height: 1.875rem;
+
+  font-size: 0.8rem;
+}
+
+.avatar.avatar-lg {
+  width: 2.4rem;
+  height: 2.4rem;
+
+  font-size: 1.2rem;
+}
+
+.avatar.avatar-xl {
+  width: 3.75rem;
+  height: 3.75rem;
+
+  font-size: 1.6rem;
+}
+
+.avatar.avatar-2xl {
+  width: 5.625rem;
+  height: 5.625rem;
+
+  font-size: 2rem;
+}
+
+.avatar img {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+}
+
+.avatar[data-initial]::before {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+
+  content: attr(data-initial);
+  transform: translate(-50%, -50%);
+
+  color: currentColor;
+}

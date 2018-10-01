@@ -1,0 +1,39 @@
+.file-title {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  color: #3a3a3a;
+
+  font-size: 0.9375rem;
+}
+
+.file-size {
+  margin-top: 0.09rem;
+
+  color: #5e6972;
+
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.file-image-preview {
+  display: inline-block;
+
+  width: 28px;
+  height: 32px;
+
+  border-radius: 2px;
+  background: #576d7e no-repeat;
+  background-size: contain;
+}
+
+.file-root {
+  text-decoration: none;
+}
+
+.files-uploader.error .uploader-area {
+  border-color: #fd5577;
+  background: #fef3f6;
+}

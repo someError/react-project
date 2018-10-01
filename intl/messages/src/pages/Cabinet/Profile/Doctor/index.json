@@ -1,0 +1,38 @@
+[
+  {
+    "id": "diploma_number",
+    "defaultMessage": "Номер диплома"
+  },
+  {
+    "id": "diploma_year",
+    "defaultMessage": "Год выдачи"
+  },
+  {
+    "id": "diploma_institution",
+    "defaultMessage": "Учебное заведение"
+  },
+  {
+    "id": "diploma_description",
+    "defaultMessage": "Описание"
+  },
+  {
+    "id": "attaches_requests.title",
+    "defaultMessage": "Заявки о прикреплении"
+  },
+  {
+    "id": "work_at_orgs",
+    "defaultMessage": "Работаю в медучреждениях"
+  },
+  {
+    "id": "profile.detach.btn",
+    "defaultMessage": "Открепиться"
+  },
+  {
+    "id": "profile.diplomas.title",
+    "defaultMessage": "Дипломы и лицензии"
+  },
+  {
+    "id": "add_diploma",
+    "defaultMessage": "Добавить диплом"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "id": "label.add_comment",
+    "description": "Текст лейбла \"добавить комментарий\"",
+    "defaultMessage": "Добавить коментарий"
+  }
+]

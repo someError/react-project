@@ -1,0 +1,98 @@
+[
+  {
+    "id": "label.height",
+    "defaultMessage": "Рост"
+  },
+  {
+    "id": "label.sex",
+    "defaultMessage": "Пол"
+  },
+  {
+    "id": "label.sex.male",
+    "defaultMessage": "Мужской"
+  },
+  {
+    "id": "label.sex.female",
+    "defaultMessage": "Женский"
+  },
+  {
+    "id": "profile.label.timezone",
+    "defaultMessage": "Часовой пояс пребывания"
+  },
+  {
+    "id": "cap.label.prod_request",
+    "defaultMessage": "Запрос на изготовление"
+  },
+  {
+    "id": "cap.text.prod_request",
+    "defaultMessage": "Запрос отправлен. В ближайшее время вам позвонит оператор и уточнит детали."
+  },
+  {
+    "id": "cap.label.in_production",
+    "defaultMessage": "Изготавливается"
+  },
+  {
+    "id": "cap.text.in_production",
+    "defaultMessage": "Ваша карта будет сделана приблизительно через 2 недели."
+  },
+  {
+    "id": "cap.label.pending_activate",
+    "defaultMessage": "Ожидает активации"
+  },
+  {
+    "id": "cap.text.pending_activate",
+    "defaultMessage": "<div>Ваша карта готова. Вы можете забрать ее по адресу: <strong>г. Астана, Сарайшык 11/1 с 9:00 до 21:00. </strong> Если возникнут вопросы, позвоните по телефону: <strong>+7 (495) 432-34-14</strong></div>"
+  },
+  {
+    "id": "cap.label.active",
+    "defaultMessage": "Активна"
+  },
+  {
+    "id": "cap.text.active",
+    "defaultMessage": "Ваша карта активирована и ей можно пользоваться."
+  },
+  {
+    "id": "cap.label.off",
+    "defaultMessage": "Отключена"
+  },
+  {
+    "id": "cap.text.off",
+    "defaultMessage": "Ваша карта отключена и недоступна для использования."
+  },
+  {
+    "id": "cap.label.used",
+    "defaultMessage": "Использованна"
+  },
+  {
+    "id": "cap.what_for",
+    "defaultMessage": "Если с вами что-то случится, КЭП поможет связаться с вашими родными и близкими."
+  },
+  {
+    "id": "about_cap",
+    "defaultMessage": "Подробнее о КЭП"
+  },
+  {
+    "id": "order_cap",
+    "defaultMessage": "Заказать кэп"
+  },
+  {
+    "id": "cap.config",
+    "defaultMessage": "Настроить карту"
+  },
+  {
+    "id": "cap.turn_off",
+    "defaultMessage": "Отключить"
+  },
+  {
+    "id": "cap.turn_on",
+    "defaultMessage": "Включить"
+  },
+  {
+    "id": "cap.order_new",
+    "defaultMessage": "Заказать новую кэп"
+  },
+  {
+    "id": "personal_norm.title",
+    "defaultMessage": "персональные нормы"
+  }
+]

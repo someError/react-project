@@ -1,0 +1,12 @@
+[
+  {
+    "id": "access.form.header",
+    "description": "заголовок формы добавки доступа к карте",
+    "defaultMessage": "Создать доступ к медкарте"
+  },
+  {
+    "id": "access.option.full",
+    "description": "текст пункта \"Полный доступ к медкарте\"",
+    "defaultMessage": "Полный доступ к медкарте"
+  }
+]

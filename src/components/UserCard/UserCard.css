@@ -1,0 +1,60 @@
+.l-user-card__content:not(.l-user-card__content--patient) {
+  display: flex;
+}
+
+.l-user-card__content:not(.l-user-card__content--patient) {
+  border-right: solid 1px #d1d5d7;
+}
+
+.l-user-card__content .tile-content {
+  padding-left: 1.25rem !important;
+}
+
+.l-user-card__action {
+  align-self: center;
+
+  width: 230px;
+  padding-left: 1.25rem;
+}
+
+.l-user-card__action .btn {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.l-user-card__action .btn:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  /* Для карточек пациента, организации и врача */
+
+  .l-user-card > .tile {
+    display: block;
+  }
+
+  .l-user-card__content:not(.l-user-card__content--patient) {
+    border: none;
+  }
+
+  .l-user-card__content {
+    padding-bottom: 1.25rem;
+  }
+
+  .l-user-card__action {
+    display: flex;
+    flex-flow: column wrap;
+
+    box-sizing: border-box;
+    width: auto;
+    margin: 0 -1.25rem -1.25rem;
+    padding: 0.625rem 1.25rem 1.25rem;
+
+    background: #f7f7f8;
+  }
+
+  .l-user-card__action .btn {
+    width: 250px;
+    margin: 0.625rem auto 0;
+  }
+}

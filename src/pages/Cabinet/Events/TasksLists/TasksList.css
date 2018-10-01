@@ -1,0 +1,64 @@
+.events-sortable {
+  padding: 0.875rem 0;
+}
+
+.events-sortable__item {
+  position: relative;
+
+  padding: 0.875rem 1.75rem;
+}
+
+.drag-handle {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+
+  width: 1.875rem;
+
+  cursor: ns-resize;
+
+  transition: opacity 0.15s ease;
+
+  opacity: 0;
+}
+
+.drag-handle::before {
+
+  display: block;
+
+  width: 4px;
+  height: 0.975rem;
+
+  margin: 0 auto;
+
+  content: "";
+
+  border-right: solid 1px #9f9f9f;
+
+  border-left: solid 1px #9f9f9f;
+}
+
+.events-sortable__item:hover .drag-handle {
+  opacity: 1;
+}
+
+.events-sortable__item__action {
+  cursor: pointer;
+
+  color: #9f9f9f;
+}
+
+.events-sortable__item .events-sortable__item__action {
+
+  transition: opacity 0.15s ease;
+
+  opacity: 0;
+}
+
+.events-sortable__item:hover .events-sortable__item__action {
+  opacity: 1;
+}
+
+.events-sortable .checkbox-component {
+  vertical-align: middle;
+}

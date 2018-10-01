@@ -1,0 +1,160 @@
+.c-assistant {
+  position: relative;
+
+  padding: 0.6125rem 1.25rem;
+
+  border-bottom: #ebebeb 1px solid;
+  background: #fff;
+
+  font-size: 0.875rem;
+}
+
+.c-assistant h4 {
+  margin-top: 0.9375rem;
+
+  font-weight: 700;
+}
+
+.c-assistant__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.c-assistant p {
+  margin: 0.3125rem 0 0.6125rem;
+
+  line-height: 1.25rem;
+}
+
+.c-assistant .tile-action > span {
+  display: inline-flex;
+  align-items: center;
+
+  margin-right: 1.25rem;
+
+  cursor: pointer;
+  transition: 0.15s ease-in;
+
+  opacity: 0;
+  color: #9f9f9f;
+}
+
+.c-assistant:hover .tile-action > span {
+  opacity: 1;
+}
+
+.c-assistant .tile-action > span:last-of-type {
+  margin-right: 0;
+}
+
+.c-assistant .tile-action .icon {
+  margin-right: 0.3125rem;
+}
+
+.c-assistant + .btn {
+  margin-top: 1.875rem;
+}
+
+.c-assistant__mask {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.l-assistant-join .c-assistant:not(.active):not(.disabled) {
+  cursor: pointer;
+}
+
+.l-assistant-join .c-assistant .tile {
+  align-items: center;
+}
+
+.c-assistant .feather-check {
+  opacity: 0;
+}
+
+.c-assistant.active .feather-check {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .l-assistants-list {
+    background: none;
+  }
+
+  .l-assistants-list .c-assistant {
+    padding: 1.25rem 1.25rem 0;
+  }
+
+  .l-assistants-list .c-assistant:not(:last-of-type) {
+    margin-bottom: 1.25rem;
+  }
+
+  .l-assistants-list .c-assistant .tile {
+    position: relative;
+
+    display: block;
+  }
+
+  .l-assistants-list .c-assistant .tile-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 0;
+  }
+
+  .l-assistants-list .c-assistant .tile-content {
+    padding: 0;
+  }
+
+  .l-assistants-list .c-assistant .tile-action {
+    box-sizing: border-box;
+    margin: 1rem -1.25rem 0;
+    padding: 0;
+
+    border-top: solid 1px #d1d1d1;
+  }
+
+  .l-assistants-list .c-assistant .tile-action > span {
+    display: block;
+
+    padding: 0.6125rem 0;
+
+    text-align: center;
+
+    opacity: 1;
+  }
+
+  .l-assistants-list .c-assistant h4 {
+    display: flex;
+    align-items: center;
+
+    height: 50px;
+    margin: 0 0 0.6125rem;
+    padding-left: 60px;
+  }
+
+  .l-assistant-join .c-assistant {
+    margin: 0 -1.875rem;
+  }
+
+  .l-assistant-join .tile-content {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  .l-assistant-join .tile-content .icon {
+    align-self: center;
+  }
+
+  .c-assistant + .btn {
+    width: 100%;
+  }
+}

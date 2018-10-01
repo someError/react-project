@@ -1,0 +1,62 @@
+.checkbox-component {
+  display: inline-flex;
+
+  /* align-items: flex-start; */
+
+  cursor: pointer;
+}
+
+.switch.checkbox span.switch-check {
+  position: absolute;
+  top: -6px;
+  left: -1px;
+
+  transition: opacity 0.15s ease, transform 0.15s ease;
+
+  transform: translateX(-5px);
+
+  opacity: 0;
+}
+
+.switch.checkbox input:checked + .switch-view {
+  border-color: #3a76d2;
+}
+
+.switch.checkbox input:checked + .switch-view span.switch-check {
+  transform: translateX(0);
+
+  opacity: 1;
+}
+
+.switch.checkbox + span {
+  margin-left: 0.625rem;
+  padding-top: 3px;
+
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.checkbox-component.checkbox-component--sm .switch-view {
+  width: 15px;
+  height: 15px;
+}
+
+.checkbox-component--disabled {
+  cursor: not-allowed;
+
+  opacity: 0.6;
+}
+
+.checkbox-component--xl .switch.checkbox + span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.checkbox-component.checkbox-component--xl .switch-view {
+  width: 25px;
+  height: 25px;
+}
+
+.checkbox-row:not(:last-of-type) {
+  margin-bottom: 0.9375rem;
+}

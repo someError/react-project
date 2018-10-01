@@ -1,0 +1,36 @@
+.file-color--doc,
+.file-color--docx {
+  fill: #50bee8;
+}
+
+.file-color--pdf {
+  fill: #f15642;
+}
+
+.file-color--xls,
+.file-color--xlsx {
+  fill: #84bd5a;
+}
+
+.file-color--txt {
+  fill: #576d7e;
+}
+
+.file-path {
+  fill: #576d7e;
+}
+
+.file-icon__ext {
+  display: block;
+
+  padding-top: 2px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-size: 9px;
+  font-weight: 900;
+  line-height: 32px;
+}

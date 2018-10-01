@@ -1,0 +1,31 @@
+.switch {
+  position: relative;
+
+  display: inline-block;
+
+  vertical-align: middle;
+
+  line-height: 0;
+}
+
+.switch-view {
+  position: relative;
+
+  display: inline-block;
+
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+
+  transition: border-color 0.15s ease;
+
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.switch input {
+  position: absolute;
+
+  opacity: 0;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "comments.count",
+    "defaultMessage": "{count, plural, one {комментарий} few {комментария} other {комментариев}}"
+  },
+  {
+    "id": "comments.total",
+    "defaultMessage": "Всего"
+  },
+  {
+    "id": "comment.load_more",
+    "defaultMessage": "Загрузить ещё"
+  }
+]

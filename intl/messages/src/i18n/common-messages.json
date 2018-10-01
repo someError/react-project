@@ -1,0 +1,876 @@
+[
+  {
+    "id": "common.fullName",
+    "defaultMessage": "Фамилия Имя Отчество"
+  },
+  {
+    "id": "common.firstName",
+    "defaultMessage": "Имя"
+  },
+  {
+    "id": "common.lastName",
+    "defaultMessage": "Фамилия"
+  },
+  {
+    "id": "common.middleName",
+    "defaultMessage": "Отчество"
+  },
+  {
+    "id": "common.phone",
+    "defaultMessage": "Телефон"
+  },
+  {
+    "id": "common.email",
+    "defaultMessage": "E-mail"
+  },
+  {
+    "id": "common.remove",
+    "defaultMessage": "Удалить"
+  },
+  {
+    "id": "common.cancel",
+    "defaultMessage": "Отменить"
+  },
+  {
+    "id": "common.invite",
+    "defaultMessage": "Пригласить"
+  },
+  {
+    "id": "common.create",
+    "defaultMessage": "Создать"
+  },
+  {
+    "id": "common.create_record",
+    "defaultMessage": "Создать запись"
+  },
+  {
+    "id": "common.label.access_type",
+    "description": "Лебл \"вид доступа\"",
+    "defaultMessage": "Вид доступа"
+  },
+  {
+    "id": "common.access.read",
+    "defaultMessage": "Чтение"
+  },
+  {
+    "id": "common.access.read_write",
+    "defaultMessage": "Чтение и запись"
+  },
+  {
+    "id": "common.access.unlimit",
+    "defaultMessage": "Бессрочный доступ"
+  },
+  {
+    "id": "common.confirm",
+    "description": "текст кнопки \"подтвердить\"",
+    "defaultMessage": "подтвердить"
+  },
+  {
+    "id": "common.decline",
+    "description": "текст кнопки \"отказать\"",
+    "defaultMessage": "отказать"
+  },
+  {
+    "id": "common.status.active",
+    "description": "название статуса \"активен\"",
+    "defaultMessage": "активен"
+  },
+  {
+    "id": "common.active_period",
+    "description": "лейбл \"период действия\"",
+    "defaultMessage": "Период действия"
+  },
+  {
+    "id": "common.preposition.until",
+    "description": "предлог \"до\"",
+    "defaultMessage": "до"
+  },
+  {
+    "id": "common.preposition.from",
+    "description": "предлог \"с\"",
+    "defaultMessage": "с"
+  },
+  {
+    "id": "common.preposition.at",
+    "description": "предлог \"в\"",
+    "defaultMessage": "в"
+  },
+  {
+    "id": "common.edit",
+    "description": "текст кнопки \"Изменить\"",
+    "defaultMessage": "Изменить"
+  },
+  {
+    "id": "common.publish",
+    "description": "текст кнопки \"Опубликовать\"",
+    "defaultMessage": "Опубликовать"
+  },
+  {
+    "id": "common.record_draft",
+    "description": "текст \"Статус записи: черновик\"",
+    "defaultMessage": "Статус записи: черновик"
+  },
+  {
+    "id": "common.form.label.choose_section",
+    "description": "Текст лейбла \"выберите раздел\"",
+    "defaultMessage": "Выберите раздел"
+  },
+  {
+    "id": "common.form.label.section",
+    "description": "Текст лейбла \"Раздел\"",
+    "defaultMessage": "Раздел"
+  },
+  {
+    "id": "common.form.label.not_chosen",
+    "defaultMessage": "не выбран"
+  },
+  {
+    "id": "common.form.label.doctor",
+    "description": "Текст лейбла \"врач\"",
+    "defaultMessage": "Врач"
+  },
+  {
+    "id": "common.form.label.registry",
+    "description": "Текст лейбла \"Регистратура\"",
+    "defaultMessage": "Регистратура"
+  },
+  {
+    "id": "common.form.label.expert",
+    "description": "Текст лейбла \"Эксперт по качеству\"",
+    "defaultMessage": "Эксперт по качеству"
+  },
+  {
+    "id": "common.form.label.patient",
+    "description": "Текст лейбла \"пациент\"",
+    "defaultMessage": "Пациент"
+  },
+  {
+    "id": "common.form.label.my_records",
+    "defaultMessage": "Мои записи"
+  },
+  {
+    "id": "common.form.label.orgs_records",
+    "defaultMessage": "Записи медучреждений"
+  },
+  {
+    "id": "common.form.label.org",
+    "description": "Текст лейбла \"мед. организация\"",
+    "defaultMessage": "Мед. организация"
+  },
+  {
+    "id": "label.cell_status",
+    "defaultMessage": "Статус ячейки"
+  },
+  {
+    "id": "common.form.label.date",
+    "defaultMessage": "Дата"
+  },
+  {
+    "id": "common.form.label.author",
+    "defaultMessage": "Автор"
+  },
+  {
+    "id": "common.form.label.private_records",
+    "defaultMessage": "Личные записи"
+  },
+  {
+    "id": "common.form.label.doctors",
+    "defaultMessage": "Врачи"
+  },
+  {
+    "id": "common.form.label.starts",
+    "description": "Текст лейбла \"начало\"",
+    "defaultMessage": "Начало"
+  },
+  {
+    "id": "common.form.label.ends",
+    "description": "Текст лейбла \"конец\"",
+    "defaultMessage": "Конец"
+  },
+  {
+    "id": "common.form.label.description",
+    "defaultMessage": "Описание"
+  },
+  {
+    "id": "common.form.label.link",
+    "defaultMessage": "Ссылка"
+  },
+  {
+    "id": "add.form.tabs.label",
+    "description": "Лебл для табов в окне добавки сущностей",
+    "defaultMessage": "Добавить"
+  },
+  {
+    "id": "add.form.tabs.medical_record",
+    "description": "Таб добавки медицинской записи",
+    "defaultMessage": "запись"
+  },
+  {
+    "id": "add.form.tabs.medications",
+    "description": "Таб добавки приёма лекарств",
+    "defaultMessage": "приём лекарств"
+  },
+  {
+    "id": "add.form.tabs.diary",
+    "description": "Таб добавки в личный дневник",
+    "defaultMessage": "личный дневник"
+  },
+  {
+    "id": "add.form.tabs.event",
+    "description": "Таб добавки события",
+    "defaultMessage": "дело"
+  },
+  {
+    "id": "common.form.note.label",
+    "description": "лейбл \"примечание\"",
+    "defaultMessage": "Примечание"
+  },
+  {
+    "id": "add.form.btn.save_draft",
+    "defaultMessage": "Сохранить как черновик"
+  },
+  {
+    "id": "add.form.btn.save",
+    "defaultMessage": "Сохранить"
+  },
+  {
+    "id": "filter.records",
+    "defaultMessage": "Фильтр по записям"
+  },
+  {
+    "id": "doctor.title.info",
+    "defaultMessage": "Информация о враче"
+  },
+  {
+    "id": "doctor.title.specialties",
+    "defaultMessage": "Специализация"
+  },
+  {
+    "id": "doctor.title.services",
+    "defaultMessage": "Виды обслуживания"
+  },
+  {
+    "id": "doctor.title.orgs",
+    "defaultMessage": "Медучреждения"
+  },
+  {
+    "id": "doctor.title.diplomas",
+    "defaultMessage": "Дипломы"
+  },
+  {
+    "id": "org.licence.title",
+    "defaultMessage": "Лицензия"
+  },
+  {
+    "id": "doctor.title.paid",
+    "defaultMessage": "Платные услуги"
+  },
+  {
+    "id": "common.form.label.queue",
+    "defaultMessage": "Очередь"
+  },
+  {
+    "id": "common.form.label.address",
+    "defaultMessage": "Адрес"
+  },
+  {
+    "id": "common.sorting.alphabet_asc",
+    "defaultMessage": "Алфавиту (от А до Я)"
+  },
+  {
+    "id": "common.sorting.alphabet_desc",
+    "defaultMessage": "Алфавиту (от Я до А)"
+  },
+  {
+    "id": "common.sort_by",
+    "defaultMessage": "Сортировать по"
+  },
+  {
+    "id": "common.label.specialty",
+    "defaultMessage": "Специальность"
+  },
+  {
+    "id": "common.favorite_doctors",
+    "defaultMessage": "Избранные врачи"
+  },
+  {
+    "id": "common.records.plural",
+    "description": "N записей",
+    "defaultMessage": "{count} {count, plural, one {запись} few {записи} other {записей}}"
+  },
+  {
+    "id": "doctor.title.patient_reception",
+    "defaultMessage": "Прием пациентов"
+  },
+  {
+    "id": "doctor.title.enroll",
+    "defaultMessage": "Записаться на прием к врачу"
+  },
+  {
+    "id": "doctor.reception_duration",
+    "defaultMessage": "Продолжительность приема {duration} {duration, plural, one {минута} few {минуты} other {минут}}."
+  },
+  {
+    "id": "doctor.label.visit_date",
+    "defaultMessage": "Дата посещения"
+  },
+  {
+    "id": "doctor.label.choose_queue",
+    "defaultMessage": "Выберите очередь"
+  },
+  {
+    "id": "doctor.confirm_reception_date",
+    "defaultMessage": "Прием у врача в {weekDay} <br />{date} в {time}"
+  },
+  {
+    "id": "doctor.actions.enroll",
+    "defaultMessage": "Записаться на прием"
+  },
+  {
+    "id": "doctor.actions.request",
+    "defaultMessage": "Заявка на прием"
+  },
+  {
+    "id": "doctor.actions.grant_access",
+    "defaultMessage": "Предоставить доступ"
+  },
+  {
+    "id": "common.request_access",
+    "defaultMessage": "Запросить доступ"
+  },
+  {
+    "id": "doctor.enroll_patient",
+    "description": "\"записать на приём\" пациента",
+    "defaultMessage": "Записать на приём"
+  },
+  {
+    "id": "filter.patients",
+    "defaultMessage": "Фильтр по пациентам"
+  },
+  {
+    "id": "filter.events",
+    "defaultMessage": "Фильтр по событиям"
+  },
+  {
+    "id": "filter.orgs",
+    "defaultMessage": "Фильтр по организациям"
+  },
+  {
+    "id": "common.sorting.activity_desc",
+    "defaultMessage": "Активности (новые сверху)"
+  },
+  {
+    "id": "common.sorting.activity_asc",
+    "defaultMessage": "Активности (новые внизу)"
+  },
+  {
+    "id": "common.add_card",
+    "defaultMessage": "Добавить карту"
+  },
+  {
+    "id": "title.patients",
+    "description": "Заголовок страницы \"Пациенты\"",
+    "defaultMessage": "Пациенты"
+  },
+  {
+    "id": "doctor.invite_patient",
+    "defaultMessage": "Пригласить пациента"
+  },
+  {
+    "id": "common.access_requested",
+    "defaultMessage": "Доступ запрошен"
+  },
+  {
+    "id": "patient.is_mine",
+    "defaultMessage": "Мой пациент"
+  },
+  {
+    "id": "common.add_patient",
+    "defaultMessage": "Добавить пациента"
+  },
+  {
+    "id": "common.add_record",
+    "defaultMessage": "Добавить запись"
+  },
+  {
+    "id": "common.label.last_name",
+    "defaultMessage": "Введите фамилию"
+  },
+  {
+    "id": "common.label.first_name",
+    "defaultMessage": "Введите имя"
+  },
+  {
+    "id": "common.label.mid_name",
+    "defaultMessage": "Введите отчество"
+  },
+  {
+    "id": "common.label.note",
+    "defaultMessage": "Введите примечание"
+  },
+  {
+    "id": "common.label.birth_date",
+    "defaultMessage": "Дата рождения"
+  },
+  {
+    "id": "common.label.blood",
+    "defaultMessage": "Группа крови"
+  },
+  {
+    "id": "common.label.iin",
+    "defaultMessage": "ИИН"
+  },
+  {
+    "id": "common.label.gender",
+    "defaultMessage": "Пол"
+  },
+  {
+    "id": "common.gender.male",
+    "defaultMessage": "Муж"
+  },
+  {
+    "id": "common.gender.female",
+    "defaultMessage": "Жен"
+  },
+  {
+    "id": "common.label.request_text",
+    "defaultMessage": "Текст запроса"
+  },
+  {
+    "id": "common.send_request",
+    "defaultMessage": "Отправить запрос"
+  },
+  {
+    "id": "common.nothing_found",
+    "defaultMessage": "Ничего не найдено"
+  },
+  {
+    "id": "common.events.title",
+    "defaultMessage": "События"
+  },
+  {
+    "id": "common.tasks_lines.title",
+    "defaultMessage": "Линейки дел"
+  },
+  {
+    "id": "common.tasks_lists.title",
+    "defaultMessage": "Списки дел"
+  },
+  {
+    "id": "common.tasks_lines.add",
+    "defaultMessage": "Добавить линейку дел"
+  },
+  {
+    "id": "common.turn_on",
+    "defaultMessage": "Включить"
+  },
+  {
+    "id": "common.event.status.done",
+    "defaultMessage": "Выполнено"
+  },
+  {
+    "id": "common.event.status.not_done",
+    "defaultMessage": "Не выполнено"
+  },
+  {
+    "id": "common.event.status.expired",
+    "defaultMessage": "Незапланированные"
+  },
+  {
+    "id": "common.event.status.not_planned",
+    "defaultMessage": "Просроченные"
+  },
+  {
+    "id": "common.label.tasks_list",
+    "defaultMessage": "Список дел"
+  },
+  {
+    "id": "common.label.remind",
+    "defaultMessage": "Напомнить о событии"
+  },
+  {
+    "id": "common.label.exact",
+    "defaultMessage": "В момент наступления события"
+  },
+  {
+    "id": "common.label.hour",
+    "defaultMessage": "За час до события"
+  },
+  {
+    "id": "common.label.3_hours",
+    "defaultMessage": "За 3 часа до события"
+  },
+  {
+    "id": "common.label.10_hours",
+    "defaultMessage": "За 10 часов до события"
+  },
+  {
+    "id": "common.label.day",
+    "defaultMessage": "За день до события"
+  },
+  {
+    "id": "common.label.reminder_types",
+    "defaultMessage": "Способ получения уведомления"
+  },
+  {
+    "id": "common.label.reminder_types.email",
+    "defaultMessage": "Отправить письмо на почту"
+  },
+  {
+    "id": "common.label.reminder_types.sms",
+    "defaultMessage": "Получить SMS"
+  },
+  {
+    "id": "common.label.reminder_types.push",
+    "defaultMessage": "Получить Push-уведомление"
+  },
+  {
+    "id": "common.add_event.btn",
+    "defaultMessage": "Добавить дело"
+  },
+  {
+    "id": "common.attach_doctor",
+    "defaultMessage": "Прикрепить врача"
+  },
+  {
+    "id": "common.detach",
+    "defaultMessage": "Открепить"
+  },
+  {
+    "id": "workers.title",
+    "defaultMessage": "Сотрудники"
+  },
+  {
+    "id": "common.grant_access_to_card",
+    "defaultMessage": "Предоставить доступ к медкарте"
+  },
+  {
+    "id": "common.label.desired_reception_days",
+    "defaultMessage": "Желаемые дни приема"
+  },
+  {
+    "id": "common.label.desired_reception_time",
+    "defaultMessage": "Желаемое время"
+  },
+  {
+    "id": "common.label.additional_reception_days",
+    "defaultMessage": "Дополнительная информация, пожелания"
+  },
+  {
+    "id": "common.reception.title",
+    "defaultMessage": "Заявка на прием к врачу"
+  },
+  {
+    "id": "common.read_more",
+    "defaultMessage": "Читать дальше"
+  },
+  {
+    "id": "menu.patients",
+    "defaultMessage": "Для пациентов"
+  },
+  {
+    "id": "menu.card",
+    "defaultMessage": "Медкарта"
+  },
+  {
+    "id": "menu.doctors",
+    "defaultMessage": "Для врачей"
+  },
+  {
+    "id": "menu.contacts",
+    "defaultMessage": "Контакты"
+  },
+  {
+    "id": "menu.policy",
+    "defaultMessage": "Политика безопасности"
+  },
+  {
+    "id": "address",
+    "defaultMessage": "010000, Астана, улица Сыганак, 29, БЦ «Евроцентр»"
+  },
+  {
+    "id": "label.draft",
+    "defaultMessage": "Черновик"
+  },
+  {
+    "id": "common.label.patient_full_name",
+    "defaultMessage": "Пациент"
+  },
+  {
+    "id": "reception.status.not_confirmed",
+    "defaultMessage": "Визит заявлен, но не подтвержден"
+  },
+  {
+    "id": "reception.status.confirmed",
+    "defaultMessage": "Визит назначен"
+  },
+  {
+    "id": "reception.status.completed",
+    "defaultMessage": "Визит состоялся"
+  },
+  {
+    "id": "reception.status.patient_missing",
+    "defaultMessage": "Визит пропущен"
+  },
+  {
+    "id": "reception.status.canceled",
+    "defaultMessage": "Визит отменен"
+  },
+  {
+    "id": "reception.status.canceled_by_patien",
+    "defaultMessage": "Визит отменен пациентом"
+  },
+  {
+    "id": "label.reception.status",
+    "description": "лейбл \"затус записи\" к врачу",
+    "defaultMessage": "Статус записи"
+  },
+  {
+    "id": "title.receptions_and_requests",
+    "defaultMessage": "Заявки и записи на прием"
+  },
+  {
+    "id": "create_schedule",
+    "defaultMessage": "Создать расписание"
+  },
+  {
+    "id": "title.receptions_requests",
+    "defaultMessage": "Заявки на прием"
+  },
+  {
+    "id": "title.receptions",
+    "defaultMessage": "Записи на прием"
+  },
+  {
+    "id": "collapse",
+    "defaultMessage": "скрыть"
+  },
+  {
+    "id": "expand",
+    "defaultMessage": "раскрыть"
+  },
+  {
+    "id": "change_status",
+    "defaultMessage": "изменить статус"
+  },
+  {
+    "id": "label.request_date",
+    "defaultMessage": "Дата заявки"
+  },
+  {
+    "id": "profile_title",
+    "defaultMessage": "Настройка профиля"
+  },
+  {
+    "id": "profile.fill",
+    "defaultMessage": "Вам необходимо заполнить профиль."
+  },
+  {
+    "id": "profile.moderating",
+    "defaultMessage": "Ваш аккаунт проходит модерацию"
+  },
+  {
+    "id": "profile.personal",
+    "defaultMessage": "Персональные данные"
+  },
+  {
+    "id": "profile.public",
+    "defaultMessage": "Публичные данные"
+  },
+  {
+    "id": "label.experience",
+    "defaultMessage": "Стаж (лет)"
+  },
+  {
+    "id": "label.additional_info",
+    "defaultMessage": "Дополнительная информация"
+  },
+  {
+    "id": "label.region",
+    "defaultMessage": "Регион"
+  },
+  {
+    "id": "label.city",
+    "defaultMessage": "Город"
+  },
+  {
+    "id": "label.password",
+    "defaultMessage": "Пароль"
+  },
+  {
+    "id": "label.old_password",
+    "defaultMessage": "Старый пароль"
+  },
+  {
+    "id": "label.new_password",
+    "defaultMessage": "Новый пароль"
+  },
+  {
+    "id": "label.secure",
+    "defaultMessage": "Надежный"
+  },
+  {
+    "id": "label.medium",
+    "defaultMessage": "Средний"
+  },
+  {
+    "id": "label.repeate",
+    "defaultMessage": "Повторите пароль"
+  },
+  {
+    "id": "wrong_password_repeat",
+    "defaultMessage": "Введено неверно"
+  },
+  {
+    "id": "save_changes_btn",
+    "defaultMessage": "Сохранить изменения"
+  },
+  {
+    "id": "cancel_changes_btn",
+    "defaultMessage": "Отменить изменения"
+  },
+  {
+    "id": "title.login_data",
+    "defaultMessage": "Данные входа в систему"
+  },
+  {
+    "id": "label.specialty",
+    "defaultMessage": "Специальность"
+  },
+  {
+    "id": "subscriptions.title",
+    "defaultMessage": "Подписки и уведомления"
+  },
+  {
+    "id": "label.subscribe",
+    "defaultMessage": "Подписаться на рассылки и уведомления"
+  },
+  {
+    "id": "label.diseases",
+    "defaultMessage": "Болезни по справочнику"
+  },
+  {
+    "id": "label.contraindications",
+    "defaultMessage": "Противопоказания, аллергии на лекарства"
+  },
+  {
+    "id": "label.chronic",
+    "defaultMessage": "Хронические заболевания"
+  },
+  {
+    "id": "label.drugs",
+    "defaultMessage": "Принимаемые препараты"
+  },
+  {
+    "id": "label.blood_rhesus",
+    "defaultMessage": "Группа крови и резус-фактор"
+  },
+  {
+    "id": "label.event_status",
+    "defaultMessage": "Статус дела"
+  },
+  {
+    "id": "label.type",
+    "defaultMessage": "Тип"
+  },
+  {
+    "id": "label.patient_fio",
+    "defaultMessage": "ФИО пациента"
+  },
+  {
+    "id": "label.free",
+    "defaultMessage": "Свободна"
+  },
+  {
+    "id": "label.visit_not_confirmed",
+    "defaultMessage": "Визит не подтвержден"
+  },
+  {
+    "id": "label.schedule_duration",
+    "defaultMessage": "Продолжительность приема"
+  },
+  {
+    "id": "label.timeout_duration",
+    "defaultMessage": "Перерыв между приемами"
+  },
+  {
+    "id": "label.self_enroll_conditions",
+    "defaultMessage": "Условия самозаписи пациентов"
+  },
+  {
+    "id": "cap.medical_card.title",
+    "defaultMessage": "Медицинская карта"
+  },
+  {
+    "id": "common.label.datetime",
+    "defaultMessage": "Дата и время"
+  },
+  {
+    "id": "common.sign_in",
+    "defaultMessage": "Войти"
+  },
+  {
+    "id": "common.authorization_title",
+    "defaultMessage": "Авторизация"
+  },
+  {
+    "id": "common.registration_title",
+    "defaultMessage": "Регистрация"
+  },
+  {
+    "id": "common.restore_password",
+    "defaultMessage": "Восстановить пароль"
+  },
+  {
+    "id": "common.label.phone_or_email",
+    "defaultMessage": "Номер телефона или e-mail"
+  },
+  {
+    "id": "common.sign_up_btn",
+    "defaultMessage": "Зарегистрироваться"
+  },
+  {
+    "id": "common.go_to_cabinet",
+    "defaultMessage": "В кабинет"
+  },
+  {
+    "id": "create_medical_card",
+    "defaultMessage": "Завести медкарту"
+  },
+  {
+    "id": "access_denied",
+    "defaultMessage": "Нет доступа"
+  },
+  {
+    "id": "label.search",
+    "defaultMessage": "Поиск"
+  },
+  {
+    "id": "label.orgs",
+    "defaultMessage": "Организации"
+  },
+  {
+    "id": "diploma.number.title",
+    "defaultMessage": "Номер диплома"
+  },
+  {
+    "id": "diploma.year.title",
+    "defaultMessage": "Год выпуска"
+  },
+  {
+    "id": "diploma.school.title",
+    "defaultMessage": "Учебное заведение"
+  },
+  {
+    "id": "diploma.description.title",
+    "defaultMessage": "Описание"
+  },
+  {
+    "id": "license.number.title",
+    "defaultMessage": "Номер лицензии"
+  },
+  {
+    "id": "license.year.title",
+    "defaultMessage": "Дата лицензии"
+  }
+]

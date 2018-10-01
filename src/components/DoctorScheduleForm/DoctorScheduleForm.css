@@ -1,0 +1,85 @@
+.doctor-schedule-form {
+  padding: 1.875rem;
+
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  background: #f7f7f8;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.card .doctor-schedule-form {
+  margin: 1.25rem -1.25rem -1.25rem;
+  padding: 1.875rem;
+
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.card--content .doctor-schedule-form {
+  padding: 0 -1.875rem -1.25rem;
+}
+
+.doctor-schedule-form__options {
+  margin-bottom: 2.5rem;
+}
+
+.doctor-schedule-form__day-row {
+  display: flex;
+  align-items: center;
+}
+
+.doctor-schedule-form__day-row .DayPickerInput {
+  width: 160px;
+}
+
+.doctor-schedule-form__day-row > span:not(.material-input) {
+  padding: 0 1rem;
+}
+
+@media (max-width: 767px) {
+  .doctor-schedule-form {
+    padding: 1.25rem;
+  }
+
+  .card .doctor-schedule-form {
+    margin: 0 -1.25rem -1.25rem;
+    padding: 1.25rem;
+  }
+
+  /* .doctor-schedule-form__options { */
+
+  /* padding: 0 1.25rem; */
+
+  /* } */
+
+  .doctor-schedule-form__options .column {
+    width: 100%;
+  }
+
+  .doctor-schedule-form__options .column + .column {
+    margin-top: 1.25rem;
+  }
+
+  .doctor-schedule-form__options {
+    margin-bottom: 0;
+  }
+
+  .doctor-schedule-form__day-row--wrap {
+    display: block;
+  }
+
+  .doctor-schedule-form__day-row .day-picker-wrap {
+    display: block;
+
+    margin-bottom: 1.25rem;
+  }
+
+  .doctor-schedule-form__day-row .DayPickerInput {
+    width: 100%;
+  }
+
+  .doctor-schedule-form__day-row .day-picker-wrap:last-of-type {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "schedule.edit.title",
+    "defaultMessage": "Изменить расписание"
+  },
+  {
+    "id": "schedule.add.title",
+    "defaultMessage": "Добавить расписание"
+  },
+  {
+    "id": "label.schedule_name",
+    "defaultMessage": "Название расписания"
+  },
+  {
+    "id": "label.choose_specialty",
+    "defaultMessage": "Выберите специальность"
+  },
+  {
+    "id": "label.choose_doctor",
+    "defaultMessage": "Выберите врача"
+  },
+  {
+    "id": "label.set_start_end",
+    "defaultMessage": "Укажите дату начала и окончания действия расписания"
+  },
+  {
+    "id": "label.schedule_start",
+    "defaultMessage": "Начать расписание"
+  },
+  {
+    "id": "label.schedule_end",
+    "defaultMessage": "Закончить расписание"
+  },
+  {
+    "id": "label.schedule_weekdays",
+    "defaultMessage": "Дни недели действия расписания"
+  },
+  {
+    "id": "label.schedule_period",
+    "defaultMessage": "Укажите ежедневный промежуток времени"
+  },
+  {
+    "id": "label.duration_minutes",
+    "defaultMessage": "минут"
+  },
+  {
+    "id": "label.self_enroll_accepted",
+    "defaultMessage": "Самозапись разрешена"
+  },
+  {
+    "id": "label.self_enroll_confirm",
+    "defaultMessage": "Подтверждение самозаписи"
+  },
+  {
+    "id": "label.self_enroll_before",
+    "defaultMessage": "Самозапись производится не позднее, чем за"
+  },
+  {
+    "id": "label.days_before",
+    "defaultMessage": "Дня"
+  },
+  {
+    "id": "label.hours_before",
+    "defaultMessage": "Часа"
+  },
+  {
+    "id": "schedule.add_advice",
+    "defaultMessage": "Добавить совет пациенту"
+  },
+  {
+    "id": "label.advice",
+    "defaultMessage": "Совет пациенту"
+  }
+]

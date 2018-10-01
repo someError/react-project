@@ -1,0 +1,72 @@
+.doctor-schedule-time {
+  display: flex;
+
+  padding: 1.875rem 0 1.25rem;
+
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.doctor-schedule-time:first-of-type {
+  margin-top: 40px;
+
+  border-top: solid 1px #d9d9d9;
+}
+
+.doctor-schedule-time__label {
+  font-weight: 900;
+  line-height: 1.875rem;
+}
+
+.doctor-schedule-time__btn-grid {
+  width: 100%;
+  max-width: 580px;
+
+  /* margin-left: auto; */
+  padding-left: 1.25rem;
+}
+
+.doctor-schedule-time__btn-grid .btn {
+  margin: 0 0 0.625rem 0.625rem;
+}
+
+.doctor-schedule-time__btn-grid .btn:disabled {
+  color: #929292;
+  border-color: #e0e0e0;
+  background: #e0e0e0;
+}
+
+@media (max-width: 767px) {
+  .doctor-schedule-time {
+    display: block;
+  }
+
+  .doctor-schedule-time__label {
+    padding-left: 0.3125rem;
+
+    font-size: 0.875rem;
+  }
+
+  .doctor-schedule-time__btn-grid {
+    margin: 0;
+    padding: 0;
+  }
+
+  .doctor-schedule-time__btn-grid .btn {
+    margin: 0 0.3125rem 0.6125rem;
+    padding: 0 0.5rem;
+
+    line-height: 1;
+  }
+
+  .doctor-schedule-time:first-of-type {
+    margin: 0;
+
+    border: none;
+  }
+
+  .doctor-schedule-time {
+    padding: 0.6125rem 0 0;
+
+    border: none;
+  }
+}

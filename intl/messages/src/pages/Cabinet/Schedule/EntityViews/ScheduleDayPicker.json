@@ -1,0 +1,10 @@
+[
+  {
+    "id": "receptions.plural",
+    "defaultMessage": "{total, plural, one {запись} few {записи} other {записей}}"
+  },
+  {
+    "id": "cells.plural",
+    "defaultMessage": "{total, plural, one {свободная ячейка} few {свободные ячейки} other {свободных ячеек}}"
+  }
+]

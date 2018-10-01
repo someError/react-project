@@ -1,0 +1,133 @@
+.doctor-detail {
+  font-size: 0.875rem;
+}
+
+.doctor-detail__top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-size: 0.75rem;
+}
+
+.doctor-detail__nav {
+  margin-left: auto;
+}
+
+.doctor-detail__nav a {
+  display: inline-flex;
+  align-items: center;
+
+  margin-left: 0.9375rem;
+
+  text-decoration: none;
+
+  color: #757475;
+
+  font-size: 0.75rem;
+}
+
+.doctor-detail__nav .icon {
+  margin-right: 0.3125rem;
+}
+
+.doctor-detail__top .doctor-rating-descr {
+  margin: 0 0.625rem 0 0.3125rem;
+}
+
+.doctor-detail__name {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0.3125rem;
+
+  color: #344758;
+}
+
+.doctor-detail__name .icon {
+  margin-left: 0.625rem;
+}
+
+.doctor-detail__specialties {
+  color: #9f9f9f;
+
+  font-size: 0.875rem;
+}
+
+.doctor-detail .card-footer a {
+  margin-right: 1.875rem;
+
+  font-size: 0.875rem;
+}
+
+.doctor-detail .tile-content {
+  padding-left: 1.25rem !important;
+}
+
+.doctor-detail__bot {
+  margin-top: 1.25rem;
+}
+
+.doctor-detail__bot a {
+  color: #2c2b29;
+}
+
+.doctor-detail__bot span:not(:last-of-type) {
+  margin-right: 1.25rem;
+}
+
+.doctor-detail__phone {
+  text-decoration: none;
+
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .doctor-detail-card .avatar {
+    width: 3.75rem;
+    height: 3.75rem;
+
+    font-size: 1.5rem;
+  }
+
+  .doctor-detail .tile-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .doctor-detail__top {
+    order: 10;
+  }
+
+  .doctor-detail__name {
+    align-items: flex-start;
+    justify-content: space-between;
+
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .doctor-detail__bot {
+    padding: 1.25rem 0 0;
+
+    border-top: solid 1px #d1d5d7;
+  }
+
+  .doctor-detail__nav {
+    margin: 0;
+  }
+
+  .doctor-detail__nav a {
+    margin: 1.25rem 0.6125rem 0 0;
+  }
+
+  .doctor-detail__bot > span {
+    display: block;
+
+    margin-bottom: 0.6125rem;
+  }
+
+  .doctor-detail__bot > span:last-of-type {
+    margin-bottom: 0;
+  }
+}

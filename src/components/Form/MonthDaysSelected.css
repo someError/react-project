@@ -1,0 +1,23 @@
+.days-selector > div {
+  display: flex;
+
+  padding: 0.3175rem 0.625rem;
+}
+
+.days-selector > div > span {
+  width: 2rem;
+
+  cursor: pointer;
+  text-align: center;
+
+  border-radius: 50%;
+
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.days-selector > div > span.active {
+  color: #fff;
+  background: #3a76d2;
+}

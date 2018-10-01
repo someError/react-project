@@ -1,0 +1,52 @@
+.patient-record-info__row {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.25rem;
+
+  font-size: 1rem;
+}
+
+.patient-record-info__row:last-of-type {
+  margin-bottom: 0;
+}
+
+.patient-record-info__row div:first-of-type {
+  width: 140px;
+}
+
+.patient-record-info__row div:last-of-type {
+  display: inline-flex;
+  align-items: center;
+}
+
+.patient-record-info__row .avatar {
+  margin-right: 0.625rem;
+}
+
+.patient-record-info__row a {
+  text-decoration: none;
+}
+
+.patient-record-info h3 {
+  margin-bottom: 0.625rem;
+
+  line-height: 1.25;
+}
+
+.patient-record-info__address {
+  margin-bottom: 1.25rem;
+
+  color: #9f9f9f;
+}
+
+@media (max-width: 767px) {
+  .patient-record-info__row div:first-of-type {
+    width: auto;
+    margin-right: 0.25rem;
+  }
+
+  .patient-record-info h3 {
+    font-size: 1.125rem;
+  }
+}

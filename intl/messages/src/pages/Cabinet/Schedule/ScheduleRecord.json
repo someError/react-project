@@ -1,0 +1,30 @@
+[
+  {
+    "id": "schedule.record.title",
+    "defaultMessage": "Запись пациента на прием"
+  },
+  {
+    "id": "schedule.record.label.choose_patient",
+    "defaultMessage": "Выберите пациента"
+  },
+  {
+    "id": "schedule.label.phone",
+    "defaultMessage": "Телефон (необязательно)"
+  },
+  {
+    "id": "schedule.label.choose_schedule",
+    "defaultMessage": "Расписание"
+  },
+  {
+    "id": "schedule.label.visit_date",
+    "defaultMessage": "Дата посещения"
+  },
+  {
+    "id": "schedule.enroll.btn",
+    "defaultMessage": "Записать"
+  },
+  {
+    "id": "schedule.set_visit_time",
+    "defaultMessage": "Или введите новое время приема"
+  }
+]

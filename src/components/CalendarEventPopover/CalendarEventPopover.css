@@ -1,0 +1,74 @@
+.calendar-event-popover {
+  position: relative;
+  z-index: 10;
+
+  max-width: 430px;
+  padding: 1rem 1.25rem;
+
+  border: 1px solid #c6c6c6;
+  border-radius: 2px;
+
+  /* Combined Shape: */
+  background: #fff;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.18);
+}
+
+.calendar-event-popover__close {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+
+  cursor: pointer;
+}
+
+.calendar-event-popover__title {
+  margin: 0 0 0.625rem;
+  padding-right: 2rem;
+
+  color: #3a76d2;
+
+  font-size: 1rem;
+}
+
+.calendar-event-popover__title a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.calendar-event-popover__datetime {
+  margin-top: 5px;
+
+  font-size: 0.75rem;
+}
+
+.calendar-event-popover__datetime__label {
+  color: #757475;
+}
+
+.calendar-event-popover__text {
+  color: #2c2b29;
+
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.calendar-event-popover__actions {
+  margin-top: 1.25rem;
+}
+
+.calendar-event-popover__actions__item {
+  cursor: pointer;
+
+  color: #c6c6c6;
+
+  font-size: 0.875rem;
+}
+
+.calendar-event-popover__actions__item:hover {
+  color: #3a76d2;
+}
+
+.calendar-event-popover__actions__item + .calendar-event-popover__actions__item {
+  margin-left: 1rem;
+}

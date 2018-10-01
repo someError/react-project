@@ -1,0 +1,10 @@
+[
+  {
+    "id": "worker.for.title",
+    "defaultMessage": "Добавить своего сотрудника"
+  },
+  {
+    "id": "choose.worker.role",
+    "defaultMessage": "Выберите роль сотрудника"
+  }
+]

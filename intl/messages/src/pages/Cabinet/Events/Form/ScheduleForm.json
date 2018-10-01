@@ -1,0 +1,86 @@
+[
+  {
+    "id": "event.repeat.hours",
+    "defaultMessage": "{count, plural, one {час} few {часа} other {часов}}"
+  },
+  {
+    "id": "event.repeat.days",
+    "defaultMessage": "{count, plural, one {день} few {дня} other {дней}}"
+  },
+  {
+    "id": "event.repeat.weeks",
+    "defaultMessage": "{count, plural, one {неделю} few {недели} other {недель}}"
+  },
+  {
+    "id": "event.repeat.months",
+    "defaultMessage": "{count, plural, one {месяц} few {месяца} other {месяцев}}"
+  },
+  {
+    "id": "event.repeat.years",
+    "defaultMessage": "{count, plural, one {год} few {года} other {лет}}"
+  },
+  {
+    "id": "event.label.repeat",
+    "defaultMessage": "Повторять"
+  },
+  {
+    "id": "event.label.allDay",
+    "defaultMessage": "Весь день"
+  },
+  {
+    "id": "event.label.repeat_event",
+    "defaultMessage": "Повторять дело"
+  },
+  {
+    "id": "event.label.with_interval",
+    "defaultMessage": "с интервалом"
+  },
+  {
+    "id": "event.label.custom_interval",
+    "defaultMessage": "Произвольно"
+  },
+  {
+    "id": "event.label.preposition.on",
+    "description": "предлог \"по\" в контексте \"повторять по средам\"",
+    "defaultMessage": "по"
+  },
+  {
+    "id": "event.label.weekday.mon",
+    "description": "день недели понедельник",
+    "defaultMessage": "пн"
+  },
+  {
+    "id": "event.label.weekday.tue",
+    "description": "день недели вторник",
+    "defaultMessage": "пн"
+  },
+  {
+    "id": "event.label.weekday.wed",
+    "description": "день недели среда",
+    "defaultMessage": "ср"
+  },
+  {
+    "id": "event.label.weekday.thu",
+    "description": "день недели четверг",
+    "defaultMessage": "чт"
+  },
+  {
+    "id": "event.label.weekday.fri",
+    "description": "день недели пятница",
+    "defaultMessage": "пт"
+  },
+  {
+    "id": "event.label.weekday.sat",
+    "description": "день недели суббота",
+    "defaultMessage": "сб"
+  },
+  {
+    "id": "event.label.weekday.sun",
+    "description": "день недели воскресенье",
+    "defaultMessage": "вс"
+  },
+  {
+    "id": "event.add_datetime",
+    "defaultMessage": "Добавить дату и время"
+  }
+]

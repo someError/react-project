@@ -1,0 +1,156 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3.5rem 1.25rem 1.875rem;
+
+  opacity: 0;
+}
+
+.modal:target,
+.modal.active {
+  z-index: 400;
+
+  display: block;
+
+  opacity: 1;
+}
+
+.modal:target .modal-overlay,
+.modal.active .modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+
+  cursor: default;
+
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.modal:target .modal-container,
+.modal.active .modal-container {
+  z-index: 1;
+
+  /* max-width: 870px; */
+  max-width: 730px;
+  margin: 0 auto;
+
+  animation: slide-down 0.2s ease 1;
+}
+
+.modal.modal-sm .modal-container {
+  max-width: 320px;
+}
+
+.modal-container {
+  position: relative;
+
+  display: block;
+
+  padding: 0;
+
+  text-align: left;
+
+  border-radius: 0.1rem;
+  background: #fff;
+  box-shadow: 0 0.2rem 0.5rem rgba(69, 77, 93, 0.3);
+
+  /* overflow: hidden; */
+}
+
+.modal-container .modal-body {
+  position: relative;
+}
+
+.modal-container .modal-footer {
+  padding: 0.8rem;
+
+  text-align: right;
+}
+
+.modal-close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+
+  cursor: pointer;
+
+  color: #fff;
+}
+
+.modal-body,
+.modal-header {
+  padding: 1.875rem;
+}
+
+.modal-header {
+  border-bottom: solid 1px #ebebeb;
+  background: #fff;
+}
+
+.modal-header h1 {
+  margin-bottom: 0;
+}
+
+.modal-header h1 + span {
+  display: block;
+
+  margin-top: 1.25rem;
+}
+
+.modal-body {
+  background: #f7f7f8;
+}
+
+@media (max-width: 970px) {
+  .modal-close {
+    right: -8px;
+  }
+}
+
+@media (max-width: 655px) {
+  .modal {
+    padding: 0;
+  }
+
+  .modal-container {
+    border-radius: 0;
+  }
+
+  .modal-close {
+    z-index: 1;
+    top: 16px;
+    right: 10px;
+
+    color: #9f9f9f;
+  }
+
+  .modal-container {
+    min-height: 100%;
+  }
+
+  .modal h1,
+  .modal h2 {
+    padding-right: 1.5rem;
+
+    font-size: 1.125rem;
+  }
+
+  .modal-body,
+  .modal-header {
+    padding: 1.25rem;
+  }
+}

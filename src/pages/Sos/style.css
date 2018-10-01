@@ -1,0 +1,85 @@
+.l-sos {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  padding: 100px 20px 80px;
+}
+
+.l-sos__logo {
+  position: absolute;
+  z-index: 999;
+  top: 20px;
+  left: 20px;
+}
+
+.l-sos__content {
+  width: 100%;
+  max-width: 850px;
+}
+
+.l-sos section:not(:last-of-type) {
+  margin-bottom: 2.5rem;
+}
+
+.l-sos__section-title {
+  font-size: 1.125rem;
+  font-weight: 900;
+}
+
+.l-sos__section-title + section {
+  margin-top: 1.875rem;
+}
+
+.sos-header .tile-icon {
+  padding-right: 0.625rem;
+}
+
+.sos-header h2 {
+  margin: 0;
+}
+
+.sos-header .btn {
+  margin-top: 0.625rem;
+}
+
+.sos-header {
+  align-items: center;
+
+  padding-bottom: 1.875rem;
+
+  border-bottom: solid 1px #d1d1d1;
+}
+
+.l-sos__doctor {
+  align-items: center;
+
+  margin-bottom: 1.25rem;
+}
+
+.l-sos__doctor-content {
+  margin-right: 1.25rem;
+}
+
+.l-sos__doctor .tile-content {
+  display: flex;
+  align-items: center;
+}
+
+.l-sos__doctor a {
+  text-decoration: none;
+
+  color: #2c2b29;
+
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .sos-header .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}

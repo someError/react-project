@@ -1,0 +1,293 @@
+.card + h3 {
+  margin-top: 3.125rem;
+}
+
+.l-profile__buttons {
+  margin-top: 1.875rem;
+}
+
+.l-profile__buttons .btn:not(.btn--sm) {
+  margin-top: 1.25rem;
+}
+
+.l-profile__buttons + h3 {
+  margin-top: 3.125rem;
+}
+
+.l-profile__buttons .btn + .btn {
+  margin-left: 0.6125rem;
+}
+
+.l-diploma {
+  position: relative;
+
+  margin-bottom: 1.875rem;
+  padding-bottom: 2.5rem;
+
+  border-bottom: solid 1px #d1d1d1;
+}
+
+.l-profile-cap {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 3.75rem;
+}
+
+.l-profile-cap .c-cap-card {
+  margin-right: 1.875rem;
+}
+
+.l-profile-cap__info {
+  flex: 1;
+
+  max-width: 345px;
+}
+
+.l-profile-cap__info p {
+  line-height: 1.625rem;
+}
+
+.l-profile-cap__btns {
+  margin-top: 1.25rem;
+}
+
+.l-profile-cap__btns > * {
+  margin-right: 0.6125rem;
+
+  vertical-align: middle;
+}
+
+.l-profile-cap__status {
+  margin-bottom: 0.6125rem;
+}
+
+.l-profile-cap__status-label {
+  padding: 3px 5px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #fff;
+  background: #c6c6c6;
+
+  font-size: 0.8125rem;
+  font-weight: 900;
+}
+
+.l-profile-cap__action {
+  display: inline-flex;
+
+  margin: 0.6125rem 0.6125rem 0 0;
+
+  cursor: pointer;
+  transition: 0.15s ease-in;
+  text-decoration: none;
+
+  color: #9f9f9f;
+}
+
+.l-profile-cap__action:hover {
+  color: #3a76d2;
+}
+
+.l-profile-cap__action .icon {
+  margin-right: 0.3125rem;
+}
+
+.l-diploma__delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.l-diploma__delete:hover {
+  opacity: 0.8;
+}
+
+.sos-header {
+  margin-bottom: 2.5rem;
+}
+
+.sos-header .btn {
+  margin-right: 0.6125rem;
+}
+
+.sos-contacts {
+  margin: 0 -1.25rem;
+}
+
+.sos-contacts__row {
+  display: flex;
+
+  padding: 0 1.25rem;
+}
+
+.sos-contacts__row:not(.sos-contacts__row--header) {
+  padding: 0.75rem 1.25rem;
+
+  transition: 0.15s ease-in;
+}
+
+.sos-contacts__row:not(.sos-contacts__row--header):hover {
+  background: rgba(58, 118, 210, 0.1);
+}
+
+.sos-contacts__td {
+  margin-right: 0.6125rem;
+}
+
+.sos-contacts__td:first-of-type {
+  width: 150px;
+
+  font-weight: 700;
+}
+
+.sos-contacts__row--header .sos-contacts__td:first-of-type {
+  font-weight: 500;
+}
+
+.sos-contacts__row--header {
+  margin-bottom: 0.3125rem;
+
+  color: #9f9f9f;
+
+  font-size: 0.875rem;
+}
+
+.sos-contacts .icon {
+  cursor: pointer;
+  transition: 0.15s ease-in;
+
+  color: #9f9f9f;
+}
+
+.sos-contacts__row .sos-contacts__row-nav .icon {
+  opacity: 0;
+}
+
+.sos-contacts__row:hover .sos-contacts__row-nav .icon {
+  opacity: 1;
+}
+
+.sos-contacts .icon:first-of-type {
+  margin-right: 0.3125rem;
+}
+
+.sos-contacts .icon:hover {
+  color: #3a76d2;
+}
+
+.sos-contacts__td:nth-of-type(2) {
+  width: 35px;
+}
+
+.sos-contacts__td:nth-of-type(3) {
+  width: 180px;
+}
+
+.sos-contacts__td:last-of-type {
+  width: calc(100% - 445px);
+}
+
+.l-profile__orgs-item {
+  padding: 1.25rem;
+}
+
+.l-profile__orgs {
+  margin-bottom: 2.5rem;
+}
+
+.l-profile__orgs + h3 {
+  margin-top: 3.125rem;
+}
+
+.l-profile__orgs-item .tile-content {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.l-profile__orgs-item .tile-action {
+  width: 240px;
+  margin-left: 1.25rem;
+
+  text-align: right;
+}
+
+.l-profile__orgs-item .btn + .btn {
+  margin-left: 0.6125rem;
+}
+
+.l-profile__orgs-title {
+  margin-bottom: 1.25rem;
+
+  color: #9f9f9f;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .l-profile__buttons .btn {
+    width: 100%;
+  }
+
+  .l-profile__buttons .btn + .btn {
+    margin: 1.25rem 0 0;
+  }
+
+  .l-profile-cap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .l-profile-cap__info {
+    flex: none;
+
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0.6125rem;
+  }
+
+  .l-profile-cap__btns {
+    margin: 0;
+  }
+
+  .l-profile-cap .c-cap-card {
+    margin: 0 0 1.25rem;
+  }
+
+  .l-profile-cap__btns .btn {
+    width: 100%;
+    margin-top: 1.25rem;
+  }
+
+  .l-profile__parameters .column:first-of-type {
+    margin-bottom: 0.3125rem;
+
+    font-size: 0.875rem;
+  }
+
+  .l-profile__parameters .column:last-of-type {
+    display: flex;
+    align-items: center;
+  }
+
+  .l-profile__parameters-unit {
+    width: calc(100% - 150px);
+  }
+
+  .l-profile__orgs-item .tile {
+    display: block;
+  }
+
+  .l-profile__orgs-item .tile-action {
+    width: 100%;
+    margin: 1rem 0 0;
+
+    text-align: center;
+  }
+}

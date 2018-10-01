@@ -1,0 +1,9 @@
+.task-lines-actions {
+  color: #c6c6c6;
+}
+
+.task-lines-actions > span {
+  margin-left: 1.25rem;
+
+  cursor: pointer;
+}

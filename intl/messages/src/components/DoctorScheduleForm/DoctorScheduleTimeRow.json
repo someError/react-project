@@ -1,0 +1,14 @@
+[
+  {
+    "id": "schedule.label.noon",
+    "defaultMessage": "День"
+  },
+  {
+    "id": "schedule.label.morning",
+    "defaultMessage": "Утро"
+  },
+  {
+    "id": "schedule.label.evening",
+    "defaultMessage": "Вечер"
+  }
+]

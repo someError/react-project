@@ -1,0 +1,42 @@
+.tile {
+  display: flex;
+  align-content: space-between;
+  align-items: flex-start;
+}
+
+.tile .tile-icon,
+.tile .tile-action {
+  flex: 0 0 auto;
+}
+
+.tile-icon__row {
+  display: block;
+
+  margin-top: 10px;
+
+  line-height: 1;
+}
+
+.tile .tile-content {
+  flex: 1 1 auto;
+}
+
+.tile .tile-content:not(:first-child) {
+  padding-left: 0.625rem;
+}
+
+.tile .tile-content:not(:last-child) {
+  padding-right: 0.625rem;
+}
+
+.tile.tile-centered {
+  align-items: center;
+}
+
+.tile.tile-centered .tile-content {
+  overflow: hidden;
+}
+
+.tile-inline {
+  display: inline-flex;
+}

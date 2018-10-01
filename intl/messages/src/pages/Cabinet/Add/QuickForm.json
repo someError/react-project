@@ -1,0 +1,12 @@
+[
+  {
+    "id": "add.form.tabs.placeholder_patient",
+    "description": "Подсказка в форме доавбки для пациента",
+    "defaultMessage": "Как себя чувствуете?"
+  },
+  {
+    "id": "add.form.tabs.placeholder_doctor",
+    "description": "Подсказка в форме доавбки для врача",
+    "defaultMessage": "Добавьте запись в медкарту пациента"
+  }
+]

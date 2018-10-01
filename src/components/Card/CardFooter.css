@@ -1,0 +1,9 @@
+.card-footer {
+  padding: 1.25rem;
+
+  border-top: solid 1px #d1d1d1;
+}
+
+.card--content .card-footer {
+  padding: 1.25rem 1.875rem;
+}

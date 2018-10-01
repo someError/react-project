@@ -1,0 +1,33 @@
+[
+  {
+    "id": "record.access.standard",
+    "description": "название доступа к записи \"стандартный\"",
+    "defaultMessage": "Стандартный"
+  },
+  {
+    "id": "record.access.private",
+    "description": "название доступа к записи \"Личный\"",
+    "defaultMessage": "Личный"
+  },
+  {
+    "id": "record.access.emergency",
+    "description": "название доступа к записи \"Экстренный\"",
+    "defaultMessage": "Экстренный"
+  },
+  {
+    "id": "record.form.label.title",
+    "defaultMessage": "Введите название записи"
+  },
+  {
+    "id": "record.form.tab.files",
+    "defaultMessage": "Добавить файлы или изображения"
+  },
+  {
+    "id": "record.form.tab.params",
+    "defaultMessage": "Добавить таблицу"
+  },
+  {
+    "id": "record.form.tab.docom",
+    "defaultMessage": "Добавить ссылку на DICOM файл"
+  }
+]

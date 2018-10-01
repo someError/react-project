@@ -1,0 +1,30 @@
+[
+  {
+    "id": "event.plan",
+    "defaultMessage": "запланировать"
+  },
+  {
+    "id": "event.medications.title",
+    "defaultMessage": "Приём лекаств"
+  },
+  {
+    "id": "event.params.title",
+    "defaultMessage": "Физиологические измерения"
+  },
+  {
+    "id": "event.title.set_date",
+    "defaultMessage": "Назначить дату выполнения дела"
+  },
+  {
+    "id": "event.title.remove",
+    "defaultMessage": "Удаление события"
+  },
+  {
+    "id": "event.form.label.single",
+    "defaultMessage": "Только это событие"
+  },
+  {
+    "id": "event.form.label.all",
+    "defaultMessage": "Все события"
+  }
+]

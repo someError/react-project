@@ -1,0 +1,14 @@
+[
+  {
+    "id": "upload_area_text",
+    "defaultMessage": "Перетащите файлы в отмеченную область<br />или нажмите ссылку <span class=\"uploader-area__link\">загрузить</span>"
+  },
+  {
+    "id": "choose_files",
+    "defaultMessage": "Выбрать файлы"
+  },
+  {
+    "id": "files_formats",
+    "defaultMessage": "Расширения файлов для загрузки: pdf, doc, xls, jpg, png"
+  }
+]

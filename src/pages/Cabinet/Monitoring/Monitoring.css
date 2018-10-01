@@ -1,0 +1,79 @@
+.monitoring-container {
+  background: #fff;
+}
+
+.monitoring-chart-container {
+  position: relative;
+
+  overflow: hidden;
+}
+
+.monitoring-chart-container canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.param-badge {
+  display: inline-block;
+
+  padding: 5px 10px;
+
+  transition: background 0.15s ease, border 0.15s ease, opacity 0.15s ease;
+  text-decoration: none;
+
+  color: #2c2b29;
+  border: solid 1px transparent;
+  border-radius: 100px;
+
+  line-height: 1;
+}
+
+.param-badge .tile {
+  min-height: 18px;
+}
+
+.param-badge__color {
+  display: block;
+
+  width: 14px;
+  height: 14px;
+
+  border-radius: 50%;
+  background: red;
+}
+
+.param-badge.active {
+  border-color: #ebebeb;
+  background: #f6f6f6;
+}
+
+.chart-settings {
+  margin-bottom: 1.875rem;
+  padding: 1.25rem;
+
+  border-bottom: solid 1px #ebebeb;
+}
+
+.chart-settings__params-list {
+  margin: 1.25rem 0 0;
+  padding: 0;
+
+  list-style: none;
+  column-count: 3;
+}
+
+.chart-settings__params-list li {
+  margin-bottom: 0.625rem;
+}
+
+.param-badge.disabled {
+  cursor: not-allowed;
+
+  opacity: 0.4;
+}

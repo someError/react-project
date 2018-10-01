@@ -1,0 +1,320 @@
+.doctor-detail-card {
+  margin-bottom: 2.5rem;
+}
+
+.doctor-info__tabs {
+  margin: 0 -1.875rem 1.875rem;
+  padding: 0 1.875rem;
+
+  border-bottom: solid 1px #ebebeb;
+}
+
+.doctor-info {
+  margin-top: -1.25rem;
+}
+
+.doctor-info__tabs .react-tabs__tab {
+  position: relative;
+  bottom: -2px;
+
+  margin-right: 1.5625rem;
+  padding: 0.625rem 0;
+
+  color: #9f9f9f;
+
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+.doctor-info__tabs .react-tabs__tab:last-of-type {
+  margin-right: 0;
+}
+
+.doctor-info__tabs .react-tabs__tab--selected {
+  color: #2c2b29;
+  border-bottom: solid 1px #2c2b29;
+}
+
+.doctor-info__title {
+  margin-bottom: 1.25rem;
+
+  color: #344758;
+
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.doctor-info__org {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  height: 138px;
+  padding: 1rem;
+
+  text-align: center;
+
+  border: solid 1px #ebebeb;
+}
+
+.doctor-info__org img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.doctor-detail__nav {
+  color: #757475;
+
+  font-size: 0.75rem;
+}
+
+.form-grid.review-form .column {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0;
+}
+
+.review-form__row {
+  margin-bottom: 1.875rem;
+
+  font-size: 0.875rem;
+}
+
+.review-form__row--rating {
+  font-size: 1rem;
+}
+
+.review-form a {
+  text-decoration: none;
+
+  font-weight: 700;
+}
+
+.review-form .rating-descr {
+  margin-left: 0.625rem;
+
+  text-transform: capitalize;
+
+  color: #9f9f9f;
+}
+
+.review-form__row .material-input + .checkbox-component {
+  display: inline-block;
+
+  margin-top: 0.625rem;
+}
+
+.doctor-detail-service-tabs {
+  margin-bottom: 1.25rem;
+}
+
+.doctor-detail-service-tabs .btn {
+  margin-right: 0.675rem;
+
+  font-weight: 500;
+}
+
+.doctor-detail-service-tabs .btn--ghost {
+  color: #2c2b29;
+}
+
+.doctor-detail-service-list {
+  margin-top: 1.25rem;
+}
+
+.doctor-detail-service-list h2 {
+  margin-bottom: 1.25rem;
+
+  font-size: 1rem;
+}
+
+.doctor-detail-service-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 -1.875rem;
+  padding: 0.625rem 1.875rem;
+
+  transition: background 0.15s ease;
+  text-decoration: none;
+
+  color: #344758;
+}
+
+.doctor-detail-service-list__item:hover {
+  background: rgba(58, 118, 210, 0.2);
+}
+
+.doctor-detail-service-list__item span:last-of-type {
+  font-weight: 700;
+}
+
+.doctor-info__diplomas {
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.doctor-info__diplomas + .doctor-info__diplomas {
+  margin-top: 1.875rem;
+}
+
+.doctor-info__diplomas-label {
+  font-size: 0.75rem;
+  color: #9F9F9F;
+  margin-bottom: 0.3125rem;
+}
+
+.doctor-info__diplomas-left {
+  width: 53%;
+}
+
+.doctor-info__diplomas-right {
+  width: 42%;
+}
+
+.doctor-info__diplomas-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.doctor-info__diplomas .slick-dots {
+  bottom: auto;
+  top: 0;
+  left: -30px;
+}
+
+.doctor-info__diplomas .slick-dots li {
+  display: block;
+}
+
+.doctor-info__diplomas .slick-dots li.slick-active button::before {
+  color: #3a76d2;
+}
+
+.doctor-info__diplomas-right .column {
+  margin-bottom: 1.25rem;
+}
+
+.doctor-info__diplomas-img-wrap {
+  height: 283px !important;
+}
+
+@media (max-width: 767px) {
+  .doctor-info__tabs {
+    margin: 0;
+    padding: 0;
+
+    border: none;
+  }
+
+  .doctor-info__tabs-item {
+    box-sizing: border-box;
+    margin: 0 -1.25rem;
+    padding: 0 1.25rem;
+
+    border-top: solid 1px #d1d5d7;
+  }
+
+  .doctor-info__tabs-item:first-of-type {
+    border-top: none;
+  }
+
+  .doctor-info__tabs-item-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 0;
+
+    cursor: pointer;
+
+    color: #9f9f9f;
+
+    font-size: 0.8125rem;
+  }
+
+  .doctor-info__tabs-item-cont {
+    overflow: hidden;
+
+    max-height: 0;
+
+    transition: 0.2s ease-in;
+  }
+
+  .doctor-info__tabs-item.active .doctor-info__tabs-item-cont {
+    max-height: 100rem;
+  }
+
+  .doctor-info__tabs-item.active {
+    padding-bottom: 1.25rem;
+  }
+
+  .doctor-info {
+    margin: -1.25rem 0;
+  }
+
+  .doctor-info__org {
+    display: inline-flex;
+
+    width: 160px;
+    margin-right: 0.6125rem;
+
+    white-space: normal;
+  }
+
+  .doctor-info__orgs {
+    white-space: nowrap;
+  }
+
+  .doctor-detail-service-list__item {
+    font-size: 0.875rem;
+  }
+
+  .doctor-detail-service-list__item span:last-of-type {
+    padding-left: 0.6125rem;
+
+    white-space: nowrap;
+  }
+
+  .doctor-detail-service-list h2 {
+    margin-bottom: 0.6125rem;
+
+    font-size: 0.875rem;
+  }
+
+  .doctor-info__diplomas {
+    display: block;
+  }
+
+  .doctor-info__diplomas-left,
+  .doctor-info__diplomas-right {
+    width: 100%;
+  }
+
+  .doctor-info__diplomas-left {
+    margin-bottom: 1.875rem;
+  }
+
+  .doctor-info__diplomas-img-wrap {
+    height: 180px !important;
+  }
+
+  .doctor-info__diplomas .slick-dots {
+    bottom: -1.5rem;
+    top: auto;
+    left: 0;
+    text-align: center;
+  }
+
+  .doctor-info__diplomas .slick-dots li {
+    display: inline-block;
+  }
+
+  .slick-dots li button:before {
+    font-size: 10px;
+  }
+}

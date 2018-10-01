@@ -1,0 +1,54 @@
+[
+  {
+    "id": "label.contact_person",
+    "defaultMessage": "Контактное лицо"
+  },
+  {
+    "id": "label.contact_phone",
+    "defaultMessage": "Контактный телефон"
+  },
+  {
+    "id": "label.contact_email",
+    "defaultMessage": "Контактный email"
+  },
+  {
+    "id": "label.public_phone",
+    "defaultMessage": "Публичный телефон"
+  },
+  {
+    "id": "label.public_email",
+    "defaultMessage": "Публичный email"
+  },
+  {
+    "id": "label.cabinet_name",
+    "defaultMessage": "Название кабинета"
+  },
+  {
+    "id": "label.legal_name",
+    "defaultMessage": "Юридическое название"
+  },
+  {
+    "id": "label.org_description",
+    "defaultMessage": "Описание организации"
+  },
+  {
+    "id": "label.licence_number",
+    "defaultMessage": "Номер лицензии"
+  },
+  {
+    "id": "label.licence_date",
+    "defaultMessage": "Дата лицензии"
+  },
+  {
+    "id": "contacts_title",
+    "defaultMessage": "Контактные данные"
+  },
+  {
+    "id": "profile.public_org_data",
+    "defaultMessage": "Публичные данные организации"
+  },
+  {
+    "id": "org.licence.title",
+    "defaultMessage": "Лицензия"
+  }
+]

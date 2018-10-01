@@ -1,0 +1,2445 @@
+[
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Карта экстренной помощи",
+        "id": "cap.card_title"
+      }
+    ],
+    "path": "src/components/CapCard/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "День",
+        "id": "schedule.label.noon"
+      },
+      {
+        "defaultMessage": "Утро",
+        "id": "schedule.label.morning"
+      },
+      {
+        "defaultMessage": "Вечер",
+        "id": "schedule.label.evening"
+      }
+    ],
+    "path": "src/components/DoctorScheduleForm/DoctorScheduleTimeRow.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Уведомления",
+        "id": "notifications.popover.title"
+      }
+    ],
+    "path": "src/components/Notifications/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Фамилия Имя Отчество",
+        "id": "common.fullName"
+      },
+      {
+        "defaultMessage": "Имя",
+        "id": "common.firstName"
+      },
+      {
+        "defaultMessage": "Фамилия",
+        "id": "common.lastName"
+      },
+      {
+        "defaultMessage": "Отчество",
+        "id": "common.middleName"
+      },
+      {
+        "defaultMessage": "Телефон",
+        "id": "common.phone"
+      },
+      {
+        "defaultMessage": "E-mail",
+        "id": "common.email"
+      },
+      {
+        "defaultMessage": "Удалить",
+        "id": "common.remove"
+      },
+      {
+        "defaultMessage": "Отменить",
+        "id": "common.cancel"
+      },
+      {
+        "defaultMessage": "Пригласить",
+        "id": "common.invite"
+      },
+      {
+        "defaultMessage": "Создать",
+        "id": "common.create"
+      },
+      {
+        "defaultMessage": "Создать запись",
+        "id": "common.create_record"
+      },
+      {
+        "defaultMessage": "Вид доступа",
+        "description": "Лебл \"вид доступа\"",
+        "id": "common.label.access_type"
+      },
+      {
+        "defaultMessage": "Чтение",
+        "id": "common.access.read"
+      },
+      {
+        "defaultMessage": "Чтение и запись",
+        "id": "common.access.read_write"
+      },
+      {
+        "defaultMessage": "Бессрочный доступ",
+        "id": "common.access.unlimit"
+      },
+      {
+        "defaultMessage": "подтвердить",
+        "description": "текст кнопки \"подтвердить\"",
+        "id": "common.confirm"
+      },
+      {
+        "defaultMessage": "отказать",
+        "description": "текст кнопки \"отказать\"",
+        "id": "common.decline"
+      },
+      {
+        "defaultMessage": "активен",
+        "description": "название статуса \"активен\"",
+        "id": "common.status.active"
+      },
+      {
+        "defaultMessage": "Период действия",
+        "description": "лейбл \"период действия\"",
+        "id": "common.active_period"
+      },
+      {
+        "defaultMessage": "до",
+        "description": "предлог \"до\"",
+        "id": "common.preposition.until"
+      },
+      {
+        "defaultMessage": "с",
+        "description": "предлог \"с\"",
+        "id": "common.preposition.from"
+      },
+      {
+        "defaultMessage": "в",
+        "description": "предлог \"в\"",
+        "id": "common.preposition.at"
+      },
+      {
+        "defaultMessage": "Изменить",
+        "description": "текст кнопки \"Изменить\"",
+        "id": "common.edit"
+      },
+      {
+        "defaultMessage": "Опубликовать",
+        "description": "текст кнопки \"Опубликовать\"",
+        "id": "common.publish"
+      },
+      {
+        "defaultMessage": "Статус записи: черновик",
+        "description": "текст \"Статус записи: черновик\"",
+        "id": "common.record_draft"
+      },
+      {
+        "defaultMessage": "Выберите раздел",
+        "description": "Текст лейбла \"выберите раздел\"",
+        "id": "common.form.label.choose_section"
+      },
+      {
+        "defaultMessage": "Раздел",
+        "description": "Текст лейбла \"Раздел\"",
+        "id": "common.form.label.section"
+      },
+      {
+        "defaultMessage": "не выбран",
+        "id": "common.form.label.not_chosen"
+      },
+      {
+        "defaultMessage": "Врач",
+        "description": "Текст лейбла \"врач\"",
+        "id": "common.form.label.doctor"
+      },
+      {
+        "defaultMessage": "Регистратура",
+        "description": "Текст лейбла \"Регистратура\"",
+        "id": "common.form.label.registry"
+      },
+      {
+        "defaultMessage": "Эксперт по качеству",
+        "description": "Текст лейбла \"Эксперт по качеству\"",
+        "id": "common.form.label.expert"
+      },
+      {
+        "defaultMessage": "Пациент",
+        "description": "Текст лейбла \"пациент\"",
+        "id": "common.form.label.patient"
+      },
+      {
+        "defaultMessage": "Мои записи",
+        "id": "common.form.label.my_records"
+      },
+      {
+        "defaultMessage": "Записи медучреждений",
+        "id": "common.form.label.orgs_records"
+      },
+      {
+        "defaultMessage": "Мед. организация",
+        "description": "Текст лейбла \"мед. организация\"",
+        "id": "common.form.label.org"
+      },
+      {
+        "defaultMessage": "Статус ячейки",
+        "id": "label.cell_status"
+      },
+      {
+        "defaultMessage": "Дата",
+        "id": "common.form.label.date"
+      },
+      {
+        "defaultMessage": "Автор",
+        "id": "common.form.label.author"
+      },
+      {
+        "defaultMessage": "Личные записи",
+        "id": "common.form.label.private_records"
+      },
+      {
+        "defaultMessage": "Врачи",
+        "id": "common.form.label.doctors"
+      },
+      {
+        "defaultMessage": "Начало",
+        "description": "Текст лейбла \"начало\"",
+        "id": "common.form.label.starts"
+      },
+      {
+        "defaultMessage": "Конец",
+        "description": "Текст лейбла \"конец\"",
+        "id": "common.form.label.ends"
+      },
+      {
+        "defaultMessage": "Описание",
+        "id": "common.form.label.description"
+      },
+      {
+        "defaultMessage": "Ссылка",
+        "id": "common.form.label.link"
+      },
+      {
+        "defaultMessage": "Добавить",
+        "description": "Лебл для табов в окне добавки сущностей",
+        "id": "add.form.tabs.label"
+      },
+      {
+        "defaultMessage": "запись",
+        "description": "Таб добавки медицинской записи",
+        "id": "add.form.tabs.medical_record"
+      },
+      {
+        "defaultMessage": "приём лекарств",
+        "description": "Таб добавки приёма лекарств",
+        "id": "add.form.tabs.medications"
+      },
+      {
+        "defaultMessage": "личный дневник",
+        "description": "Таб добавки в личный дневник",
+        "id": "add.form.tabs.diary"
+      },
+      {
+        "defaultMessage": "дело",
+        "description": "Таб добавки события",
+        "id": "add.form.tabs.event"
+      },
+      {
+        "defaultMessage": "Примечание",
+        "description": "лейбл \"примечание\"",
+        "id": "common.form.note.label"
+      },
+      {
+        "defaultMessage": "Сохранить как черновик",
+        "id": "add.form.btn.save_draft"
+      },
+      {
+        "defaultMessage": "Сохранить",
+        "id": "add.form.btn.save"
+      },
+      {
+        "defaultMessage": "Фильтр по записям",
+        "id": "filter.records"
+      },
+      {
+        "defaultMessage": "Информация о враче",
+        "id": "doctor.title.info"
+      },
+      {
+        "defaultMessage": "Специализация",
+        "id": "doctor.title.specialties"
+      },
+      {
+        "defaultMessage": "Виды обслуживания",
+        "id": "doctor.title.services"
+      },
+      {
+        "defaultMessage": "Медучреждения",
+        "id": "doctor.title.orgs"
+      },
+      {
+        "defaultMessage": "Дипломы",
+        "id": "doctor.title.diplomas"
+      },
+      {
+        "defaultMessage": "Лицензия",
+        "id": "org.licence.title"
+      },
+      {
+        "defaultMessage": "Платные услуги",
+        "id": "doctor.title.paid"
+      },
+      {
+        "defaultMessage": "Очередь",
+        "id": "common.form.label.queue"
+      },
+      {
+        "defaultMessage": "Адрес",
+        "id": "common.form.label.address"
+      },
+      {
+        "defaultMessage": "Алфавиту (от А до Я)",
+        "id": "common.sorting.alphabet_asc"
+      },
+      {
+        "defaultMessage": "Алфавиту (от Я до А)",
+        "id": "common.sorting.alphabet_desc"
+      },
+      {
+        "defaultMessage": "Сортировать по",
+        "id": "common.sort_by"
+      },
+      {
+        "defaultMessage": "Специальность",
+        "id": "common.label.specialty"
+      },
+      {
+        "defaultMessage": "Избранные врачи",
+        "id": "common.favorite_doctors"
+      },
+      {
+        "defaultMessage": "{count} {count, plural, one {запись} few {записи} other {записей}}",
+        "description": "N записей",
+        "id": "common.records.plural"
+      },
+      {
+        "defaultMessage": "Прием пациентов",
+        "id": "doctor.title.patient_reception"
+      },
+      {
+        "defaultMessage": "Записаться на прием к врачу",
+        "id": "doctor.title.enroll"
+      },
+      {
+        "defaultMessage": "Продолжительность приема {duration} {duration, plural, one {минута} few {минуты} other {минут}}.",
+        "id": "doctor.reception_duration"
+      },
+      {
+        "defaultMessage": "Дата посещения",
+        "id": "doctor.label.visit_date"
+      },
+      {
+        "defaultMessage": "Выберите очередь",
+        "id": "doctor.label.choose_queue"
+      },
+      {
+        "defaultMessage": "Прием у врача в {weekDay} <br />{date} в {time}",
+        "id": "doctor.confirm_reception_date"
+      },
+      {
+        "defaultMessage": "Записаться на прием",
+        "id": "doctor.actions.enroll"
+      },
+      {
+        "defaultMessage": "Заявка на прием",
+        "id": "doctor.actions.request"
+      },
+      {
+        "defaultMessage": "Предоставить доступ",
+        "id": "doctor.actions.grant_access"
+      },
+      {
+        "defaultMessage": "Запросить доступ",
+        "id": "common.request_access"
+      },
+      {
+        "defaultMessage": "Записать на приём",
+        "description": "\"записать на приём\" пациента",
+        "id": "doctor.enroll_patient"
+      },
+      {
+        "defaultMessage": "Фильтр по пациентам",
+        "id": "filter.patients"
+      },
+      {
+        "defaultMessage": "Фильтр по событиям",
+        "id": "filter.events"
+      },
+      {
+        "defaultMessage": "Фильтр по организациям",
+        "id": "filter.orgs"
+      },
+      {
+        "defaultMessage": "Активности (новые сверху)",
+        "id": "common.sorting.activity_desc"
+      },
+      {
+        "defaultMessage": "Активности (новые внизу)",
+        "id": "common.sorting.activity_asc"
+      },
+      {
+        "defaultMessage": "Добавить карту",
+        "id": "common.add_card"
+      },
+      {
+        "defaultMessage": "Пациенты",
+        "description": "Заголовок страницы \"Пациенты\"",
+        "id": "title.patients"
+      },
+      {
+        "defaultMessage": "Пригласить пациента",
+        "id": "doctor.invite_patient"
+      },
+      {
+        "defaultMessage": "Доступ запрошен",
+        "id": "common.access_requested"
+      },
+      {
+        "defaultMessage": "Мой пациент",
+        "id": "patient.is_mine"
+      },
+      {
+        "defaultMessage": "Добавить пациента",
+        "id": "common.add_patient"
+      },
+      {
+        "defaultMessage": "Добавить запись",
+        "id": "common.add_record"
+      },
+      {
+        "defaultMessage": "Введите фамилию",
+        "id": "common.label.last_name"
+      },
+      {
+        "defaultMessage": "Введите имя",
+        "id": "common.label.first_name"
+      },
+      {
+        "defaultMessage": "Введите отчество",
+        "id": "common.label.mid_name"
+      },
+      {
+        "defaultMessage": "Введите примечание",
+        "id": "common.label.note"
+      },
+      {
+        "defaultMessage": "Дата рождения",
+        "id": "common.label.birth_date"
+      },
+      {
+        "defaultMessage": "Группа крови",
+        "id": "common.label.blood"
+      },
+      {
+        "defaultMessage": "ИИН",
+        "id": "common.label.iin"
+      },
+      {
+        "defaultMessage": "Пол",
+        "id": "common.label.gender"
+      },
+      {
+        "defaultMessage": "Муж",
+        "id": "common.gender.male"
+      },
+      {
+        "defaultMessage": "Жен",
+        "id": "common.gender.female"
+      },
+      {
+        "defaultMessage": "Текст запроса",
+        "id": "common.label.request_text"
+      },
+      {
+        "defaultMessage": "Отправить запрос",
+        "id": "common.send_request"
+      },
+      {
+        "defaultMessage": "Ничего не найдено",
+        "id": "common.nothing_found"
+      },
+      {
+        "defaultMessage": "События",
+        "id": "common.events.title"
+      },
+      {
+        "defaultMessage": "Линейки дел",
+        "id": "common.tasks_lines.title"
+      },
+      {
+        "defaultMessage": "Списки дел",
+        "id": "common.tasks_lists.title"
+      },
+      {
+        "defaultMessage": "Добавить линейку дел",
+        "id": "common.tasks_lines.add"
+      },
+      {
+        "defaultMessage": "Включить",
+        "id": "common.turn_on"
+      },
+      {
+        "defaultMessage": "Выполнено",
+        "id": "common.event.status.done"
+      },
+      {
+        "defaultMessage": "Не выполнено",
+        "id": "common.event.status.not_done"
+      },
+      {
+        "defaultMessage": "Незапланированные",
+        "id": "common.event.status.expired"
+      },
+      {
+        "defaultMessage": "Просроченные",
+        "id": "common.event.status.not_planned"
+      },
+      {
+        "defaultMessage": "Список дел",
+        "id": "common.label.tasks_list"
+      },
+      {
+        "defaultMessage": "Напомнить о событии",
+        "id": "common.label.remind"
+      },
+      {
+        "defaultMessage": "В момент наступления события",
+        "id": "common.label.exact"
+      },
+      {
+        "defaultMessage": "За час до события",
+        "id": "common.label.hour"
+      },
+      {
+        "defaultMessage": "За 3 часа до события",
+        "id": "common.label.3_hours"
+      },
+      {
+        "defaultMessage": "За 10 часов до события",
+        "id": "common.label.10_hours"
+      },
+      {
+        "defaultMessage": "За день до события",
+        "id": "common.label.day"
+      },
+      {
+        "defaultMessage": "Способ получения уведомления",
+        "id": "common.label.reminder_types"
+      },
+      {
+        "defaultMessage": "Отправить письмо на почту",
+        "id": "common.label.reminder_types.email"
+      },
+      {
+        "defaultMessage": "Получить SMS",
+        "id": "common.label.reminder_types.sms"
+      },
+      {
+        "defaultMessage": "Получить Push-уведомление",
+        "id": "common.label.reminder_types.push"
+      },
+      {
+        "defaultMessage": "Добавить дело",
+        "id": "common.add_event.btn"
+      },
+      {
+        "defaultMessage": "Прикрепить врача",
+        "id": "common.attach_doctor"
+      },
+      {
+        "defaultMessage": "Открепить",
+        "id": "common.detach"
+      },
+      {
+        "defaultMessage": "Сотрудники",
+        "id": "workers.title"
+      },
+      {
+        "defaultMessage": "Предоставить доступ к медкарте",
+        "id": "common.grant_access_to_card"
+      },
+      {
+        "defaultMessage": "Желаемые дни приема",
+        "id": "common.label.desired_reception_days"
+      },
+      {
+        "defaultMessage": "Желаемое время",
+        "id": "common.label.desired_reception_time"
+      },
+      {
+        "defaultMessage": "Дополнительная информация, пожелания",
+        "id": "common.label.additional_reception_days"
+      },
+      {
+        "defaultMessage": "Заявка на прием к врачу",
+        "id": "common.reception.title"
+      },
+      {
+        "defaultMessage": "Читать дальше",
+        "id": "common.read_more"
+      },
+      {
+        "defaultMessage": "Для пациентов",
+        "id": "menu.patients"
+      },
+      {
+        "defaultMessage": "Медкарта",
+        "id": "menu.card"
+      },
+      {
+        "defaultMessage": "Для врачей",
+        "id": "menu.doctors"
+      },
+      {
+        "defaultMessage": "Контакты",
+        "id": "menu.contacts"
+      },
+      {
+        "defaultMessage": "Политика безопасности",
+        "id": "menu.policy"
+      },
+      {
+        "defaultMessage": "010000, Астана, улица Сыганак, 29, БЦ «Евроцентр»",
+        "id": "address"
+      },
+      {
+        "defaultMessage": "Черновик",
+        "id": "label.draft"
+      },
+      {
+        "defaultMessage": "Пациент",
+        "id": "common.label.patient_full_name"
+      },
+      {
+        "defaultMessage": "Визит заявлен, но не подтвержден",
+        "id": "reception.status.not_confirmed"
+      },
+      {
+        "defaultMessage": "Визит назначен",
+        "id": "reception.status.confirmed"
+      },
+      {
+        "defaultMessage": "Визит состоялся",
+        "id": "reception.status.completed"
+      },
+      {
+        "defaultMessage": "Визит пропущен",
+        "id": "reception.status.patient_missing"
+      },
+      {
+        "defaultMessage": "Визит отменен",
+        "id": "reception.status.canceled"
+      },
+      {
+        "defaultMessage": "Визит отменен пациентом",
+        "id": "reception.status.canceled_by_patien"
+      },
+      {
+        "defaultMessage": "Статус записи",
+        "description": "лейбл \"затус записи\" к врачу",
+        "id": "label.reception.status"
+      },
+      {
+        "defaultMessage": "Заявки и записи на прием",
+        "id": "title.receptions_and_requests"
+      },
+      {
+        "defaultMessage": "Создать расписание",
+        "id": "create_schedule"
+      },
+      {
+        "defaultMessage": "Заявки на прием",
+        "id": "title.receptions_requests"
+      },
+      {
+        "defaultMessage": "Записи на прием",
+        "id": "title.receptions"
+      },
+      {
+        "defaultMessage": "скрыть",
+        "id": "collapse"
+      },
+      {
+        "defaultMessage": "раскрыть",
+        "id": "expand"
+      },
+      {
+        "defaultMessage": "изменить статус",
+        "id": "change_status"
+      },
+      {
+        "defaultMessage": "Дата заявки",
+        "id": "label.request_date"
+      },
+      {
+        "defaultMessage": "Настройка профиля",
+        "id": "profile_title"
+      },
+      {
+        "defaultMessage": "Вам необходимо заполнить профиль.",
+        "id": "profile.fill"
+      },
+      {
+        "defaultMessage": "Ваш аккаунт проходит модерацию",
+        "id": "profile.moderating"
+      },
+      {
+        "defaultMessage": "Персональные данные",
+        "id": "profile.personal"
+      },
+      {
+        "defaultMessage": "Публичные данные",
+        "id": "profile.public"
+      },
+      {
+        "defaultMessage": "Стаж (лет)",
+        "id": "label.experience"
+      },
+      {
+        "defaultMessage": "Дополнительная информация",
+        "id": "label.additional_info"
+      },
+      {
+        "defaultMessage": "Регион",
+        "id": "label.region"
+      },
+      {
+        "defaultMessage": "Город",
+        "id": "label.city"
+      },
+      {
+        "defaultMessage": "Пароль",
+        "id": "label.password"
+      },
+      {
+        "defaultMessage": "Старый пароль",
+        "id": "label.old_password"
+      },
+      {
+        "defaultMessage": "Новый пароль",
+        "id": "label.new_password"
+      },
+      {
+        "defaultMessage": "Надежный",
+        "id": "label.secure"
+      },
+      {
+        "defaultMessage": "Средний",
+        "id": "label.medium"
+      },
+      {
+        "defaultMessage": "Повторите пароль",
+        "id": "label.repeate"
+      },
+      {
+        "defaultMessage": "Введено неверно",
+        "id": "wrong_password_repeat"
+      },
+      {
+        "defaultMessage": "Сохранить изменения",
+        "id": "save_changes_btn"
+      },
+      {
+        "defaultMessage": "Отменить изменения",
+        "id": "cancel_changes_btn"
+      },
+      {
+        "defaultMessage": "Данные входа в систему",
+        "id": "title.login_data"
+      },
+      {
+        "defaultMessage": "Специальность",
+        "id": "label.specialty"
+      },
+      {
+        "defaultMessage": "Подписки и уведомления",
+        "id": "subscriptions.title"
+      },
+      {
+        "defaultMessage": "Подписаться на рассылки и уведомления",
+        "id": "label.subscribe"
+      },
+      {
+        "defaultMessage": "Болезни по справочнику",
+        "id": "label.diseases"
+      },
+      {
+        "defaultMessage": "Противопоказания, аллергии на лекарства",
+        "id": "label.contraindications"
+      },
+      {
+        "defaultMessage": "Хронические заболевания",
+        "id": "label.chronic"
+      },
+      {
+        "defaultMessage": "Принимаемые препараты",
+        "id": "label.drugs"
+      },
+      {
+        "defaultMessage": "Группа крови и резус-фактор",
+        "id": "label.blood_rhesus"
+      },
+      {
+        "defaultMessage": "Статус дела",
+        "id": "label.event_status"
+      },
+      {
+        "defaultMessage": "Тип",
+        "id": "label.type"
+      },
+      {
+        "defaultMessage": "ФИО пациента",
+        "id": "label.patient_fio"
+      },
+      {
+        "defaultMessage": "Свободна",
+        "id": "label.free"
+      },
+      {
+        "defaultMessage": "Визит не подтвержден",
+        "id": "label.visit_not_confirmed"
+      },
+      {
+        "defaultMessage": "Продолжительность приема",
+        "id": "label.schedule_duration"
+      },
+      {
+        "defaultMessage": "Перерыв между приемами",
+        "id": "label.timeout_duration"
+      },
+      {
+        "defaultMessage": "Условия самозаписи пациентов",
+        "id": "label.self_enroll_conditions"
+      },
+      {
+        "defaultMessage": "Медицинская карта",
+        "id": "cap.medical_card.title"
+      },
+      {
+        "defaultMessage": "Дата и время",
+        "id": "common.label.datetime"
+      },
+      {
+        "defaultMessage": "Войти",
+        "id": "common.sign_in"
+      },
+      {
+        "defaultMessage": "Авторизация",
+        "id": "common.authorization_title"
+      },
+      {
+        "defaultMessage": "Регистрация",
+        "id": "common.registration_title"
+      },
+      {
+        "defaultMessage": "Восстановить пароль",
+        "id": "common.restore_password"
+      },
+      {
+        "defaultMessage": "Номер телефона или e-mail",
+        "id": "common.label.phone_or_email"
+      },
+      {
+        "defaultMessage": "Зарегистрироваться",
+        "id": "common.sign_up_btn"
+      },
+      {
+        "defaultMessage": "В кабинет",
+        "id": "common.go_to_cabinet"
+      },
+      {
+        "defaultMessage": "Завести медкарту",
+        "id": "create_medical_card"
+      },
+      {
+        "defaultMessage": "Нет доступа",
+        "id": "access_denied"
+      },
+      {
+        "defaultMessage": "Поиск",
+        "id": "label.search"
+      },
+      {
+        "defaultMessage": "Организации",
+        "id": "label.orgs"
+      },
+      {
+        "defaultMessage": "Номер диплома",
+        "id": "diploma.number.title"
+      },
+      {
+        "defaultMessage": "Год выпуска",
+        "id": "diploma.year.title"
+      },
+      {
+        "defaultMessage": "Учебное заведение",
+        "id": "diploma.school.title"
+      },
+      {
+        "defaultMessage": "Описание",
+        "id": "diploma.description.title"
+      },
+      {
+        "defaultMessage": "Номер лицензии",
+        "id": "license.number.title"
+      },
+      {
+        "defaultMessage": "Дата лицензии",
+        "id": "license.year.title"
+      }
+    ],
+    "path": "src/i18n/common-messages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Профиль",
+        "id": "cabinet.menu.profile"
+      },
+      {
+        "defaultMessage": "Карта экстренной помощи",
+        "id": "cabinet.menu.cap"
+      },
+      {
+        "defaultMessage": "Ассистенты",
+        "id": "cabinet.menu.assistants"
+      },
+      {
+        "defaultMessage": "Прейскурант",
+        "id": "cabinet.menu.price_list"
+      },
+      {
+        "defaultMessage": "Сотрудники",
+        "id": "cabinet.menu.coworkers"
+      },
+      {
+        "defaultMessage": "Выход",
+        "id": "cabinet.menu.log_out"
+      },
+      {
+        "defaultMessage": "Пациенты",
+        "id": "cabinet.menu.patients"
+      },
+      {
+        "defaultMessage": "добавить карту",
+        "id": "cabinet.menu.add_card_btn"
+      },
+      {
+        "defaultMessage": "Записи на прием",
+        "id": "cabinet.menu.receptions"
+      },
+      {
+        "defaultMessage": "Расписание",
+        "id": "cabinet.menu.schedule"
+      },
+      {
+        "defaultMessage": "Медицинская карта",
+        "id": "cabinet.menu.medical_card"
+      },
+      {
+        "defaultMessage": "Лента записей",
+        "id": "cabinet.menu.card_stream"
+      },
+      {
+        "defaultMessage": "Добавить запись",
+        "id": "cabinet.menu.add_record"
+      },
+      {
+        "defaultMessage": "Мониторинг",
+        "id": "cabinet.menu.monitoring"
+      },
+      {
+        "defaultMessage": "Доступ к карте",
+        "id": "cabinet.menu.card_access"
+      },
+      {
+        "defaultMessage": "Дела и календарь",
+        "id": "cabinet.menu.events_and_calendar"
+      },
+      {
+        "defaultMessage": "Календарь",
+        "id": "cabinet.menu.calendar"
+      },
+      {
+        "defaultMessage": "Дела",
+        "id": "cabinet.menu.events"
+      },
+      {
+        "defaultMessage": "Списки дел",
+        "id": "cabinet.menu.tasks_lists"
+      },
+      {
+        "defaultMessage": "Линейки дел",
+        "id": "cabinet.menu.tasks_lines"
+      },
+      {
+        "defaultMessage": "Врачи и медучреждения",
+        "id": "cabinet.menu.doctors_and_orgs"
+      },
+      {
+        "defaultMessage": "Врачи",
+        "id": "cabinet.menu.doctors"
+      },
+      {
+        "defaultMessage": "Медучреждения",
+        "id": "cabinet.menu.orgs"
+      },
+      {
+        "defaultMessage": "О проекте",
+        "id": "cabinet.menu.about"
+      },
+      {
+        "defaultMessage": "Контакты",
+        "id": "cabinet.menu.contacts"
+      },
+      {
+        "defaultMessage": "Политика безопасности",
+        "id": "cabinet.menu.policy"
+      }
+    ],
+    "path": "src/layouts/menuIntlMessages.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Как себя чувствуете?",
+        "description": "Подсказка в форме доавбки для пациента",
+        "id": "add.form.tabs.placeholder_patient"
+      },
+      {
+        "defaultMessage": "Добавьте запись в медкарту пациента",
+        "description": "Подсказка в форме доавбки для врача",
+        "id": "add.form.tabs.placeholder_doctor"
+      }
+    ],
+    "path": "src/pages/Cabinet/Add/QuickForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Открепить",
+        "description": "Текст ссылки \"открепить\" у ассистента",
+        "id": "assistant.unlink"
+      }
+    ],
+    "path": "src/pages/Cabinet/Assistants/Assistant.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Ассистенты",
+        "description": "Заголовок страницы \"Ассистенты\"",
+        "id": "assistants.title"
+      },
+      {
+        "defaultMessage": "Прикрепить",
+        "description": "Текст кнопки \"прикрепить\"",
+        "id": "assistants.attach"
+      },
+      {
+        "defaultMessage": "Добавить своего",
+        "description": "Текст кнопки \"Добавить своего\" на странице ассистентов",
+        "id": "assistants.add"
+      }
+    ],
+    "path": "src/pages/Cabinet/Assistants/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Выберите медорганизацию",
+        "id": "assistants.choose_org"
+      }
+    ],
+    "path": "src/pages/Cabinet/Assistants/JoinForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Доступы к медкарте",
+        "id": "page.access.header"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/CardAccess.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Записи медкарты",
+        "id": "page.records.header"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/CardRecords.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "{count, plural, one {комментарий} few {комментария} other {комментариев}}",
+        "id": "comments.count"
+      },
+      {
+        "defaultMessage": "Всего",
+        "id": "comments.total"
+      },
+      {
+        "defaultMessage": "Загрузить ещё",
+        "id": "comment.load_more"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/CommentsList.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Получить ссылку на запись",
+        "description": "Текст для тултипа \"Получить ссылку на запись\"",
+        "id": "record.get_link"
+      },
+      {
+        "defaultMessage": "Скачать запись",
+        "description": "Текст для тултипа \"Скачать запись\"",
+        "id": "record.download"
+      },
+      {
+        "defaultMessage": "Скопировано",
+        "description": "Текст для тултипа \"Скопировано\"",
+        "id": "record.copied"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/EntityViews/Record.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Добавить коментарий",
+        "description": "Текст лейбла \"добавить комментарий\"",
+        "id": "label.add_comment"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/Form/CommentForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Создать доступ к медкарте",
+        "description": "заголовок формы добавки доступа к карте",
+        "id": "access.form.header"
+      },
+      {
+        "defaultMessage": "Полный доступ к медкарте",
+        "description": "текст пункта \"Полный доступ к медкарте\"",
+        "id": "access.option.full"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/Form/CreateAccess.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Добавить ссылку",
+        "id": "dicom.add_link"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/Form/DicomFiles.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Перетащите файлы в отмеченную область<br />или нажмите ссылку <span class=\"uploader-area__link\">загрузить</span>",
+        "id": "upload_area_text"
+      },
+      {
+        "defaultMessage": "Выбрать файлы",
+        "id": "choose_files"
+      },
+      {
+        "defaultMessage": "Расширения файлов для загрузки: pdf, doc, xls, jpg, png",
+        "id": "files_formats"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/Form/Files.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Препарат",
+        "id": "form.medication.label.medication"
+      },
+      {
+        "defaultMessage": "Количество",
+        "id": "form.medication.label.quantity"
+      },
+      {
+        "defaultMessage": "таблетки",
+        "id": "form.medication.label.pills"
+      },
+      {
+        "defaultMessage": "мл",
+        "id": "form.medication.label.ml"
+      },
+      {
+        "defaultMessage": "мг",
+        "id": "form.medication.label.mg"
+      },
+      {
+        "defaultMessage": "Добавить препарат",
+        "id": "form.medication.add_btn"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/Form/MedicationsForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Стандартный",
+        "description": "название доступа к записи \"стандартный\"",
+        "id": "record.access.standard"
+      },
+      {
+        "defaultMessage": "Личный",
+        "description": "название доступа к записи \"Личный\"",
+        "id": "record.access.private"
+      },
+      {
+        "defaultMessage": "Экстренный",
+        "description": "название доступа к записи \"Экстренный\"",
+        "id": "record.access.emergency"
+      },
+      {
+        "defaultMessage": "Введите название записи",
+        "id": "record.form.label.title"
+      },
+      {
+        "defaultMessage": "Добавить файлы или изображения",
+        "id": "record.form.tab.files"
+      },
+      {
+        "defaultMessage": "Добавить таблицу",
+        "id": "record.form.tab.params"
+      },
+      {
+        "defaultMessage": "Добавить ссылку на DICOM файл",
+        "id": "record.form.tab.docom"
+      }
+    ],
+    "path": "src/pages/Cabinet/Cards/Form/RecordForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Приём лекарств",
+        "id": "calendar.legend.medications"
+      },
+      {
+        "defaultMessage": "Запись на приём",
+        "id": "calendar.legend.reception"
+      },
+      {
+        "defaultMessage": "Измерение показателей",
+        "id": "calendar.legend.params"
+      },
+      {
+        "defaultMessage": "Свои дела",
+        "id": "calendar.legend.custom"
+      },
+      {
+        "defaultMessage": "Календарь событий",
+        "id": "calendar.page_title"
+      }
+    ],
+    "path": "src/pages/Cabinet/Events/Calendar.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "запланировать",
+        "id": "event.plan"
+      },
+      {
+        "defaultMessage": "Приём лекаств",
+        "id": "event.medications.title"
+      },
+      {
+        "defaultMessage": "Физиологические измерения",
+        "id": "event.params.title"
+      },
+      {
+        "defaultMessage": "Назначить дату выполнения дела",
+        "id": "event.title.set_date"
+      },
+      {
+        "defaultMessage": "Удаление события",
+        "id": "event.title.remove"
+      },
+      {
+        "defaultMessage": "Только это событие",
+        "id": "event.form.label.single"
+      },
+      {
+        "defaultMessage": "Все события",
+        "id": "event.form.label.all"
+      }
+    ],
+    "path": "src/pages/Cabinet/Events/EntityViews/EventCard.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Выберите линейку дел",
+        "id": "label.choose_tasks_line"
+      },
+      {
+        "defaultMessage": "Укажите неделю беременности",
+        "id": "label.choose_pregnant_week"
+      },
+      {
+        "defaultMessage": "Дата начала",
+        "id": "label.start_date"
+      },
+      {
+        "defaultMessage": "{num}{num, selectordinal, other {-я}} неделя",
+        "id": "label.week_ordinal"
+      },
+      {
+        "defaultMessage": "включить линейку",
+        "id": "tasks_line.turn_on.btn"
+      }
+    ],
+    "path": "src/pages/Cabinet/Events/Form/AddTaskLineForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Введите название события",
+        "id": "event.form.label.title"
+      },
+      {
+        "defaultMessage": "Произвольное",
+        "id": "event.form.label.type.custom"
+      },
+      {
+        "defaultMessage": "Измерения",
+        "id": "event.form.label.type.params"
+      },
+      {
+        "defaultMessage": "Приём лекарств",
+        "id": "event.form.label.type.medications"
+      },
+      {
+        "defaultMessage": "Примечание",
+        "id": "events.form.block.title.note"
+      },
+      {
+        "defaultMessage": "Врач и медучреждение",
+        "id": "events.form.block.title.doc_org"
+      },
+      {
+        "defaultMessage": "Срок",
+        "id": "events.form.block.title.due"
+      },
+      {
+        "defaultMessage": "Список дел",
+        "id": "events.form.block.title.tasks_list"
+      },
+      {
+        "defaultMessage": "Настройки доступа",
+        "id": "events.form.block.title.access_settings"
+      },
+      {
+        "defaultMessage": "Настройки уведомлений",
+        "id": "events.form.block.title.notifications_settings"
+      },
+      {
+        "defaultMessage": "Доступно только мне",
+        "id": "events.form.access.private"
+      },
+      {
+        "defaultMessage": "Доступно моим врачам",
+        "id": "events.form.access.doctors"
+      }
+    ],
+    "path": "src/pages/Cabinet/Events/Form/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "{count, plural, one {час} few {часа} other {часов}}",
+        "id": "event.repeat.hours"
+      },
+      {
+        "defaultMessage": "{count, plural, one {день} few {дня} other {дней}}",
+        "id": "event.repeat.days"
+      },
+      {
+        "defaultMessage": "{count, plural, one {неделю} few {недели} other {недель}}",
+        "id": "event.repeat.weeks"
+      },
+      {
+        "defaultMessage": "{count, plural, one {месяц} few {месяца} other {месяцев}}",
+        "id": "event.repeat.months"
+      },
+      {
+        "defaultMessage": "{count, plural, one {год} few {года} other {лет}}",
+        "id": "event.repeat.years"
+      },
+      {
+        "defaultMessage": "Повторять",
+        "id": "event.label.repeat"
+      },
+      {
+        "defaultMessage": "Весь день",
+        "id": "event.label.allDay"
+      },
+      {
+        "defaultMessage": "Повторять дело",
+        "id": "event.label.repeat_event"
+      },
+      {
+        "defaultMessage": "с интервалом",
+        "id": "event.label.with_interval"
+      },
+      {
+        "defaultMessage": "Произвольно",
+        "id": "event.label.custom_interval"
+      },
+      {
+        "defaultMessage": "по",
+        "description": "предлог \"по\" в контексте \"повторять по средам\"",
+        "id": "event.label.preposition.on"
+      },
+      {
+        "defaultMessage": "пн",
+        "description": "день недели понедельник",
+        "id": "event.label.weekday.mon"
+      },
+      {
+        "defaultMessage": "пн",
+        "description": "день недели вторник",
+        "id": "event.label.weekday.tue"
+      },
+      {
+        "defaultMessage": "ср",
+        "description": "день недели среда",
+        "id": "event.label.weekday.wed"
+      },
+      {
+        "defaultMessage": "чт",
+        "description": "день недели четверг",
+        "id": "event.label.weekday.thu"
+      },
+      {
+        "defaultMessage": "пт",
+        "description": "день недели пятница",
+        "id": "event.label.weekday.fri"
+      },
+      {
+        "defaultMessage": "сб",
+        "description": "день недели суббота",
+        "id": "event.label.weekday.sat"
+      },
+      {
+        "defaultMessage": "вс",
+        "description": "день недели воскресенье",
+        "id": "event.label.weekday.sun"
+      },
+      {
+        "defaultMessage": "Добавить дату и время",
+        "id": "event.add_datetime"
+      }
+    ],
+    "path": "src/pages/Cabinet/Events/Form/ScheduleForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Списки дел",
+        "id": "tasks_lists.title"
+      },
+      {
+        "defaultMessage": "добавить",
+        "id": "tasks_lists.add_btn"
+      },
+      {
+        "defaultMessage": "Добавить список дел",
+        "id": "tasks_list.add.title"
+      },
+      {
+        "defaultMessage": "Название списка дел",
+        "id": "label.task_list.title"
+      }
+    ],
+    "path": "src/pages/Cabinet/Events/TasksLists/List.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "просрочено",
+        "id": "task_list.expired"
+      },
+      {
+        "defaultMessage": "Добавить дело в список дел",
+        "id": "task_list.add_event_to_task_list"
+      },
+      {
+        "defaultMessage": "Завершить до",
+        "id": "task_list.finish_before"
+      }
+    ],
+    "path": "src/pages/Cabinet/Events/TasksLists/TasksList.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Выберите показатели для отображения на графике (не более 3-х)",
+        "id": "monitoring.choose_paras_note"
+      }
+    ],
+    "path": "src/pages/Cabinet/Monitoring/Chart.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Графиком",
+        "id": "monitoring.display.chart"
+      },
+      {
+        "defaultMessage": "Списком",
+        "id": "monitoring.display.table"
+      },
+      {
+        "defaultMessage": "Мониторинг показателей",
+        "id": "monitoring.header"
+      },
+      {
+        "defaultMessage": "Отобразить данные",
+        "id": "monitoring.label.display"
+      },
+      {
+        "defaultMessage": "Показать данные за",
+        "id": "monitoring.label.show"
+      },
+      {
+        "defaultMessage": "неделю",
+        "id": "monitoring.filter.week"
+      },
+      {
+        "defaultMessage": "месяц",
+        "id": "monitoring.filter.month"
+      },
+      {
+        "defaultMessage": "квартал",
+        "id": "monitoring.filter.quoter"
+      },
+      {
+        "defaultMessage": "год",
+        "id": "monitoring.filter.year"
+      }
+    ],
+    "path": "src/pages/Cabinet/Monitoring/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Нет данных",
+        "id": "monitoring.table.no_data"
+      },
+      {
+        "defaultMessage": "Дата",
+        "id": "monitoring.table.head.date"
+      },
+      {
+        "defaultMessage": "Параметр",
+        "id": "monitoring.table.param"
+      },
+      {
+        "defaultMessage": "Значение",
+        "id": "monitoring.table.head.param"
+      },
+      {
+        "defaultMessage": "Норма, от — до",
+        "id": "monitoring.table.head.norm"
+      },
+      {
+        "defaultMessage": "Примечание",
+        "id": "monitoring.table.head.note"
+      }
+    ],
+    "path": "src/pages/Cabinet/Monitoring/List.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Нет врачей данной специализации",
+        "id": "no_speciality_doctors"
+      }
+    ],
+    "path": "src/pages/Cabinet/Organizations/EntityViews/OrgWorkers.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Отправить заявку",
+        "id": "reception.send_request"
+      }
+    ],
+    "path": "src/pages/Cabinet/Organizations/Form/RequestModal.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Избранные организации",
+        "id": "orgs.favorites"
+      }
+    ],
+    "path": "src/pages/Cabinet/Organizations/ListFilters.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Добавить своего сотрудника",
+        "id": "worker.for.title"
+      },
+      {
+        "defaultMessage": "Выберите роль сотрудника",
+        "id": "choose.worker.role"
+      }
+    ],
+    "path": "src/pages/Cabinet/OrgWorkers/AddForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Добавить сотрудника",
+        "id": "workers.add"
+      }
+    ],
+    "path": "src/pages/Cabinet/OrgWorkers/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "{count, plural, one {запись} few {записи} other {записей}}",
+        "id": "patients.records.count"
+      },
+      {
+        "defaultMessage": "{count} {count, plural, one {черновик} few {черновика} other {черновиков}}",
+        "id": "patients.drafts.count"
+      }
+    ],
+    "path": "src/pages/Cabinet/Patients/EntityViews/PatientListItem.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Запросить доступ к медкарте",
+        "id": "request_access.title"
+      }
+    ],
+    "path": "src/pages/Cabinet/Patients/Form/RequestAccessModal.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Медкарта",
+        "id": "patient.link.card"
+      },
+      {
+        "defaultMessage": "Мониторинг",
+        "id": "patient.link.monitoring"
+      },
+      {
+        "defaultMessage": "События",
+        "id": "patient.link.events"
+      },
+      {
+        "defaultMessage": "Календарь",
+        "id": "patient.link.calendar"
+      },
+      {
+        "defaultMessage": "Списки дел",
+        "id": "patient.link.task_lists"
+      },
+      {
+        "defaultMessage": "Линейки дел",
+        "id": "patient.link.task_lines"
+      }
+    ],
+    "path": "src/pages/Cabinet/Patients/Patient.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Название услуги",
+        "id": "label.service.title"
+      },
+      {
+        "defaultMessage": "Цена",
+        "id": "label.price"
+      },
+      {
+        "defaultMessage": "Валюта",
+        "id": "label.currency"
+      },
+      {
+        "defaultMessage": "Добавить услугу",
+        "id": "btn.add_service"
+      },
+      {
+        "defaultMessage": "Удалить группу услуг",
+        "id": "btn.remove_services_group"
+      }
+    ],
+    "path": "src/pages/Cabinet/PriceList/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "код для телефона",
+        "id": "label.code.phone"
+      },
+      {
+        "defaultMessage": "код для почты",
+        "id": "label.code.email"
+      }
+    ],
+    "path": "src/pages/Cabinet/Profile/ConfirmModal.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Номер диплома",
+        "id": "diploma_number"
+      },
+      {
+        "defaultMessage": "Год выдачи",
+        "id": "diploma_year"
+      },
+      {
+        "defaultMessage": "Учебное заведение",
+        "id": "diploma_institution"
+      },
+      {
+        "defaultMessage": "Описание",
+        "id": "diploma_description"
+      },
+      {
+        "defaultMessage": "Заявки о прикреплении",
+        "id": "attaches_requests.title"
+      },
+      {
+        "defaultMessage": "Работаю в медучреждениях",
+        "id": "work_at_orgs"
+      },
+      {
+        "defaultMessage": "Открепиться",
+        "id": "profile.detach.btn"
+      },
+      {
+        "defaultMessage": "Дипломы и лицензии",
+        "id": "profile.diplomas.title"
+      },
+      {
+        "defaultMessage": "Добавить диплом",
+        "id": "add_diploma"
+      }
+    ],
+    "path": "src/pages/Cabinet/Profile/Doctor/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Контактное лицо",
+        "id": "label.contact_person"
+      },
+      {
+        "defaultMessage": "Контактный телефон",
+        "id": "label.contact_phone"
+      },
+      {
+        "defaultMessage": "Контактный email",
+        "id": "label.contact_email"
+      },
+      {
+        "defaultMessage": "Публичный телефон",
+        "id": "label.public_phone"
+      },
+      {
+        "defaultMessage": "Публичный email",
+        "id": "label.public_email"
+      },
+      {
+        "defaultMessage": "Название кабинета",
+        "id": "label.cabinet_name"
+      },
+      {
+        "defaultMessage": "Юридическое название",
+        "id": "label.legal_name"
+      },
+      {
+        "defaultMessage": "Описание организации",
+        "id": "label.org_description"
+      },
+      {
+        "defaultMessage": "Номер лицензии",
+        "id": "label.licence_number"
+      },
+      {
+        "defaultMessage": "Дата лицензии",
+        "id": "label.licence_date"
+      },
+      {
+        "defaultMessage": "Контактные данные",
+        "id": "contacts_title"
+      },
+      {
+        "defaultMessage": "Публичные данные организации",
+        "id": "profile.public_org_data"
+      },
+      {
+        "defaultMessage": "Лицензия",
+        "id": "org.licence.title"
+      }
+    ],
+    "path": "src/pages/Cabinet/Profile/Organization/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Карта экстренной помощи (КЭП)",
+        "id": "cap.title"
+      },
+      {
+        "defaultMessage": "Онтологический статус искусства многопланово иллюстрирует композиционный стиль. Идея (пафос) трансформирует холерик, так Г.Корф формулирует собственную антитезу. Апперцепция изящно трансформирует персональный импрессионизм.",
+        "id": "cap.about_text"
+      },
+      {
+        "defaultMessage": "Заказать карту",
+        "id": "cap.order_card"
+      },
+      {
+        "defaultMessage": "Для кого",
+        "id": "cap.for_whom"
+      },
+      {
+        "defaultMessage": "Онтологический статус искусства многопланово иллюстрирует композиционный стиль. Идея (пафос) трансформирует холерик, так Г.Корф формулирует собственную антитезу. Апперцепция изящно трансформирует персональный импрессионизм. Художественный талант, согласно традиционным представлениям, органичен.",
+        "id": "cap.for_whom_text"
+      },
+      {
+        "defaultMessage": "Для чего",
+        "id": "cap.for_what"
+      },
+      {
+        "defaultMessage": "Как получить",
+        "id": "cap.how_to_get"
+      }
+    ],
+    "path": "src/pages/Cabinet/Profile/Patient/EntityViews/CapInfo.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Рост",
+        "id": "label.height"
+      },
+      {
+        "defaultMessage": "Пол",
+        "id": "label.sex"
+      },
+      {
+        "defaultMessage": "Мужской",
+        "id": "label.sex.male"
+      },
+      {
+        "defaultMessage": "Женский",
+        "id": "label.sex.female"
+      },
+      {
+        "defaultMessage": "Часовой пояс пребывания",
+        "id": "profile.label.timezone"
+      },
+      {
+        "defaultMessage": "Запрос на изготовление",
+        "id": "cap.label.prod_request"
+      },
+      {
+        "defaultMessage": "Запрос отправлен. В ближайшее время вам позвонит оператор и уточнит детали.",
+        "id": "cap.text.prod_request"
+      },
+      {
+        "defaultMessage": "Изготавливается",
+        "id": "cap.label.in_production"
+      },
+      {
+        "defaultMessage": "Ваша карта будет сделана приблизительно через 2 недели.",
+        "id": "cap.text.in_production"
+      },
+      {
+        "defaultMessage": "Ожидает активации",
+        "id": "cap.label.pending_activate"
+      },
+      {
+        "defaultMessage": "<div>Ваша карта готова. Вы можете забрать ее по адресу: <strong>г. Астана, Сарайшык 11/1 с 9:00 до 21:00. </strong> Если возникнут вопросы, позвоните по телефону: <strong>+7 (495) 432-34-14</strong></div>",
+        "id": "cap.text.pending_activate"
+      },
+      {
+        "defaultMessage": "Активна",
+        "id": "cap.label.active"
+      },
+      {
+        "defaultMessage": "Ваша карта активирована и ей можно пользоваться.",
+        "id": "cap.text.active"
+      },
+      {
+        "defaultMessage": "Отключена",
+        "id": "cap.label.off"
+      },
+      {
+        "defaultMessage": "Ваша карта отключена и недоступна для использования.",
+        "id": "cap.text.off"
+      },
+      {
+        "defaultMessage": "Использованна",
+        "id": "cap.label.used"
+      },
+      {
+        "defaultMessage": "Если с вами что-то случится, КЭП поможет связаться с вашими родными и близкими.",
+        "id": "cap.what_for"
+      },
+      {
+        "defaultMessage": "Подробнее о КЭП",
+        "id": "about_cap"
+      },
+      {
+        "defaultMessage": "Заказать кэп",
+        "id": "order_cap"
+      },
+      {
+        "defaultMessage": "Настроить карту",
+        "id": "cap.config"
+      },
+      {
+        "defaultMessage": "Отключить",
+        "id": "cap.turn_off"
+      },
+      {
+        "defaultMessage": "Включить",
+        "id": "cap.turn_on"
+      },
+      {
+        "defaultMessage": "Заказать новую кэп",
+        "id": "cap.order_new"
+      },
+      {
+        "defaultMessage": "персональные нормы",
+        "id": "personal_norm.title"
+      }
+    ],
+    "path": "src/pages/Cabinet/Profile/Patient/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Настройте карту экстренной помощи",
+        "id": "cap.title"
+      },
+      {
+        "defaultMessage": "Отображать все данные",
+        "id": "cap.show_all_data"
+      },
+      {
+        "defaultMessage": "Аннулировать кэп",
+        "id": "cap.invalidate"
+      },
+      {
+        "defaultMessage": "Отключить кэп",
+        "id": "cap.turn_off"
+      },
+      {
+        "defaultMessage": "Включить кэп",
+        "id": "cap.turn_on"
+      },
+      {
+        "defaultMessage": "Уведомлять об использовании КЭП",
+        "id": "cap.notify"
+      },
+      {
+        "defaultMessage": "Добавить контакт",
+        "id": "cap.add_contact"
+      },
+      {
+        "defaultMessage": "Изменить контакт",
+        "id": "cap.edit_contact"
+      },
+      {
+        "defaultMessage": "Доступен список врачей, у которых я был на приеме",
+        "id": "cap.docs_list"
+      },
+      {
+        "defaultMessage": "Доступен список врачей, у которых я был на приеме",
+        "id": "cap.orgs_list"
+      },
+      {
+        "defaultMessage": "Выберите данные, которые будут показаны при использовании КЭП.",
+        "id": "cap.choose_data"
+      },
+      {
+        "defaultMessage": "Выберите разделы медицинской карты, которые можно будет просматривать при использовании КЭП.",
+        "id": "cap.choose_sections"
+      },
+      {
+        "defaultMessage": "Добавьте контакты людей, которые будут отображаться при использовании КЭП.",
+        "id": "cap.add_contacts"
+      },
+      {
+        "defaultMessage": "Контакты врачей",
+        "id": "cap.docs_contacts"
+      }
+    ],
+    "path": "src/pages/Cabinet/Profile/Patient/Sos.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "{total, plural, one {запись} few {записи} other {записей}}",
+        "id": "receptions.plural"
+      },
+      {
+        "defaultMessage": "{total, plural, one {свободная ячейка} few {свободные ячейки} other {свободных ячеек}}",
+        "id": "cells.plural"
+      }
+    ],
+    "path": "src/pages/Cabinet/Schedule/EntityViews/ScheduleDayPicker.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Изменить расписание",
+        "id": "schedule.edit.title"
+      },
+      {
+        "defaultMessage": "Добавить расписание",
+        "id": "schedule.add.title"
+      },
+      {
+        "defaultMessage": "Название расписания",
+        "id": "label.schedule_name"
+      },
+      {
+        "defaultMessage": "Выберите специальность",
+        "id": "label.choose_specialty"
+      },
+      {
+        "defaultMessage": "Выберите врача",
+        "id": "label.choose_doctor"
+      },
+      {
+        "defaultMessage": "Укажите дату начала и окончания действия расписания",
+        "id": "label.set_start_end"
+      },
+      {
+        "defaultMessage": "Начать расписание",
+        "id": "label.schedule_start"
+      },
+      {
+        "defaultMessage": "Закончить расписание",
+        "id": "label.schedule_end"
+      },
+      {
+        "defaultMessage": "Дни недели действия расписания",
+        "id": "label.schedule_weekdays"
+      },
+      {
+        "defaultMessage": "Укажите ежедневный промежуток времени",
+        "id": "label.schedule_period"
+      },
+      {
+        "defaultMessage": "минут",
+        "id": "label.duration_minutes"
+      },
+      {
+        "defaultMessage": "Самозапись разрешена",
+        "id": "label.self_enroll_accepted"
+      },
+      {
+        "defaultMessage": "Подтверждение самозаписи",
+        "id": "label.self_enroll_confirm"
+      },
+      {
+        "defaultMessage": "Самозапись производится не позднее, чем за",
+        "id": "label.self_enroll_before"
+      },
+      {
+        "defaultMessage": "Дня",
+        "id": "label.days_before"
+      },
+      {
+        "defaultMessage": "Часа",
+        "id": "label.hours_before"
+      },
+      {
+        "defaultMessage": "Добавить совет пациенту",
+        "id": "schedule.add_advice"
+      },
+      {
+        "defaultMessage": "Совет пациенту",
+        "id": "label.advice"
+      }
+    ],
+    "path": "src/pages/Cabinet/Schedule/ScheduleAdd.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Настройки расписания",
+        "id": "schedule.details.settings_title"
+      },
+      {
+        "defaultMessage": "Дата начала и окончания расписания",
+        "id": "schedule.details.start_end"
+      },
+      {
+        "defaultMessage": "Ежедневное время начала очереди",
+        "id": "schedule.details.daily_start"
+      },
+      {
+        "defaultMessage": "Ежедневное время окончания очереди",
+        "id": "schedule.details.daily_end"
+      },
+      {
+        "defaultMessage": "{duration} {duration, plural, one {минута} few {минуты} other {минут}}",
+        "id": "schedule.minutes_duration"
+      },
+      {
+        "defaultMessage": "{duration} {duration, plural, one {час} few {часа} other {часов}}",
+        "id": "schedule.hours_duration"
+      },
+      {
+        "defaultMessage": "{duration} {duration, plural, one {день} few {дня} other {дней}}",
+        "id": "schedule.days_duration"
+      },
+      {
+        "defaultMessage": "Самозапись",
+        "id": "schedule.details.self_enroll"
+      },
+      {
+        "defaultMessage": "Разрешена",
+        "id": "schedule.details.self_enroll_allowed"
+      },
+      {
+        "defaultMessage": "Самозапись производится не позднее",
+        "id": "schedule.details.self_enroll_before"
+      },
+      {
+        "defaultMessage": "чем за {duration, plural, one {день} few {дня} other {дней}}",
+        "id": "schedule.details.self_enroll_before_days"
+      },
+      {
+        "defaultMessage": "чем за {duration, plural, one {час} few {часа} other {часов}}",
+        "id": "schedule.details.self_enroll_before_hours"
+      },
+      {
+        "defaultMessage": "Совет пациенту для визита",
+        "id": "schedule.details.advice"
+      }
+    ],
+    "path": "src/pages/Cabinet/Schedule/ScheduleDetail.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Запись пациента на прием",
+        "id": "schedule.record.title"
+      },
+      {
+        "defaultMessage": "Выберите пациента",
+        "id": "schedule.record.label.choose_patient"
+      },
+      {
+        "defaultMessage": "Телефон (необязательно)",
+        "id": "schedule.label.phone"
+      },
+      {
+        "defaultMessage": "Расписание",
+        "id": "schedule.label.choose_schedule"
+      },
+      {
+        "defaultMessage": "Дата посещения",
+        "id": "schedule.label.visit_date"
+      },
+      {
+        "defaultMessage": "Записать",
+        "id": "schedule.enroll.btn"
+      },
+      {
+        "defaultMessage": "Или введите новое время приема",
+        "id": "schedule.set_visit_time"
+      }
+    ],
+    "path": "src/pages/Cabinet/Schedule/ScheduleRecord.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Забыли<br />пароль?",
+        "id": "forgot_password_link"
+      }
+    ],
+    "path": "src/pages/Public/LoginForm.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Молодым мамам",
+        "id": "landing.modal.title.moms"
+      },
+      {
+        "defaultMessage": "Заботливым родителям",
+        "id": "landing.modal.title.parents"
+      },
+      {
+        "defaultMessage": "Детям пожилых родителей",
+        "id": "landing.modal.title.children"
+      },
+      {
+        "defaultMessage": "Абсолютно здоровым людям",
+        "id": "landing.modal.title.healthy"
+      },
+      {
+        "defaultMessage": "Практически здоровым людям",
+        "id": "landing.modal.title.almostHealthy"
+      },
+      {
+        "defaultMessage": "Пациентам с беспокоящим их диагнозом",
+        "id": "landing.modal.title.diagnose"
+      },
+      {
+        "defaultMessage": "Врачам и медперсоналу",
+        "id": "landing.modal.title.staff"
+      },
+      {
+        "defaultMessage": "Пользователям \"критического\" возраста",
+        "id": "landing.modal.title.critical"
+      },
+      {
+        "defaultMessage": "Хроническим больным",
+        "id": "landing.modal.title.chrono"
+      },
+      {
+        "defaultMessage": "Временно нетрудоспособным и инвалидам",
+        "id": "landing.modal.title.invalid"
+      },
+      {
+        "defaultMessage": "Тем, чьи жизнь и деятельность связаны с постоянным риском",
+        "id": "landing.modal.title.risk"
+      },
+      {
+        "defaultMessage": "Временно пребывающим вне дома",
+        "id": "landing.modal.title.not_home"
+      },
+      {
+        "defaultMessage": "Выезжающим на лечение за рубеж",
+        "id": "landing.modal.title.foreign"
+      },
+      {
+        "defaultMessage": "Владельцам домашних животных",
+        "id": "landing.modal.title.animals"
+      },
+      {
+        "defaultMessage": "О проекте",
+        "id": "landing.modal.title.about"
+      },
+      {
+        "defaultMessage": "<p>Будущие мамы с начала беременности должны регулярно посещать врачей, делать обследования и т.д.\n        Возможны обследования и до беременности, если она – планируемая. После родов многие из них продолжают\n        следить за своим здоровьем – нужно привести себя в первоначальный вид, могут быть осложнения после родов\n        и т.д. Ведение медицинской карты позволит им «мониторить» нужные параметры и принимать меры для\n        приведения их в норму.</p>\n      <p>Молодые мамы (и папы)! Лучшее, что вы можете сделать для своего ребенка, - это позаботиться о его\n        здоровье. У вас есть прекрасная возможность - с помощью сервиса phr.kz завести медицинскую карту на\n        своего ребенка сразу же после его рождения. Здесь вы можете хранить результаты анализов, прививок и\n        других обследований вашего ребенка, информацию о его заболеваниях и аллергиях, рекомендации педиатров и\n        медсестер, а также всё, что вам будет интересно потом вспоминать, – например, когда ребенок начал\n        держать головку; когда у него появился первый зуб; когда и какие слова он впервые произнес; когда встал,\n        пошел и т.д.</p>\n      <p>Эта база данных поможет вашему ребенку вырасти здоровым и сильным, а в дальнейшем при пользовании\n        услугами врачей избежать множества врачебных ошибок.</p>",
+        "id": "landing.modal.text.moms"
+      },
+      {
+        "defaultMessage": "<p>Независимо от возраста вашего ребенка сервис phr.kz предлагает вам постоянно, тщательно и эффективно следить за его здоровьем. Для этого вы можете создать и вести его медицинскую карту, регулярно внося туда результаты анализов, прививок и других обследований вашего ребенка, информацию о его заболеваниях и аллергиях, росте и весе, рекомендации педиатров и медсестер, а также всё, что вам будет интересно потом вспоминать.</p>\n      <p>Повзрослев, ваш ребенок сможет продолжить это сам.</p>",
+        "id": "landing.modal.text.parents"
+      },
+      {
+        "defaultMessage": "<p>Те, кто имеют родителей, как правило, готовы отдать всё, лишь бы они как можно дольше были живы и, по возможности, здоровы. Чем старше становятся люди, тем больше у них накапливается результатов обследований, аллергий, хронических заболеваний и т.д.</p>\n      <p>Медицинская карта, которую будут вести для родителей на phr.kz их дети, обязательно поможет им продлить жизнь.</p>",
+        "id": "landing.modal.text.children"
+      },
+      {
+        "defaultMessage": "<p>Именно такие люди хорошо понимают, что их положение в обществе и роль в семье напрямую зависят от поддержания своего состояния здоровья. Они тщательно следят за своим здоровьем и регулярно проходят профилактические обследования.</p>\n      <p>Сравнение результатов обследований, которое возможно в медицинской карте, позволит им вовремя заметить изменения какого-либо параметра, а также получать качественные консультации врачей через phr.kz или лично.</p>",
+        "id": "landing.modal.text.healthy"
+      },
+      {
+        "defaultMessage": "<p>Часто людей в себе что-то не устраивает, и они стараются следить за своим состоянием: вес, морщины, сексуальные аспекты и т.д. Для поддержания хорошей формы люди следуют диете, посещают фитнесс-клубы, занимаются спортом или профилактикой здоровья.</p>\n      <p>Ведение медицинской карты позволит легко «мониторить» соответствующие параметры и принимать меры для приведения их в норму.</p>",
+        "id": "landing.modal.text.almostHealthy"
+      },
+      {
+        "defaultMessage": "<p>Как правило, больные обследуются в разных местах и консультируются у разных врачей, в том числе, и за пределами города, где они живут, и за рубежом.</p>\n      <p>Создав медицинскую карту на сервисе phr.kz, внеся туда результаты обследований и дав разрешение соответствующему врачу ознакомиться с требуемыми записями из медицинской карты, они смогут получить профессиональную и качественную консультацию независимо от места нахождения этого врача. Если вы захотите проконсультироваться за рубежом или посетить зарубежных специалистов, требуемые записи вашей карты (по вашему желанию) можно перевести на соответствующие языки.</p>",
+        "id": "landing.modal.text.diagnose"
+      },
+      {
+        "defaultMessage": "<p>Врачи и мед.персонал более чем кто-либо информированы о необходимости профилактических обследований и лечении выявленных нарушений и знают не понаслышке, как важно постоянно следить за состоянием своего здоровья.</p>\n      <p>Став пользователем phr.kz и активно ведя собственную электронную медицинскую карту, врач не только поможет собственному лечению, но и покажет своим пациентам пример ответственного отношения к здоровью.</p>",
+        "id": "landing.modal.text.staff"
+      },
+      {
+        "defaultMessage": "<p>Врачи считают, что мужчины после 40 и женщины «критического возраста» (перед, во время и после климактерического периода) должны регулярно проходить обследования и обращаться к специалистам.</p>\n      <p>Им необходимо ведение медицинской карты, чтобы отодвинуть старость и продолжать вести активную жизнь.</p>",
+        "id": "landing.modal.text.critical"
+      },
+      {
+        "defaultMessage": "<p>Хронические больные (гемофилики, диабетики и др.) вынуждены непрерывно следить за состоянием своего здоровья, регулярно проводить многочисленные обследования и постоянно наблюдаться у врача.</p>\n      <p>Только электронная медицинская карта поможет им не являться к врачам с портфелями бумажных обследований.</p>",
+        "id": "landing.modal.text.chrono"
+      },
+      {
+        "defaultMessage": "<p>Эта категория людей временно или постоянно нуждается в интенсивной помощи врачей.</p>\n      <p>Ведение электронной медицинской карты поможет и им самим, и их врачам в борьбе за их здоровье.</p>",
+        "id": "landing.modal.text.invalid"
+      },
+      {
+        "defaultMessage": "<p>К этой категории относятся военные, пожарники, МЧС, летчики, альпинисты, каскадеры, артисты цирка, спортсмены и т.д. В связи с постоянным риском травм, этим людям просто необходимо внести в медицинскую карту хотя бы жизненно важную информацию (группу крови и резус, аллергии, перенесенные и хронические заболевания, принимаемые лекарства, результаты последних обследований).</p>\n      <p>Это может существенно ускорить восстановление людей этой категории в случае необходимости оказания им медицинской помощи.</p>",
+        "id": "landing.modal.text.risk"
+      },
+      {
+        "defaultMessage": "<p>В случае возникновения экстренных ситуаций наличие электронной медицинской карты позволит этим людям:</p>\n      <p>\n      - считывать жизненно важную информацию из их карты;<br />\n      - предоставлять эту информацию соответствующей клинике (врачу),предварительно, при желании владельца карты, переведя эту информацию на требуемый язык.\n      </p>",
+        "id": "landing.modal.text.notHome"
+      },
+      {
+        "defaultMessage": "<p>Это те, кто выезжают за рубеж с одной из двух целей:</p>\n      <p>\n      - лечебно-оздоровительный туризм (спа-курорты, талассотерапия и т.д.), при котором процедуры должны следовать принципу «не навреди», а потому требуют информации о здоровье клиента, которую удобно представить в виде электронной медицинской карты;<br />\n      - лечение за рубежом, где необходимы результаты предварительных обследований с указанием диагноза, в любом объеме размещаемые в медицинской карте, причем, при желании пациента, с переводом на язык соответствующей страны.\n      </p>",
+        "id": "landing.modal.text.foreign"
+      },
+      {
+        "defaultMessage": "<p>Хозяева могут вести медицинские карты своих любимцев (осмотр их врачами, прием лекарств, выписки после операций и т.д.)</p>",
+        "id": "landing.modal.text.animals"
+      },
+      {
+        "defaultMessage": "<p>Проект организован с целью информационной поддержки медицинского обслуживания. phr.kz - это web-площадка для обмена медицинской информацией между врачами и медицинскими учреждениями, с одной стороны, и пациентами, с другой. Работа phr.kz ориентирована на потребности тех, кто лечит, и тех, кто лечится.</p>\n      <p>Пациент и врач могут взаимодействовать через phr.kz почти так же, как реальном мире. Пациент рассказывает о проблеме, врач дает рекомендации, отправляет на обследование, ставит диагноз. Личная медицинская информация, включая консультации врача, электронную медицинскую карту, надежно и конфиденциально хранится в архиве пациента.</p>",
+        "id": "landing.modal.text.about"
+      },
+      {
+        "defaultMessage": "Персональная телемедицинская платформа",
+        "id": "landing.platform.title"
+      },
+      {
+        "defaultMessage": "Найдите подходящего врача или клинику, минуя очереди в регистратурах, избавьтесь от необходимости\n                      проходить одни и те же процедуры, получайте консультации, не посещая врачей.\n                      <ul class=\"list-round\">\n                        <li>Онлайн-запись на приём к специалистам</li>\n                        <li>Получение экспертного мнения от нескольких специалистов</li>\n                        <li>Полный доступ к личной медкарте</li>\n                        <li>Доступ с любого устройства</li>\n                      </ul>",
+        "id": "landing.text.for_patients"
+      },
+      {
+        "defaultMessage": "Предложите свои услуги пользователям сервиса! Удобная система отзывов и рекомендаций поможет увеличить\n                      количество ваших пациентов, а благодаря возможности прямого диалога с пациентами в рамках сервиса PHR\n                      часть работы вы сможете выполнять дистанционно, при этом зная, кто и в какое время записан к вам на\n                      приём.\n                      <ul class=\"list-round\">\n                        <li>Доступ к необходимым данным пациента даже из других клиник</li>\n                        <li>Возможность дистанционного контроля выздоровления</li>\n                        <li>Планирование и организация очередей</li>\n                      </ul>",
+        "id": "landing.text.for_doctors"
+      },
+      {
+        "defaultMessage": "Для учреждений",
+        "id": "landing.title.for_orgs"
+      },
+      {
+        "defaultMessage": "Создайте редактируемую страницу учреждения с указанием положения на карте, перечнем врачей с личной\n                      страницей для каждого, прейскурантом услуг, а также расписанием работы и возможностью записи к\n                      специалистам, отслеживайте качество работы сотрудников по отзывам и оценкам, публикуйте статьи и\n                      научные материалы, храните электронные версии медицинских документов в сервисе PHR.\n                      <ul class=\"list-round\">\n                        <li>Собственная страница учреждения в рамках сервиса</li>\n                        <li>Управление расписанием и записью пациентов</li>\n                        <li>Электронный архив документов учреждения</li>\n                      </ul>",
+        "id": "landing.text.for_orgs"
+      },
+      {
+        "defaultMessage": "Персональная электронная медкарта",
+        "id": "landing.card.title"
+      },
+      {
+        "defaultMessage": "Персональная Электронная Медицинская Карта (ПЭМК или просто медкарта) — электронный аналог обычной\n                  медицинской карты пациента. Это хранилище записей, каждая из которых содержит информацию медицинского\n                  характера: диагноз, прием лекарств, результат лабораторных исследований, медицинские показатели и т.д. В\n                  отличие от бумажных карт, информация в ПЭМК всегда доступна и понятна для пациента, а врачам нет\n                  необходимости отправлять человека на одни и те же процедуры, пройденные в другой клинике. При этом данные\n                  строго конфиденциальны и предоставляются только с разрешения пациента.",
+        "id": "landing.card.text"
+      },
+      {
+        "defaultMessage": "Кому необходима медкарта?",
+        "id": "landing.users.title"
+      },
+      {
+        "defaultMessage": "Контакты",
+        "id": "main_page.contacts.title"
+      },
+      {
+        "defaultMessage": "По техническим вопросам",
+        "id": "main_page.contacts.tech"
+      }
+    ],
+    "path": "src/pages/Public/MainPage.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Политика сервиса",
+        "id": "policy_page.policy.title"
+      },
+      {
+        "defaultMessage": "<ol class=\"ol-list\">\n              <li>Сайт <a href=\"#\">phr.kz</a> осуществляет информационный сервис, предоставляя информацию о медицинских\n                учреждениях, кабинетах и врачах, зарегистрированных в системе, а также дает возможность записываться на\n                прием (процедуры) к врачам, ведущим расписание приемов в режиме on-line.\n              </li>\n              <li>Онлайновая запись на прием (обслуживание), закрытая переписка с врачами, ведение персональной\n                электронной медицинской карты (ПЭМК) доступны только для зарегистрированных пользователей. Регистрация на\n                сайте и использование сервиса бесплатны.\n              </li>\n              <li>При регистрации пользователь обязан сообщить правдивую информацию, для оптимального использования\n                возможностей сервиса.\n              </li>\n              <li>Зарегистрированный пользователь обязан ответственно относиться к использованию возможностей Сервиса.\n                Недопустимы злоупотребления записями на прием, ложные сообщения в консультациях и прочая информация, не\n                соответствующая действительности.\n              </li>\n              <li>Сервис гарантирует конфиденциальность всей информации о пользователях и обязуется не использовать эту\n                информацию ни в каких других целях кроме осуществления сервиса. Эта информация ни при каких\n                обстоятельствах не будет доступна третьим лицам.\n              </li>\n              <li>Сервис гарантирует компетенцию и профессионализм представленных в нем врачей и медицинских\n                учреждений,однако не несет ответственности за качество медицинских услуг.\n              </li>\n            </ol>",
+        "id": "policy_page.policy.text"
+      },
+      {
+        "defaultMessage": "Конфиденциальность",
+        "id": "policy_page.confidential.title"
+      },
+      {
+        "defaultMessage": "<ol class=\"ol-list\">\n              <li>Персональная информация пользователей, используемая и хранящаяся на Сервисе <a href=\"#\">phr.kz</a>,\n                защищена Законом РК \"О персональных данных и их защите\".\n              </li>\n              <li>Регистрируясь на Сервисе, пользователь дает согласие на хранение и обработку своих персональных\n                данных.\n              </li>\n              <li>Сервис гарантирует конфиденциальность электронной медицинской карты и других персональных данных\n                пользователей. Понятие \"конфиденциальность\" включает в себя:\n                <ul className=\"ul-list\">\n                  <li>строгое и ясное ограничение круга лиц, имеющих доступ к персональным данным пользователей, и\n                    определение этого круга исключительно самим пользователем;\n                  </li>\n                  <li>неиспользование Сервисом этих данных ни в каких других целях кроме осуществления функций Сервиса;\n                  </li>\n                  <li>меры защиты от несанкционированного доступа к персональной информации извне, включая шифрование и\n                    мониторинг. Обмен данных с веб-сайтом осуществляется по безопасному протоколу HTTPS.\n                  </li>\n                </ul>\n              </li>\n              <li>Круг лиц, имеющих доступ к персональной информации, определяется следующим образом:\n                <ul className=\"ul-list\">\n                  <li>Фамилия, имя, отчество, год рождения пользователя доступны врачам и медицинским учреждениям, с\n                    которыми пользователь вступил в отношения посредством Сервиса: записался на прием, запросил\n                    консультацию, дал доступ к своей медицинской карте и т.п.;\n                  </li>\n                  <li>Данные об обращениях пользователя за врачебной помощью и медицинскими услугами доступны только\n                    медицинскому учреждению и врачу, к которому пользователь обратился;\n                  </li>\n                  <li>Записи персональной электронной медицинской карты пользователя доступны только врачам и медицинским\n                    учреждениям, которым пользователь дал разрешение доступа, и только в режиме, указанном пользователем.\n                  </li>\n                </ul>\n              </li>\n            </ol>",
+        "id": "policy_page.confidential.text"
+      }
+    ],
+    "path": "src/pages/Public/PolicyPage.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Общая информация",
+        "id": "sos.summary_title"
+      },
+      {
+        "defaultMessage": "Открыть карту",
+        "id": "sos.open_card"
+      },
+      {
+        "defaultMessage": "Контакты для связи",
+        "id": "sos.contacts_card"
+      },
+      {
+        "defaultMessage": "Список врачей, у которых пациент был на приеме",
+        "id": "sos.visited_doctors"
+      }
+    ],
+    "path": "src/pages/Sos/Main.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Вернуться к карте экстренной помощи",
+        "id": "sos.go_back"
+      }
+    ],
+    "path": "src/pages/Sos/Medical.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "{count, plural, one {таблетка} few {таблетки} other {таблеток}}",
+        "id": "medications.pills"
+      },
+      {
+        "defaultMessage": "{count, plural, one {миллилитр} few {миллилитра} other {миллитров}}",
+        "id": "medications.milliliters"
+      },
+      {
+        "defaultMessage": "{count, plural, one {миллиграмм} few {миллиграмма} other {миллиграммов}}",
+        "id": "medications.milligrams"
+      }
+    ],
+    "path": "src/util/index.json"
+  }
+]

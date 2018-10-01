@@ -1,0 +1,7 @@
+[
+  {
+    "id": "assistant.unlink",
+    "description": "Текст ссылки \"открепить\" у ассистента",
+    "defaultMessage": "Открепить"
+  }
+]

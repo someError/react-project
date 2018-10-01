@@ -1,0 +1,39 @@
+.l-workers {
+  margin-bottom: 3.75rem;
+}
+
+.l-workers__header {
+  margin-bottom: 1.25rem;
+
+  font-size: 0.875rem;
+}
+
+.l-workers__list {
+  position: relative;
+}
+
+.l-workers__list .card + .card {
+  margin-top: 1.25rem;
+}
+
+.l-workers__header .btn {
+  margin-right: 0.6125rem;
+
+  text-transform: none;
+
+  font-weight: 500;
+}
+
+.l-workers__header span {
+  margin-left: 0.6125rem;
+
+  cursor: pointer;
+  transition: 0.15s ease;
+
+  color: #3a76d2;
+  border-bottom: dashed 1px;
+}
+
+.l-workers__header span:hover {
+  border-color: transparent;
+}

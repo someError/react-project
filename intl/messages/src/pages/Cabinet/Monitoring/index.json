@@ -1,0 +1,38 @@
+[
+  {
+    "id": "monitoring.display.chart",
+    "defaultMessage": "Графиком"
+  },
+  {
+    "id": "monitoring.display.table",
+    "defaultMessage": "Списком"
+  },
+  {
+    "id": "monitoring.header",
+    "defaultMessage": "Мониторинг показателей"
+  },
+  {
+    "id": "monitoring.label.display",
+    "defaultMessage": "Отобразить данные"
+  },
+  {
+    "id": "monitoring.label.show",
+    "defaultMessage": "Показать данные за"
+  },
+  {
+    "id": "monitoring.filter.week",
+    "defaultMessage": "неделю"
+  },
+  {
+    "id": "monitoring.filter.month",
+    "defaultMessage": "месяц"
+  },
+  {
+    "id": "monitoring.filter.quoter",
+    "defaultMessage": "квартал"
+  },
+  {
+    "id": "monitoring.filter.year",
+    "defaultMessage": "год"
+  }
+]

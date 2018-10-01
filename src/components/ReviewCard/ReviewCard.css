@@ -1,0 +1,24 @@
+.review-card {
+  margin-bottom: 1.25rem;
+}
+
+.review-card__header {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0.625rem;
+
+  font-size: 0.75rem;
+}
+
+.review-card__rating {
+  margin-right: 0.3125rem;
+}
+
+.review-card__name {
+  margin-left: 0.625rem;
+
+  color: #9f9f9f;
+
+  font-size: 0.875rem;
+}

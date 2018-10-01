@@ -1,0 +1,8 @@
+.field-error {
+  margin-top: 2px;
+
+  color: #fd5577;
+
+  font-size: 0.75rem;
+  font-style: italic;
+}
